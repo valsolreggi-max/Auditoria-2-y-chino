@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useConsultation } from '../components/ConsultationContext';
 import { Link } from 'react-router-dom';
-import { useLanguage } from '../i18n';
+import { useLanguage, getCanonicalPath } from '../i18n';
 import { SERVICES_I18N } from '../data/servicesData';
 import { SEOHead } from '../components/SEOHead';
 
@@ -31,7 +31,7 @@ export const ServiciosPage: React.FC = () => {
       <SEOHead
         title={titles[currentLanguage] || titles.es}
         description={descriptions[currentLanguage] || descriptions.es}
-        canonicalPath={getLocalizedPath('/servicios')}
+        canonicalPath={getCanonicalPath('/servicios', currentLanguage)}
       />
       {/* Editorial Page Header */}
       <div className="bg-[#F5F2EA] border-b border-[#E8E2D5] py-12 sm:py-16">

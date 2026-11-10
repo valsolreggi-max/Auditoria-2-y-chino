@@ -1,7 +1,7 @@
 import React from 'react';
 import { useConsultation } from '../components/ConsultationContext';
 import { Quote, ArrowRight } from 'lucide-react';
-import { useLanguage, getLocalizedPath } from '../i18n';
+import { useLanguage, getLocalizedPath, getCanonicalPath } from '../i18n';
 import { TESTIMONIALS_I18N } from '../data/testimonialsData';
 import { SEOHead } from '../components/SEOHead';
 
@@ -38,7 +38,7 @@ export const TestimoniosPage: React.FC = () => {
       <SEOHead
         title={seoData.title}
         description={seoData.description}
-        canonicalPath={getLocalizedPath('/testimonios', currentLanguage)}
+        canonicalPath={getCanonicalPath('/testimonios', currentLanguage)}
       />
       {/* 1. ENCABEZADO EDITORIAL DE LA PÁGINA */}
       <div className="bg-[#F5F2EA] border-b border-[#E8E2D5] py-14 sm:py-20">

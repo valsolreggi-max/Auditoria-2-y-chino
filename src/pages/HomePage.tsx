@@ -6,12 +6,12 @@ import { HomeAboutSummary } from '../components/public/HomeAboutSummary';
 import { HomeTestimonialFeatured } from '../components/public/HomeTestimonialFeatured';
 import { HomeContactCta } from '../components/public/HomeContactCta';
 import { useConsultation } from '../components/ConsultationContext';
-import { useLanguage } from '../i18n';
+import { useLanguage, getCanonicalPath } from '../i18n';
 import { SEOHead } from '../components/SEOHead';
 
 export const HomePage: React.FC = () => {
   const { openConsultation } = useConsultation();
-  const { language, getLocalizedPath } = useLanguage();
+  const { language } = useLanguage();
 
   const titles: Record<string, string> = {
     es: 'Golden Coast Property Advisory | Asesoría Inmobiliaria Costa Dorada & Garraf',
@@ -34,7 +34,7 @@ export const HomePage: React.FC = () => {
       <SEOHead
         title={titles[language] || titles.es}
         description={descriptions[language] || descriptions.es}
-        canonicalPath={getLocalizedPath('/')}
+        canonicalPath={getCanonicalPath('/', language)}
       />
 
       {/* 1. Presentación (Hero) */}

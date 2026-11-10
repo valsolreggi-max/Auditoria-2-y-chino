@@ -1,7 +1,7 @@
 import React from 'react';
 import { EditorialContactSection } from '../components/public/EditorialContactSection';
 import { SEOHead } from '../components/SEOHead';
-import { useLanguage, getLocalizedPath } from '../i18n';
+import { useLanguage, getCanonicalPath } from '../i18n';
 
 export const ContactoPage: React.FC = () => {
   const { currentLanguage } = useLanguage();
@@ -34,7 +34,7 @@ export const ContactoPage: React.FC = () => {
       <SEOHead
         title={seoData.title}
         description={seoData.description}
-        canonicalPath={getLocalizedPath('/contacto', currentLanguage)}
+        canonicalPath={getCanonicalPath('/contacto', currentLanguage)}
       />
       <EditorialContactSection />
     </div>

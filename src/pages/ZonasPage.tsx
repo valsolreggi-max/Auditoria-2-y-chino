@@ -4,7 +4,7 @@ import { BrandGallerySection } from '../components/public/BrandGallerySection';
 import { useConsultation } from '../components/ConsultationContext';
 import { Compass } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useLanguage, getLocalizedPath } from '../i18n';
+import { useLanguage, getLocalizedPath, getCanonicalPath } from '../i18n';
 import { SEOHead } from '../components/SEOHead';
 
 export const ZonasPage: React.FC = () => {
@@ -83,7 +83,7 @@ export const ZonasPage: React.FC = () => {
       <SEOHead
         title={seoData.title}
         description={seoData.description}
-        canonicalPath={getLocalizedPath('/zonas', currentLanguage)}
+        canonicalPath={getCanonicalPath('/zonas', currentLanguage)}
       />
       {/* Main Territory Section with Photo, 6 Destinations & Detailed Localities */}
       <EditorialTerritorySection

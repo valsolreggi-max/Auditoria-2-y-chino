@@ -2,7 +2,7 @@ import React from 'react';
 import { BRAND_IMAGES } from '../data/images';
 import { useConsultation } from '../components/ConsultationContext';
 import { ShieldCheck, ArrowRight } from 'lucide-react';
-import { useLanguage, getLocalizedPath } from '../i18n';
+import { useLanguage, getLocalizedPath, getCanonicalPath } from '../i18n';
 import { SEOHead } from '../components/SEOHead';
 
 export const SobreMiPage: React.FC = () => {
@@ -43,7 +43,7 @@ export const SobreMiPage: React.FC = () => {
       <SEOHead
         title={seoData.title}
         description={seoData.description}
-        canonicalPath={getLocalizedPath('/sobre-mi', currentLanguage)}
+        canonicalPath={getCanonicalPath('/sobre-mi', currentLanguage)}
         type="profile"
       />
       

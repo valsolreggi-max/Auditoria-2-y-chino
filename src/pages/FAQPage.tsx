@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, ArrowRight } from 'lucide-react';
 import { useConsultation } from '../components/ConsultationContext';
-import { useLanguage, getLocalizedPath } from '../i18n';
+import { useLanguage, getLocalizedPath, getCanonicalPath } from '../i18n';
 import { FAQ_I18N } from '../data/faqData';
 import { SEOHead } from '../components/SEOHead';
 
@@ -71,7 +71,7 @@ export const FAQPage: React.FC = () => {
       <SEOHead
         title={seoData.title}
         description={seoData.description}
-        canonicalPath={getLocalizedPath('/faq', currentLanguage)}
+        canonicalPath={getCanonicalPath('/faq', currentLanguage)}
       />
       {/* 1. Encabezado General */}
       <div className="bg-[#F5F2EA] border-b border-[#E8E2D5] py-16 sm:py-24">

@@ -157,7 +157,7 @@ function generateHreflangTags(baseRoute) {
 
   // Default / canonical Spanish root
   tags.push(`<link rel="alternate" hreflang="x-default" href="${DOMAIN}${cleanRoute || '/'}" />`);
-  tags.push(`<link rel="alternate" hreflang="es" href="${DOMAIN}/es${cleanRoute}" />`);
+  tags.push(`<link rel="alternate" hreflang="es" href="${DOMAIN}${cleanRoute || '/'}" />`);
   tags.push(`<link rel="alternate" hreflang="en" href="${DOMAIN}/en${cleanRoute}" />`);
   tags.push(`<link rel="alternate" hreflang="de" href="${DOMAIN}/de${cleanRoute}" />`);
   tags.push(`<link rel="alternate" hreflang="fr" href="${DOMAIN}/fr${cleanRoute}" />`);
@@ -235,7 +235,9 @@ async function runPrerender() {
 
     const title = config.titles[task.baseRoute] || config.titles['/'];
     const description = config.descriptions[task.baseRoute] || config.descriptions['/'];
-    const canonicalUrl = `${DOMAIN}${task.url === '/' ? '/' : task.url}`;
+    const isSpanish = task.lang === 'es';
+    const canonicalRoute = isSpanish ? task.baseRoute : task.url;
+    const canonicalUrl = `${DOMAIN}${canonicalRoute === '/' ? '/' : canonicalRoute}`;
 
     // 1. Inject rendered HTML inside root
     html = html.replace('<div id="root"></div>', `<div id="root">${appHtml}</div>`);

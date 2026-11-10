@@ -57,6 +57,17 @@ export const getLocalizedPath = (rawPath: string, targetLang?: Language): string
   return normalized === '/' ? `/${langToUse}` : `/${langToUse}${normalized}`;
 };
 
+export const getCanonicalPath = (rawPath: string, lang: Language = 'es'): string => {
+  const cleanPath = rawPath.replace(/^\/(es|en|de|fr|zh)(\/|$)/, '/');
+  const normalized = cleanPath === '' ? '/' : cleanPath;
+
+  // Spanish canonical is always the clean root path (resolves duplicate / and /es/)
+  if (lang === 'es') {
+    return normalized;
+  }
+  return normalized === '/' ? `/${lang}` : `/${lang}${normalized}`;
+};
+
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const location = useLocation();
 
