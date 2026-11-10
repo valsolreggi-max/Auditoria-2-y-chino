@@ -14,11 +14,11 @@ export const HomePage: React.FC = () => {
   const { language } = useLanguage();
 
   const titles: Record<string, string> = {
-    es: 'Golden Coast Property Advisory | Asesoría Inmobiliaria Costa Dorada & Garraf',
-    en: 'Golden Coast Property Advisory | Costa Dorada & Garraf Real Estate Advisory',
-    de: 'Golden Coast Property Advisory | Immobilienberatung Costa Dorada & Garraf',
-    fr: 'Golden Coast Property Advisory | Conseil Immobilier Costa Dorada & Garraf',
-    zh: 'Golden Coast 黄金海岸房产咨询 | 西班牙加拉夫与黄金海岸精品置业顾问',
+    es: 'Asesoría Inmobiliaria Costa Dorada & Garraf | Golden Coast Property Advisory',
+    en: 'Costa Dorada & Garraf Real Estate Advisory | Golden Coast Property Advisory',
+    de: 'Immobilienberatung Costa Dorada & Garraf | Golden Coast Property Advisory',
+    fr: 'Conseil Immobilier Costa Dorada & Garraf | Golden Coast Property Advisory',
+    zh: '西班牙加拉夫与黄金海岸房产咨询 | Golden Coast Property Advisory',
   };
 
   const descriptions: Record<string, string> = {

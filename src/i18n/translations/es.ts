@@ -12,7 +12,7 @@ export const es: Translations = {
     requestConsultation: 'Solicitar Asesoramiento',
   },
   hero: {
-    eyebrow: 'PROPERTY ADVISORY · COSTA DORADA & GARRAF',
+    eyebrow: 'ASESORÍA INMOBILIARIA · COSTA DORADA & GARRAF',
     title: 'La tranquilidad de estar bien asesorado.',
     narrative:
       'Golden Coast acompaña a propietarios, compradores e inversores con un asesoramiento inmobiliario personalizado basado en la confianza, el conocimiento local y una relación que continúa mucho después de cada operación.',

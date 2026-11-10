@@ -18,7 +18,7 @@ const LANG_CONFIG = {
     ogLocale: 'es_ES',
     hreflang: 'es',
     titles: {
-      '/': 'Golden Coast Property Advisory | Asesoría Inmobiliaria Costa Dorada & Garraf',
+      '/': 'Asesoría Inmobiliaria Costa Dorada & Garraf | Golden Coast Property Advisory',
       '/servicios': 'Servicios de Asesoría Inmobiliaria | Propietarios, Compradores y Relocation',
       '/zonas': 'Zonas Costa Dorada & Garraf | Sitges, Vilanova, Cubelles, Cunit y Calafell',
       '/sobre-mi': 'Sobre Mí — Valeria Reishi | Agente de la Propiedad Inmobiliaria (API)',

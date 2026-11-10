@@ -1,16 +1,16 @@
-// Exact brand photography generated and mapped from user's assets
-import photoArquitecturaCasa from '../assets/images/arquitectura_casa_1786745851264.jpg';
-import photoCasaInteriorCocina from '../assets/images/casa_interior_cocina_1786745865467.jpg';
+// Exact brand photography converted to lightweight, optimized WebP
+import photoArquitecturaCasa from '../assets/images/arquitectura_casa_1786745851264.webp';
+import photoCasaInteriorCocina from '../assets/images/casa_interior_cocina_1786745865467.webp';
 
-// 7 Original user-uploaded photographs
-import photoCafeZonas from '../assets/images/Cafe contemplar mar zonas.png';
-import photoEstatuaSitges from '../assets/images/Estatua Sitges.png';
-import photoBiciVilanova from '../assets/images/bici Vilanova.png';
-import photoPetFriendlyCubelles from '../assets/images/Pet friendly Cubelles.png';
-import photoHuellasCunit from '../assets/images/Huellas playa (Cunit).png';
-import photoBarcoSegur from '../assets/images/Barco playa Segur.png';
-import photoPaseoCalafell from '../assets/images/Paseo Calafell.png';
-import photoSobreMi from '../assets/images/Sobre mi.jpeg';
+// 7 Original user-uploaded photographs in WebP format
+import photoCafeZonas from '../assets/images/Cafe contemplar mar zonas.webp';
+import photoEstatuaSitges from '../assets/images/Estatua Sitges.webp';
+import photoBiciVilanova from '../assets/images/bici Vilanova.webp';
+import photoPetFriendlyCubelles from '../assets/images/Pet friendly Cubelles.webp';
+import photoHuellasCunit from '../assets/images/Huellas playa (Cunit).webp';
+import photoBarcoSegur from '../assets/images/Barco playa Segur.webp';
+import photoPaseoCalafell from '../assets/images/Paseo Calafell.webp';
+import photoSobreMi from '../assets/images/Sobre mi.webp';
 
 export interface BrandPhoto {
   id: string;

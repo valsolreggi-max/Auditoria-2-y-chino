@@ -52,7 +52,7 @@ export const getLocalizedPath = (rawPath: string, targetLang?: Language): string
   const normalized = cleanPath === '' ? '/' : cleanPath;
 
   if (langToUse === 'es') {
-    return normalized === '/' ? '/es' : `/es${normalized}`;
+    return normalized;
   }
   return normalized === '/' ? `/${langToUse}` : `/${langToUse}${normalized}`;
 };
