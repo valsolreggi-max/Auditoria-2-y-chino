@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#F2EDE4" />
+    </linearGradient>
+    <linearGradient id="gcSunsetSunGrad" x1="150" y1="70" x2="150" y2="162" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E76F51" />
+      <stop offset="25%" stop-color="#EA5D3C" />
+      <stop offset="60%" stop-color="#F29E4C" />
+      <stop offset="100%" stop-color="#F6C34E" />
+    </linearGradient>
+    <linearGradient id="gcGoldMetallic" x1="40" y1="40" x2="260" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F5DE88" />
+      <stop offset="25%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#F9EBB6" />
+      <stop offset="75%" stop-color="#B88E28" />
+      <stop offset="100%" stop-color="#E5C763" />
+    </linearGradient>
+    <linearGradient id="gcGoldFacetLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FFF2BD" />
+      <stop offset="100%" stop-color="#B88E28" />
+    </linearGradient>
+    <clipPath id="sunDiscClip">
+      <circle cx="150" cy="150" r="68" />
+    </clipPath>
+  </defs>
+
+  <rect width="512" height="512" rx="40" fill="url(#bgGrad)" />
+
+  <g transform="translate(106, 45) scale(1)">
+    <!-- Golden Outer Ring with Bottom Reflection Gap -->
+    <path
+      d="M 100 242 C 60 216, 38 172, 38 122 C 38 60, 88 12, 150 12 C 212 12, 262 60, 262 122 C 262 172, 240 216, 200 242"
+      stroke="url(#gcGoldMetallic)"
+      stroke-width="7"
+      stroke-linecap="round"
+      fill="none"
+    />
+
+    <!-- Upper Half: Setting Sun in 4 Horizontal Segments -->
+    <g clip-path="url(#sunDiscClip)" fill="url(#gcSunsetSunGrad)">
+      <rect x="70" y="70" width="160" height="28" />
+      <rect x="70" y="102" width="160" height="18" />
+      <rect x="70" y="124" width="160" height="18" />
+      <rect x="70" y="146" width="160" height="18" />
+    </g>
+
+    <!-- Lower Half: Golden Water Reflection Strips -->
+    <g fill="url(#gcGoldFacetLight)">
+      <polygon points="52,168 150,165 248,168 150,172" />
+      <polygon points="68,179 150,176 232,179 150,183" />
+      <polygon points="82,190 150,187 218,190 150,194" />
+      <polygon points="96,201 150,198 204,201 150,205" />
+      <polygon points="110,212 150,209 190,212 150,216" />
+      <polygon points="122,222 150,219 178,222 150,226" />
+      <polygon points="132,232 150,229 168,232 150,236" />
+      <polygon points="140,242 150,239 160,242 150,246" />
+      <polygon points="145,251 150,248 155,251 150,255" />
+    </g>
+  </g>
+
+  <!-- Typography -->
+  <text x="256" y="380" font-family="serif" font-size="34" font-weight="500" letter-spacing="4" fill="#24211D" text-anchor="middle">GOLDEN COAST</text>
+  <text x="256" y="415" font-family="sans-serif" font-size="15" font-weight="600" letter-spacing="6" fill="#D4AF37" text-anchor="middle">PROPERTY ADVISORY</text>
+</svg>
