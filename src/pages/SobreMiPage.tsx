@@ -12,24 +12,24 @@ export const SobreMiPage: React.FC = () => {
 
   const seoData = {
     es: {
-      title: 'Sobre Mí — Valeria Reishi | Agente de la Propiedad Inmobiliaria (API)',
-      description: 'Conozca la trayectoria de Valeria Reishi: perito judicial inmobiliario, API colegiada y especialista en LAU con más de 7 años acompañando a familias e inversores en la Costa Dorada y Garraf.',
+      title: 'Sobre Mí — Valeria Reggi | Agente de la Propiedad Inmobiliaria (API)',
+      description: 'Conozca la trayectoria de Valeria Reggi: perito judicial inmobiliario, API colegiada y especialista en LAU con más de 7 años acompañando a familias e inversores en la Costa Dorada y Garraf.',
     },
     en: {
-      title: 'About Me — Valeria Reishi | Certified Real Estate Agent (API) & Judicial Expert',
-      description: 'Discover Valeria Reishi: Certified API agent, judicial real estate appraiser, and urban leasing specialist guiding buyers and investors across Costa Dorada and Garraf.',
+      title: 'About Me — Valeria Reggi | Certified Real Estate Agent (API) & Judicial Expert',
+      description: 'Discover Valeria Reggi: Certified API agent, judicial real estate appraiser, and urban leasing specialist guiding buyers and investors across Costa Dorada and Garraf.',
     },
     de: {
-      title: 'Über Mich — Valeria Reishi | Zertifizierte Immobilienmaklerin (API) & Gerichtsgutachterin',
-      description: 'Lernen Sie Valeria Reishi kennen: Staatlich zertifizierte API-Maklerin und Gerichtsgutachterin mit über 7 Jahren Erfahrung an der Costa Dorada und im Garraf.',
+      title: 'Über Mich — Valeria Reggi | Zertifizierte Immobilienmaklerin (API) & Gerichtsgutachterin',
+      description: 'Lernen Sie Valeria Reggi kennen: Staatlich zertifizierte API-Maklerin und Gerichtsgutachterin mit über 7 Jahren Erfahrung an der Costa Dorada und im Garraf.',
     },
     fr: {
-      title: 'À Propos — Valeria Reishi | Agent Immobilier Agréé (API) & Expert Judiciaire',
-      description: 'Découvrez le parcours de Valeria Reishi : agent API agréé, experte judiciaire immobilière et spécialiste des baux urbains sur la Costa Dorada et le Garraf.',
+      title: 'À Propos — Valeria Reggi | Agent Immobilier Agréé (API) & Expert Judiciaire',
+      description: 'Découvrez le parcours de Valeria Reggi : agent API agréé, experte judiciaire immobilière et spécialiste des baux urbains sur la Costa Dorada et le Garraf.',
     },
     zh: {
-      title: '关于我 — Valeria Reishi | 官方注册房地产经纪人 (API) 与司法鉴定专家',
-      description: '走近 Valeria Reishi：加泰罗尼亚官方注册 API 经纪人、房产司法鉴定人及租赁法专家。七年深耕西班牙黄金海岸与加拉夫，为全球高净值家族与投资者提供独立、严谨、深具法律保障的私享置业顾问服务。',
+      title: '关于我 — Valeria Reggi | 官方注册房地产经纪人 (API) 与司法鉴定专家',
+      description: '走近 Valeria Reggi：加泰罗尼亚官方注册 API 经纪人、房产司法鉴定人及租赁法专家。七年深耕西班牙黄金海岸与加拉夫，为全球高净值家族与投资者提供独立、严谨、深具法律保障的私享置业顾问服务。',
     },
   }[currentLanguage];
 

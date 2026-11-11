@@ -13,23 +13,23 @@ export const TestimoniosPage: React.FC = () => {
   const seoData = {
     es: {
       title: 'Testimonios & Casos de Éxito | Golden Coast Property Advisory',
-      description: 'Experiencias reales de compradores, vendedores e inversores nacionales e internacionales acompañados por Valeria Reishi en la Costa Dorada y Garraf.',
+      description: 'Experiencias reales de compradores, vendedores e inversores nacionales e internacionales acompañados por Valeria Reggi en la Costa Dorada y Garraf.',
     },
     en: {
       title: 'Client Stories & Reviews | Golden Coast Property Advisory',
-      description: 'Real experiences of domestic and international buyers, sellers, and investors advised by Valeria Reishi across Costa Dorada and Garraf.',
+      description: 'Real experiences of domestic and international buyers, sellers, and investors advised by Valeria Reggi across Costa Dorada and Garraf.',
     },
     de: {
       title: 'Erfahrungsberichte & Erfolge | Golden Coast Property Advisory',
-      description: 'Echte Erfahrungen von Käufern, Verkäufern und Investoren, persönlich begleitet von Valeria Reishi an der Costa Dorada und im Garraf.',
+      description: 'Echte Erfahrungen von Käufern, Verkäufern und Investoren, persönlich begleitet von Valeria Reggi an der Costa Dorada und im Garraf.',
     },
     fr: {
       title: 'Témoignages & Études de Cas | Golden Coast Property Advisory',
-      description: 'Expériences vécues d’acquéreurs, vendeurs et investisseurs guidés par Valeria Reishi sur la Costa Dorada et le Garraf.',
+      description: 'Expériences vécues d’acquéreurs, vendeurs et investisseurs guidés par Valeria Reggi sur la Costa Dorada et le Garraf.',
     },
     zh: {
       title: '客户评价与成功案例 | Golden Coast Property Advisory',
-      description: '海内外高净值购房者、业主与投资者在西班牙黄金海岸及加拉夫置业的真实评价。由 Valeria Reishi 全程法律审验与私享陪伴。',
+      description: '海内外高净值购房者、业主与投资者在西班牙黄金海岸及加拉夫置业的真实评价。由 Valeria Reggi 全程法律审验与私享陪伴。',
     },
   }[currentLanguage];
 

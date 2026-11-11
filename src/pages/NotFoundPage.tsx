@@ -19,7 +19,7 @@ export const NotFoundPage: React.FC = () => {
       quickRoutes: 'Rutas directas',
       services: 'Servicios & Asesoría',
       zones: 'Costa Dorada & Garraf',
-      about: 'Sobre mí (Valeria Reishi)',
+      about: 'Sobre mí (Valeria Reggi)',
       faq: 'Preguntas Frecuentes',
     },
     en: {
@@ -33,7 +33,7 @@ export const NotFoundPage: React.FC = () => {
       quickRoutes: 'Quick navigation',
       services: 'Services & Advisory',
       zones: 'Costa Dorada & Garraf',
-      about: 'About Me (Valeria Reishi)',
+      about: 'About Me (Valeria Reggi)',
       faq: 'Frequently Asked Questions',
     },
     de: {
@@ -47,7 +47,7 @@ export const NotFoundPage: React.FC = () => {
       quickRoutes: 'Direktlinks',
       services: 'Dienstleistungen',
       zones: 'Costa Dorada & Garraf',
-      about: 'Über mich (Valeria Reishi)',
+      about: 'Über mich (Valeria Reggi)',
       faq: 'Häufig gestellte Fragen',
     },
     fr: {
@@ -61,12 +61,12 @@ export const NotFoundPage: React.FC = () => {
       quickRoutes: 'Accès direct',
       services: 'Services & Conseil',
       zones: 'Costa Dorada & Garraf',
-      about: 'À propos (Valeria Reishi)',
+      about: 'À propos (Valeria Reggi)',
       faq: 'Foire Aux Questions',
     },
     zh: {
       title: '404 — 页面未找到 | Golden Coast Property Advisory',
-      desc: '您访问的页面不存在或已被移除。请返回首页或直接咨询 Valeria Reishi。',
+      desc: '您访问的页面不存在或已被移除。请返回首页或直接咨询 Valeria Reggi。',
       badge: '404 错误 · 网址未找到',
       heading: '该网络页面暂未开放或已迁移',
       text: '您输入的网址不存在或已被调整。我们诚邀您返回首页，或浏览主要服务版块及直接与 Valeria 取得联系。',
@@ -75,7 +75,7 @@ export const NotFoundPage: React.FC = () => {
       quickRoutes: '快捷导航',
       services: '专属顾问服务',
       zones: '黄金海岸与加拉夫',
-      about: '关于 Valeria Reishi',
+      about: '关于 Valeria Reggi',
       faq: '常见问题解答',
     },
   }[currentLanguage];

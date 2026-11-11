@@ -22,11 +22,11 @@ export const HomePage: React.FC = () => {
   };
 
   const descriptions: Record<string, string> = {
-    es: 'Asesoría inmobiliaria boutique en Costa Dorada y Garraf por Valeria Reishi, API colegiada y Perito Judicial Inmobiliario. Acompañamiento honesto e integral en compraventa, inversión y relocation.',
-    en: 'Boutique real estate advisory in Costa Dorada and Garraf by Valeria Reishi, certified API agent and Judicial Appraiser. Tailored guidance for property purchase, sales and relocation.',
-    de: 'Boutique-Immobilienberatung an der Costa Dorada und im Garraf durch Valeria Reishi, staatlich geprüfte Maklerin (API) und gerichtliche Immobiliensachverständige.',
-    fr: 'Conseil immobilier boutique sur la Costa Dorada et le Garraf par Valeria Reishi, agente agréée API et experte judiciaire immobilière.',
-    zh: '加拉夫海滨与黄金海岸精品房地产咨询，由西班牙官方注册经纪人（API）兼司法指定不动产估价师 Valeria Reishi 主理，为您提供客观、独立且高度私密的海外置业与资产伴护。',
+    es: 'Asesoría inmobiliaria boutique en Costa Dorada y Garraf por Valeria Reggi, API colegiada y Perito Judicial Inmobiliario. Acompañamiento honesto e integral en compraventa, inversión y relocation.',
+    en: 'Boutique real estate advisory in Costa Dorada and Garraf by Valeria Reggi, certified API agent and Judicial Appraiser. Tailored guidance for property purchase, sales and relocation.',
+    de: 'Boutique-Immobilienberatung an der Costa Dorada und im Garraf durch Valeria Reggi, staatlich geprüfte Maklerin (API) und gerichtliche Immobiliensachverständige.',
+    fr: 'Conseil immobilier boutique sur la Costa Dorada et le Garraf par Valeria Reggi, agente agréée API et experte judiciaire immobilière.',
+    zh: '加拉夫海滨与黄金海岸精品房地产咨询，由西班牙官方注册经纪人（API）兼司法指定不动产估价师 Valeria Reggi 主理，为您提供客观、独立且高度私密的海外置业与资产伴护。',
   };
 
   return (
