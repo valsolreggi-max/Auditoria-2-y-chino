@@ -62,7 +62,7 @@ export const zh: Translations = {
     calafellSub: '丰富美食、深厚历史与多元配套',
   },
   homeAbout: {
-    eyebrow: '关于创始人 · VALERIA REISHI',
+    eyebrow: '关于创始人 · VALERIA REGGI',
     title: '超越单次买卖，始于真诚信任的长久守护。',
     p1: '在 Golden Coast 背后，是我对这份事业始终如一的理解：严谨的法律素养、温暖的真诚沟通，以及全力守护每一位客户在面对人生重大资产决策时的初心。',
     p2: '得到真正专业的顾问支持，绝不仅是签署几页合同，而是在面对陌生国度与法律环境时，拥有一位洞悉市场、深具同理心的专业人士，如对待自己的家一样悉心呵护您的房产项目。',
@@ -133,7 +133,7 @@ export const zh: Translations = {
     directCoverageSub: '(巴塞罗那 / 塔拉戈纳滨海走廊)',
   },
   aboutMePage: {
-    eyebrow: '关于创始人 · 历程与价值观',
+    eyebrow: '关于创始人 · VALERIA REGGI',
     title: '我的专业执业历程',
     block1Title: '在不确定的环境中，赋予客户笃定的安全感',
     block2Title: '超越单次买卖，始于真诚信任的长久守护',
@@ -183,7 +183,7 @@ export const zh: Translations = {
   },
   modal: {
     modalTopLine: '专属定制房产咨询',
-    modalTopLineSub: '与 VALERIA REISHI 亲自沟通',
+    modalTopLineSub: '与 VALERIA REGGI 亲自沟通',
     closeAria: '关闭咨询窗口',
     territoryEyebrow: '区域研判与本地专业分析',
     territoryTitlePrefix: '咨询区域：',

@@ -43,7 +43,7 @@ export const ValeriaStorySection: React.FC<ValeriaStorySectionProps> = ({ lang }
               <div className="rounded-xl overflow-hidden relative">
                 <img
                   src={BRAND_IMAGES.valeriaPortrait}
-                  alt="Valeria - Golden Coast Property Advisory"
+                  alt="Valeria Reggi - Golden Coast Property Advisory"
                   className="w-full h-[460px] object-cover object-top group-hover:scale-102 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#24211D]/90 via-transparent to-transparent flex flex-col justify-end p-6 text-[#F5F2EA]">
@@ -51,7 +51,7 @@ export const ValeriaStorySection: React.FC<ValeriaStorySectionProps> = ({ lang }
                     Fundadora & Directora
                   </span>
                   <h3 className="font-serif text-2xl font-bold text-[#F5F2EA]">
-                    Valeria
+                    Valeria Reggi
                   </h3>
                   <p className="text-xs text-[#F5F2EA]/85 mt-1">
                     Agente de la Propiedad Inmobiliaria (API) & Perito Judicial
@@ -137,7 +137,7 @@ export const ValeriaStorySection: React.FC<ValeriaStorySectionProps> = ({ lang }
                 "{t.quote}"
               </p>
               <div className="flex items-center gap-2 pt-2 border-t border-[#F5F2EA]/20 text-xs text-[#D4AF37] font-semibold">
-                <span>— Valeria, Fundadora de Golden Coast</span>
+                <span>— Valeria Reggi, Fundadora de Golden Coast</span>
               </div>
             </div>
 

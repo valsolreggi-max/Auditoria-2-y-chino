@@ -62,7 +62,7 @@ export const es: Translations = {
     calafellSub: 'Gastronomía, patrimonio & variedad',
   },
   homeAbout: {
-    eyebrow: 'SOBRE MÍ · VALERIA',
+    eyebrow: 'SOBRE MÍ · VALERIA REGGI',
     title: 'Un asesoramiento que continúa después de cada operación.',
     p1: 'Detrás de Golden Coast está mi forma de entender este trabajo: con rigor, cercanía y una vocación real de acompañar a cada persona en una de las decisiones patrimoniales y personales más importantes de su vida.',
     p2: 'Estar bien asesorado no es solo una cuestión de contratos; es la tranquilidad de saber que alguien con conocimiento y empatía cuida de tu proyecto como si fuera propio.',
@@ -133,7 +133,7 @@ export const es: Translations = {
     directCoverageSub: '(Barcelona / Tarragona)',
   },
   aboutMePage: {
-    eyebrow: 'SOBRE MÍ · HISTORIA Y VALORES',
+    eyebrow: 'SOBRE MÍ · VALERIA REGGI',
     title: 'Mi Trayectoria Profesional',
     block1Title: 'Dar seguridad en momentos de incertidumbre',
     block2Title: 'Una relación que continúa después de cada operación',

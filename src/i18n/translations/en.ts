@@ -62,7 +62,7 @@ export const en: Translations = {
     calafellSub: 'Gastronomy, heritage & coastal diversity',
   },
   homeAbout: {
-    eyebrow: 'ABOUT ME · VALERIA',
+    eyebrow: 'ABOUT ME · VALERIA REGGI',
     title: 'Advisory that continues long after the transaction is complete.',
     p1: 'Behind Golden Coast lies my genuine philosophy of this profession: rigorous precision, approachable guidance, and a heartfelt commitment to walking alongside each client through one of life’s most significant personal and financial decisions.',
     p2: 'Being well advised is not merely about reviewing contracts; it is the comforting certainty that an experienced, empathetic professional is looking after your project as if it were her own.',
@@ -133,7 +133,7 @@ export const en: Translations = {
     directCoverageSub: '(Barcelona / Tarragona)',
   },
   aboutMePage: {
-    eyebrow: 'ABOUT ME · HERITAGE & PRINCIPLES',
+    eyebrow: 'ABOUT ME · VALERIA REGGI',
     title: 'My Professional Journey',
     block1Title: 'Providing security in times of uncertainty',
     block2Title: 'A relationship that continues well past the final signing',

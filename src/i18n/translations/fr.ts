@@ -62,7 +62,7 @@ export const fr: Translations = {
     calafellSub: 'Gastronomie, patrimoine & variété',
   },
   homeAbout: {
-    eyebrow: 'À PROPOS · VALERIA',
+    eyebrow: 'À PROPOS · VALERIA REGGI',
     title: 'Un accompagnement attentif qui perdure après chaque opération.',
     p1: 'Derrière Golden Coast se trouve ma vision de ce métier : rigueur juridique, proximité humaine et un engagement sincère à guider chacun dans l’une des décisions patrimoniales et personnelles les plus importantes de sa vie.',
     p2: 'Être bien conseillé ne se résume pas à signer des contrats ; c’est la tranquillité d’esprit de savoir qu’une professionnelle expérimentée et bienveillante veille sur votre projet comme s’il s’agissait du sien.',
@@ -133,7 +133,7 @@ export const fr: Translations = {
     directCoverageSub: '(Barcelone / Tarragone)',
   },
   aboutMePage: {
-    eyebrow: 'À PROPOS DE MOI · PARCOURS & VALEURS',
+    eyebrow: 'À PROPOS · VALERIA REGGI',
     title: 'Mon Parcours Professionnel',
     block1Title: 'Apporter de la sérénité dans les moments décisifs',
     block2Title: 'Une relation de confiance qui perdure bien au-delà de la signature',

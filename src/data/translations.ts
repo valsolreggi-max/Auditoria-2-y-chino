@@ -114,7 +114,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     },
     aboutValeria: {
       badge: 'La Persona Detrás de Golden Coast',
-      title: 'Valeria · Asesora Inmobiliaria, API & Perito Judicial',
+      title: 'Valeria Reggi · Asesora Inmobiliaria, API & Perito Judicial',
       subtitle: 'Siete años guiando a familias e inversores internacionales a tomar decisiones seguras en el mercado español.',
       quote: 'Lo que está en juego siempre es mucho más que un inmueble. Es un hogar para una familia, la rentabilidad de una vida o el primer paso en un país nuevo.',
       badge1Title: '7 Años en Costa Dorada',
@@ -184,7 +184,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     },
     aboutValeria: {
       badge: 'The Person Behind Golden Coast',
-      title: 'Valeria · Property Advisor, Certified API & Judicial Expert',
+      title: 'Valeria Reggi · Property Advisor, Certified API & Judicial Expert',
       subtitle: 'Seven years guiding international families and investors toward safe property decisions in Spain.',
       quote: 'What is at stake is always much more than a property. It is a home for a family, a lifetime’s savings return, or the first step in a new country.',
       badge1Title: '7 Years in Costa Dorada',
@@ -254,7 +254,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     },
     aboutValeria: {
       badge: 'La Personne Derrière Golden Coast',
-      title: 'Valeria · Conseillère Immobilière, API & Experte Judiciaire',
+      title: 'Valeria Reggi · Conseillère Immobilière, API & Experte Judiciaire',
       subtitle: 'Sept ans à guider les familles et investisseurs internationaux dans leurs démarches immobilières en Espagne.',
       quote: 'Ce qui est en jeu va bien au-delà d’un simple bien immobilier. C’est un foyer pour une famille, le fruit de toute une vie ou le premier pas dans un nouveau pays.',
       badge1Title: '7 Ans Costa Dorada',
@@ -324,7 +324,7 @@ export const TRANSLATIONS: Record<Language, Translations> = {
     },
     aboutValeria: {
       badge: 'Die Person Hinter Golden Coast',
-      title: 'Valeria · Immobilienberaterin, API & Gerichtliche Gutachterin',
+      title: 'Valeria Reggi · Immobilienberaterin, API & Gerichtliche Gutachterin',
       subtitle: 'Seit sieben Jahren Begleiterin internationaler Familien und Investoren bei sicheren Immobilienentscheidungen in Spanien.',
       quote: 'Es geht immer um weit mehr als eine Immobilie. Es ist das Zuhause einer Familie, die Ersparnisse eines Lebens oder der erste Schritt in einem neuen Land.',
       badge1Title: '7 Jahre Costa Dorada',

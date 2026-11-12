@@ -72,13 +72,13 @@ export const SobreMiPage: React.FC = () => {
             <div className="border border-[#E8E2D5] p-2.5 sm:p-3.5 bg-[#F5F2EA] shadow-xs">
               <img
                 src={BRAND_IMAGES.valeriaPortrait}
-                alt="Valeria - Golden Coast Property Advisory"
+                alt="Valeria Reggi - Golden Coast Property Advisory"
                 className="w-full h-auto max-h-[540px] object-cover object-top block"
                 loading="lazy"
                 referrerPolicy="no-referrer"
               />
               <div className="mt-3 pt-2.5 border-t border-[#E8E2D5] px-1 flex items-center justify-between text-xs font-sans text-[#24211D]">
-                <span className="font-serif font-semibold tracking-wide">Valeria</span>
+                <span className="font-serif font-semibold tracking-wide">Valeria Reggi</span>
                 <span className="text-[#D4AF37] font-medium uppercase tracking-wider text-[11px]">
                   Property Advisory
                 </span>

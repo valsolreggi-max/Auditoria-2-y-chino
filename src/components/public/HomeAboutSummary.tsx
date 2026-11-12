@@ -27,13 +27,13 @@ export const HomeAboutSummary: React.FC = () => {
             <div className="border border-[#E8E2D5] p-2.5 sm:p-3.5 bg-[#FBF9F3] shadow-xs">
               <img
                 src={BRAND_IMAGES.valeriaPortrait}
-                alt="Valeria - Golden Coast Property Advisory"
+                alt="Valeria Reggi - Golden Coast Property Advisory"
                 className="w-full h-[400px] sm:h-[460px] object-cover object-top"
                 loading="lazy"
                 referrerPolicy="no-referrer"
               />
               <div className="mt-3 px-1 flex items-center justify-between text-xs font-sans text-[#24211D]">
-                <span className="font-semibold">Valeria</span>
+                <span className="font-semibold">Valeria Reggi</span>
                 <span className="text-[#D4AF37] font-medium uppercase tracking-wider text-[11px]">
                   Property Advisory
                 </span>

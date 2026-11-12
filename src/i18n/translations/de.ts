@@ -62,7 +62,7 @@ export const de: Translations = {
     calafellSub: 'Kulinarik, Geschichte & Vielfalt',
   },
   homeAbout: {
-    eyebrow: 'ÜBER MICH · VALERIA',
+    eyebrow: 'ÜBER MICH · VALERIA REGGI',
     title: 'Eine Begleitung, die auch nach Vertragsabschluss verlässlich bleibt.',
     p1: 'Hinter Golden Coast steht meine persönliche Philosophie dieser Tätigkeit: juristische Präzision, menschliche Nähe und das echte Anliegen, jeden Menschen bei einer der bedeutendsten Lebens- und Vermögensentscheidungen zu unterstützen.',
     p2: 'Gut beraten zu sein, ist weit mehr als das Prüfen von Verträgen; es ist das beruhigende Gefühl zu wissen, dass jemand mit Fachkenntnis und Feingefühl Ihr Anliegen wie das eigene behandelt.',
@@ -133,7 +133,7 @@ export const de: Translations = {
     directCoverageSub: '(Barcelona / Tarragona)',
   },
   aboutMePage: {
-    eyebrow: 'ÜBER MICH · HERKUNFT & WERTE',
+    eyebrow: 'ÜBER MICH · VALERIA REGGI',
     title: 'Mein beruflicher Werdegang',
     block1Title: 'Sicherheit geben in Momenten des Wandels',
     block2Title: 'Eine Verbindung, die weit über den Vertragsabschluss hinausreicht',
