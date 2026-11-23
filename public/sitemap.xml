@@ -436,4 +436,127 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- ==================== BLOG ==================== -->
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/de/blog</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/fr/blog</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/zh/blog</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- ==================== BLOG #1 QUE REVISAR ==================== -->
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog/what-to-check-before-buying-property-in-spain" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog/immobilienkauf-spanien-worauf-achten" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog/acheter-maison-espagne-que-verifier" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog/spain-home-buying-checklist" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/en/blog/what-to-check-before-buying-property-in-spain</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog/what-to-check-before-buying-property-in-spain" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog/immobilienkauf-spanien-worauf-achten" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog/acheter-maison-espagne-que-verifier" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog/spain-home-buying-checklist" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/de/blog/immobilienkauf-spanien-worauf-achten</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog/what-to-check-before-buying-property-in-spain" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog/immobilienkauf-spanien-worauf-achten" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog/acheter-maison-espagne-que-verifier" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog/spain-home-buying-checklist" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/fr/blog/acheter-maison-espagne-que-verifier</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog/what-to-check-before-buying-property-in-spain" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog/immobilienkauf-spanien-worauf-achten" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog/acheter-maison-espagne-que-verifier" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog/spain-home-buying-checklist" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.goldencoastpropertyadvisory.com/zh/blog/spain-home-buying-checklist</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.goldencoastpropertyadvisory.com/blog/que-revisar-antes-de-comprar-una-vivienda" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goldencoastpropertyadvisory.com/en/blog/what-to-check-before-buying-property-in-spain" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.goldencoastpropertyadvisory.com/de/blog/immobilienkauf-spanien-worauf-achten" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.goldencoastpropertyadvisory.com/fr/blog/acheter-maison-espagne-que-verifier" />
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://www.goldencoastpropertyadvisory.com/zh/blog/spain-home-buying-checklist" />
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>

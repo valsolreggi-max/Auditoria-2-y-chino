@@ -33,6 +33,7 @@ export const EditorialNavbar: React.FC = () => {
     { label: messages.nav.about, path: getLocalizedPath('/sobre-mi') },
     { label: messages.nav.testimonials, path: getLocalizedPath('/testimonios') },
     { label: messages.nav.faq, path: getLocalizedPath('/faq') },
+    { label: messages.nav.blog, path: getLocalizedPath('/blog') },
     { label: messages.nav.contact, path: getLocalizedPath('/contacto') },
   ];
 
@@ -55,7 +56,7 @@ export const EditorialNavbar: React.FC = () => {
         </Link>
 
         {/* Editorial Navigation Menu */}
-        <nav className="hidden lg:flex items-center space-x-6 xl:space-x-7 text-[11px] font-sans font-medium tracking-[0.16em] uppercase text-[#24211D]">
+        <nav className="hidden xl:flex items-center space-x-5 2xl:space-x-7 text-[11px] font-sans font-medium tracking-[0.16em] uppercase text-[#24211D]">
           {navItems.map((item) => (
             <NavLink
               key={item.path}
@@ -87,7 +88,7 @@ export const EditorialNavbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Toggle & Mobile Selector */}
-          <div className="lg:hidden flex items-center gap-1.5">
+          <div className="xl:hidden flex items-center gap-1.5">
             <div className="sm:hidden">
               <LanguageSelector />
             </div>
@@ -105,7 +106,7 @@ export const EditorialNavbar: React.FC = () => {
 
       {/* Mobile Editorial Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-[#F5F2EA] border-b border-[#E8E2D5] px-6 py-6 space-y-4 animate-in slide-in-from-top duration-200">
+        <div className="xl:hidden bg-[#F5F2EA] border-b border-[#E8E2D5] px-6 py-6 space-y-4 animate-in slide-in-from-top duration-200">
           <div className="flex flex-col space-y-3 text-xs font-sans font-medium tracking-widest uppercase text-[#24211D]">
             {navItems.map((item) => (
               <NavLink

@@ -11,6 +11,8 @@ import { TestimoniosPage } from './pages/TestimoniosPage';
 import { FAQPage } from './pages/FAQPage';
 import { ContactoPage } from './pages/ContactoPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { BlogPage } from './pages/BlogPage';
+import { BlogPostPage } from './pages/BlogPostPage';
 
 export function AppRoutes() {
   return (
@@ -26,6 +28,8 @@ export function AppRoutes() {
             <Route path="/testimonios" element={<TestimoniosPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/contacto" element={<ContactoPage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
 
             {/* Language-prefixed routes (/es, /en, /de, /fr, /zh) */}
             <Route path="/:lang" element={<HomePage />} />
@@ -35,6 +39,8 @@ export function AppRoutes() {
             <Route path="/:lang/testimonios" element={<TestimoniosPage />} />
             <Route path="/:lang/faq" element={<FAQPage />} />
             <Route path="/:lang/contacto" element={<ContactoPage />} />
+            <Route path="/:lang/blog" element={<BlogPage />} />
+            <Route path="/:lang/blog/:slug" element={<BlogPostPage />} />
 
             {/* Dedicated 404 Not Found Page */}
             <Route path="*" element={<NotFoundPage />} />

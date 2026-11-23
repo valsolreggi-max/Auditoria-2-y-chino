@@ -8,6 +8,7 @@ export const fr: Translations = {
     about: 'À PROPOS',
     testimonials: 'TÉMOIGNAGES',
     faq: 'FAQ',
+    blog: 'BLOG',
     contact: 'CONTACT',
     requestConsultation: 'Demander un conseil',
   },

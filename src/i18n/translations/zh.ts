@@ -8,6 +8,7 @@ export const zh: Translations = {
     about: '关于我们',
     testimonials: '客户口碑',
     faq: '常见问题',
+    blog: '博客',
     contact: '联系咨询',
     requestConsultation: '预约一对一咨询',
   },

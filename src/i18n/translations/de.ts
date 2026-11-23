@@ -8,6 +8,7 @@ export const de: Translations = {
     about: 'ÜBER MICH',
     testimonials: 'ERFAHRUNGEN',
     faq: 'FAQ',
+    blog: 'BLOG',
     contact: 'KONTAKT',
     requestConsultation: 'Beratung anfragen',
   },

@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -150,6 +150,11 @@ const BASE_ROUTES = [
   '/contacto',
 ];
 
+// Escape text placed inside HTML attributes (titles and descriptions may contain quotes)
+function escapeAttr(value) {
+  return String(value).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;');
+}
+
 // Helper to construct hreflang alternate tags
 function generateHreflangTags(baseRoute) {
   const cleanRoute = baseRoute === '/' ? '' : baseRoute;
@@ -181,9 +186,22 @@ async function runPrerender() {
     throw new Error('dist-ssr/prerender-entry.js not found. Run vite build --ssr first.');
   }
 
-  const { render } = await import(ssrModulePath);
+  const { render, getBlogPrerenderPages } = await import(pathToFileURL(ssrModulePath).href);
 
   const allRenderTasks = [];
+
+  // 0. Blog pages (listing + articles in every language), with their own SEO metadata
+  for (const page of getBlogPrerenderPages()) {
+    const folder = page.url.replace(/^\//, '');
+    allRenderTasks.push({
+      url: page.url,
+      baseRoute: page.url,
+      lang: page.lang,
+      outputPath: `${folder}/index.html`,
+      outputHtmlPath: `${folder}.html`,
+      meta: page,
+    });
+  }
 
   // 1. Root default routes (Spanish canonical)
   for (const baseRoute of BASE_ROUTES) {
@@ -233,10 +251,13 @@ async function runPrerender() {
     let html = template;
     const config = LANG_CONFIG[task.lang] || LANG_CONFIG.es;
 
-    const title = config.titles[task.baseRoute] || config.titles['/'];
-    const description = config.descriptions[task.baseRoute] || config.descriptions['/'];
+    const meta = task.meta;
+    const title = escapeAttr(meta ? meta.title : config.titles[task.baseRoute] || config.titles['/']);
+    const description = escapeAttr(
+      meta ? meta.description : config.descriptions[task.baseRoute] || config.descriptions['/']
+    );
     const isSpanish = task.lang === 'es';
-    const canonicalRoute = isSpanish ? task.baseRoute : task.url;
+    const canonicalRoute = meta ? meta.canonicalPath : isSpanish ? task.baseRoute : task.url;
     const canonicalUrl = `${DOMAIN}${canonicalRoute === '/' ? '/' : canonicalRoute}`;
 
     // 1. Inject rendered HTML inside root
@@ -289,7 +310,30 @@ async function runPrerender() {
     );
 
     // 8. Inject hreflang alternate tags (except 404)
-    if (!task.is404) {
+    if (meta) {
+      const tags = Object.entries(meta.alternates).map(
+        ([hreflang, route]) => `<link rel="alternate" hreflang="${hreflang}" href="${DOMAIN}${route}" />`
+      );
+      html = html.replace(
+        /<meta\s+property="og:type"\s+content=".*?"\s*\/?>/i,
+        `<meta property="og:type" content="${meta.ogType}" />`
+      );
+      if (meta.ogImage) {
+        html = html.replace(
+          /<meta\s+property="og:image"\s+content=".*?"\s*\/?>/i,
+          `<meta property="og:image" content="${meta.ogImage}" />`
+        );
+        html = html.replace(
+          /<meta\s+name="twitter:image"\s+content=".*?"\s*\/?>/i,
+          `<meta name="twitter:image" content="${meta.ogImage}" />`
+        );
+      }
+      if (meta.jsonLd) {
+        const json = JSON.stringify(meta.jsonLd).replace(/</g, '\\u003c');
+        tags.push(`<script type="application/ld+json" data-page-jsonld="true">${json}</script>`);
+      }
+      html = html.replace('</head>', `  ${tags.join('\n    ')}\n  </head>`);
+    } else if (!task.is404) {
       const hreflangTags = generateHreflangTags(task.baseRoute);
       // Inject right before </head>
       html = html.replace('</head>', `  ${hreflangTags}\n  </head>`);

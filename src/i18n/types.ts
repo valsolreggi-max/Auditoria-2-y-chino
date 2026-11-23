@@ -14,6 +14,7 @@ export interface NavTranslations {
   about: string;
   testimonials: string;
   faq: string;
+  blog: string;
   contact: string;
   requestConsultation: string;
 }

@@ -8,6 +8,7 @@ export const es: Translations = {
     about: 'SOBRE MÍ',
     testimonials: 'TESTIMONIOS',
     faq: 'PREGUNTAS FRECUENTES',
+    blog: 'BLOG',
     contact: 'CONTACTO',
     requestConsultation: 'Solicitar Asesoramiento',
   },
