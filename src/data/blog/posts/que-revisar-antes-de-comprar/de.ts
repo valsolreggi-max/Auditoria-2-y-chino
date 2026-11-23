@@ -16,7 +16,7 @@ export const de: BlogPostContent = {
   blocks: [
     {
       type: 'p',
-      text: 'Es war ein Haus, renoviert „wie neu“: frisch gestrichene Wände, makellose Böden, eine Küche wie aus dem Katalog. Die Käuferin unterschrieb in der Überzeugung, sich jede böse Überraschung erspart zu haben. Nach wenigen Monaten breitete sich im unteren Teil der Wände ein Fleck aus, der Putz warf Blasen, die Farbe blätterte ab. Es war aufsteigende Feuchtigkeit: Wasser aus dem Boden, das im Mauerwerk nach oben zieht wie Kaffee in einem Zuckerwürfel.',
+      text: 'Vor Kurzem erzählte mir eine Kollegin aus der Branche von einem Fall, der häufiger vorkommt, als man denkt. Ihre Kundin hatte ein Haus gekauft, das „wie neu“ renoviert war: frisch gestrichene Wände, makellose Böden, eine Küche wie aus dem Katalog. Nach wenigen Monaten breitete sich im unteren Teil der Wände ein Fleck aus, der Putz warf Blasen, die Farbe blätterte ab. Es war aufsteigende Feuchtigkeit: Wasser aus dem Boden, das im Mauerwerk nach oben zieht wie Kaffee in einem Zuckerwürfel.',
     },
     {
       type: 'p',

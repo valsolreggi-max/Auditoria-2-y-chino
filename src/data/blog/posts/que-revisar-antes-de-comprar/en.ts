@@ -16,7 +16,7 @@ export const en: BlogPostContent = {
   blocks: [
     {
       type: 'p',
-      text: 'It was a house renovated "as new": freshly painted walls, spotless floors, a magazine-worthy kitchen. The buyer signed convinced she had avoided any surprises. A few months later, a stain began to spread along the bottom of the walls, the plaster bubbled and the paint started to peel. It was rising damp: groundwater climbing up through the walls, the way coffee soaks up a sugar cube.',
+      text: 'Not long ago, a colleague in the industry told me about a case that happens more often than we think. Her client had bought a house renovated "as new": freshly painted walls, spotless floors, a magazine-worthy kitchen. A few months later, a stain began to spread along the bottom of the walls, the plaster bubbled and the paint started to peel. It was rising damp: groundwater climbing up through the walls, the way coffee soaks up a sugar cube.',
     },
     {
       type: 'p',

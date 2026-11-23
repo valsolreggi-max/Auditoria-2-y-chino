@@ -16,7 +16,7 @@ export const es: BlogPostContent = {
   blocks: [
     {
       type: 'p',
-      text: 'Era una casa reformada "a nuevo": paredes recién pintadas, suelos impecables, cocina de revista. La compradora firmó convencida de que se ahorraba sorpresas. A los pocos meses, en la parte baja de las paredes empezó a aparecer una mancha que crecía, el yeso se abombaba y la pintura se desprendía. Era humedad por capilaridad: agua que sube del terreno por los muros, como el café por un terrón de azúcar.',
+      text: 'Hace poco, una colega del sector me contó un caso que se repite más de lo que imaginamos. Su clienta había comprado una casa reformada "a nuevo": paredes recién pintadas, suelos impecables, cocina de revista. A los pocos meses, en la parte baja de las paredes empezó a aparecer una mancha que crecía, el yeso se abombaba y la pintura se desprendía. Era humedad por capilaridad: agua que sube del terreno por los muros, como el café por un terrón de azúcar.',
     },
     {
       type: 'p',

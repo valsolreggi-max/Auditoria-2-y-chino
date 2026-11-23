@@ -16,7 +16,7 @@ export const fr: BlogPostContent = {
   blocks: [
     {
       type: 'p',
-      text: 'C’était une maison rénovée « à neuf » : murs fraîchement repeints, sols impeccables, cuisine digne d’un magazine. L’acheteuse a signé, convaincue d’éviter toute mauvaise surprise. Quelques mois plus tard, une tache s’est mise à grandir au bas des murs, le plâtre a gonflé et la peinture s’est écaillée. C’étaient des remontées capillaires : l’eau du sol qui monte dans les murs, comme le café dans un morceau de sucre.',
+      text: 'Il y a peu, une consœur du secteur m’a raconté un cas plus fréquent qu’on ne le pense. Sa cliente avait acheté une maison rénovée « à neuf » : murs fraîchement repeints, sols impeccables, cuisine digne d’un magazine. Quelques mois plus tard, une tache s’est mise à grandir au bas des murs, le plâtre a gonflé et la peinture s’est écaillée. C’étaient des remontées capillaires : l’eau du sol qui monte dans les murs, comme le café dans un morceau de sucre.',
     },
     {
       type: 'p',
