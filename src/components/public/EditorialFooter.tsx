@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
+import { findPostBySlug, getBlogPostPath } from '../../data/blog';
+import type { Language } from '../../i18n/types';
 import { Logo } from '../Logo';
 import { X, ArrowUp } from 'lucide-react';
 import { useLanguage } from '../../i18n';
@@ -10,8 +12,17 @@ interface EditorialFooterProps {
 
 export const EditorialFooter: React.FC<EditorialFooterProps> = () => {
   const [activeLegalTab, setActiveLegalTab] = useState<'aviso' | 'privacidad' | 'cookies' | null>(null);
-  const { messages, getLocalizedPath } = useLanguage();
+  const { messages, getLocalizedPath, languages, currentLanguage } = useLanguage();
   const { footer, modal } = messages;
+  const location = useLocation();
+
+  // Plain links to this same page in every language, so search engines can find each version.
+  // Blog articles have a different slug per language.
+  const pathInLanguage = (lang: Language): string => {
+    const blogSlug = location.pathname.match(/\/blog\/([^/]+)\/?$/)?.[1];
+    const post = findPostBySlug(blogSlug);
+    return post ? getBlogPostPath(post, lang) : getLocalizedPath(location.pathname, lang);
+  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -131,6 +142,22 @@ export const EditorialFooter: React.FC<EditorialFooterProps> = () => {
           </div>
 
         </div>
+
+        {/* Versiones de esta página en cada idioma (enlaces rastreables) */}
+        <nav aria-label="Language versions" className="pt-8 flex flex-wrap items-center justify-center md:justify-start gap-x-4 gap-y-2 text-xs font-sans text-[#F5F2EA]/85">
+          {languages.map((l) => (
+            <Link
+              key={l.code}
+              to={pathInLanguage(l.code)}
+              hrefLang={l.code === 'zh' ? 'zh-Hans' : l.code}
+              lang={l.code === 'zh' ? 'zh-Hans' : l.code}
+              aria-current={l.code === currentLanguage ? 'page' : undefined}
+              className={l.code === currentLanguage ? 'text-[#D4AF37]' : 'hover:text-[#D4AF37] transition-colors'}
+            >
+              {l.nativeLabel}
+            </Link>
+          ))}
+        </nav>
 
         {/* Línea Final de Cierre */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs font-sans text-[#F5F2EA]/85">
