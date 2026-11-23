@@ -81,7 +81,7 @@ export const BoutiqueFooter: React.FC<BoutiqueFooterProps> = ({ lang, setLang, o
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#8FA777]" />
-                <span>realtygoldencoast@gmail.com</span>
+                <span>valeria@goldencoastpropertyadvisory.com</span>
               </p>
               <p className="flex items-center gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#8FA777]" />

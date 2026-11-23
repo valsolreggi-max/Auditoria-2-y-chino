@@ -50,11 +50,11 @@ export const HomeContactCta: React.FC = () => {
           {/* Direct channels footer line */}
           <div className="pt-8 border-t border-[#E8E2D5] flex flex-wrap items-center justify-center gap-6 sm:gap-8 text-xs text-[#5C574E] font-sans">
             <a
-              href="mailto:realtygoldencoast@gmail.com"
+              href="mailto:valeria@goldencoastpropertyadvisory.com"
               className="flex items-center gap-2 hover:text-[#D4AF37] transition-colors"
             >
               <Mail className="w-4 h-4 text-[#D4AF37]" />
-              <span>realtygoldencoast@gmail.com</span>
+              <span>valeria@goldencoastpropertyadvisory.com</span>
             </a>
 
             <div className="flex items-center gap-2">

@@ -289,10 +289,10 @@ export const EditorialContactSection: React.FC = () => {
               </div>
               <div>
                 <a
-                  href="mailto:realtygoldencoast@gmail.com"
+                  href="mailto:valeria@goldencoastpropertyadvisory.com"
                   className="font-serif text-base sm:text-lg text-[#24211D] hover:text-[#D4AF37] transition-colors break-all block"
                 >
-                  realtygoldencoast@gmail.com
+                  valeria@goldencoastpropertyadvisory.com
                 </a>
               </div>
             </div>

@@ -105,10 +105,10 @@ export const EditorialFooter: React.FC<EditorialFooterProps> = () => {
                   <span>
                     {footer.col3Email}:{' '}
                     <a
-                      href="mailto:realtygoldencoast@gmail.com"
+                      href="mailto:valeria@goldencoastpropertyadvisory.com"
                       className="hover:text-[#D4AF37] underline decoration-[#D4AF37]/50 underline-offset-4 transition-colors"
                     >
-                      realtygoldencoast@gmail.com
+                      valeria@goldencoastpropertyadvisory.com
                     </a>
                   </span>
                 </li>
@@ -228,8 +228,8 @@ export const EditorialFooter: React.FC<EditorialFooterProps> = () => {
                   <p>{footer.legalP1}</p>
                   <p>
                     {footer.col3Email}:{' '}
-                    <a href="mailto:realtygoldencoast@gmail.com" className="text-[#24211D] font-medium underline">
-                      realtygoldencoast@gmail.com
+                    <a href="mailto:valeria@goldencoastpropertyadvisory.com" className="text-[#24211D] font-medium underline">
+                      valeria@goldencoastpropertyadvisory.com
                     </a>{' '}
                     | Tel / WhatsApp: +34 645 695 194.
                   </p>
@@ -248,8 +248,8 @@ export const EditorialFooter: React.FC<EditorialFooterProps> = () => {
                   <p>{footer.privacyP1}</p>
                   <p>
                     {footer.privacyP2}{' '}
-                    <a href="mailto:realtygoldencoast@gmail.com" className="text-[#24211D] font-medium underline">
-                      realtygoldencoast@gmail.com
+                    <a href="mailto:valeria@goldencoastpropertyadvisory.com" className="text-[#24211D] font-medium underline">
+                      valeria@goldencoastpropertyadvisory.com
                     </a>.
                   </p>
                 </div>

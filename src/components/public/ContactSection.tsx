@@ -95,8 +95,8 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ lang }) => {
                 </div>
                 <div>
                   <p className="text-[11px] text-[#F5F2EA]/70 uppercase font-semibold">Correo Electrónico</p>
-                  <a href="mailto:realtygoldencoast@gmail.com" className="text-sm font-bold text-[#F5F2EA] hover:text-[#D4AF37] transition-colors">
-                    realtygoldencoast@gmail.com
+                  <a href="mailto:valeria@goldencoastpropertyadvisory.com" className="text-sm font-bold text-[#F5F2EA] hover:text-[#D4AF37] transition-colors">
+                    valeria@goldencoastpropertyadvisory.com
                   </a>
                 </div>
               </div>
