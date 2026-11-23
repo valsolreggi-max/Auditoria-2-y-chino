@@ -64,10 +64,10 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 1,
             question: '1. ¿Si mi piso está en zona tensionada, estoy obligado a bajar el alquiler al precio del Índice de Referencia? ¿O puedo subirlo si el Índice marca más de lo que cobraba?',
-            answerIntroduction: 'Depende de tu perfil de propietario y del historial del inmueble (Ley 12/2023 por el Derecho a la Vivienda y Ley de Arrendamientos Urbanos):',
+            answerIntroduction: 'Depende de tu perfil de propietario y del historial del inmueble (artículo 17 de la Ley de Arrendamientos Urbanos, en la redacción de la Ley 12/2023 por el Derecho a la Vivienda y del Real Decreto-ley 29/2026):',
             callout1: {
               title: 'Si el Índice marca un precio INFERIOR al contrato anterior (Ejemplo: Alquilabas a 850 € y el Índice marca 780 €):',
-              text: 'Si eres un pequeño propietario (menos de 5 o 10 inmuebles según la delimitación de la zona) y la vivienda ha estado alquilada en los últimos 5 años, NO estás obligado a bajar la renta inicial a 780 €. La ley te autoriza a tomar como techo la renta fijada en el contrato anterior (850 €). La obligación de bajar imperativamente al tope del Índice aplica únicamente a grandes tenedores o a viviendas sin contratos previos en los últimos 5 años.',
+              text: 'Si eres un pequeño propietario (menos de 5 o 10 inmuebles según la delimitación de la zona) y la vivienda ha estado alquilada en los últimos 5 años, NO estás obligado a bajar la renta inicial a 780 €. La ley te autoriza a tomar como techo la renta fijada en el contrato anterior (850 €). La obligación de bajar al tope del Índice se aplica a los grandes tenedores y, solo si la resolución que declara la zona tensionada lo prevé, también a las viviendas que no han estado alquiladas en los últimos 5 años.',
               borderCol: '#D4AF37',
             },
             callout2: {
@@ -80,8 +80,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             id: 2,
             question: '2. ¿Puedo cobrar al inquilino los gastos de IBI, comunidad y tasa de basuras en un contrato nuevo?',
             answerIntroduction: '',
-            calloutTop: 'Únicamente si esos mismos gastos ya se encontraban pactados y repercutidos de forma explícita en el contrato anterior.',
-            concludingText: 'Si en el contrato previo no se cobraban, pretender introducirlos en un nuevo contrato sujeto a zona tensionada para compensar la limitación del precio se califica legalmente como un aumento fraudulento de la renta y resulta una cláusula nula de pleno derecho (Art. 6 y 20.1 LAU). Si un gasto ya figuraba previamente (por ejemplo, la tasa de basuras), se puede seguir repercutiendo actualizando únicamente su importe según el incremento real devengado del tributo.',
+            calloutTop: 'Los impuestos y tasas de la vivienda (IBI y tasa de basuras), no: desde el 8 de octubre de 2026 la ley prohíbe imponérselos al inquilino. Los gastos de comunidad, solo si se pactan expresamente y, en zona tensionada, si ya se repercutían en el contrato anterior.',
+            concludingText: 'El Real Decreto-ley 29/2026, convalidado por el Congreso el 12 de noviembre de 2026, modificó el artículo 20.1 de la LAU: en ningún caso pueden imponerse al inquilino los tributos asociados a la vivienda, salvo que sea él mismo el obligado tributario. En zona tensionada, además, el nuevo contrato no puede repercutir gastos que no figuraban en el contrato anterior (art. 17.6 LAU), y una cláusula que lo intente es nula (art. 6 LAU). Si tienes contratos firmados antes de esa fecha, consúltanos: conviene revisar cada caso.',
           },
           {
             id: 3,
@@ -90,15 +90,15 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             bulletPoints: [
               {
                 bold: 'Concesión de nuevas licencias:',
-                text: 'En más de 260 municipios catalanes declarados tensionados (incluyendo Sitges, Vilanova, Calafell, Cubelles, etc.), el Decreto Ley 3/2023 congeló la entrega de títulos, exigiendo una licencia urbanística previa sujeta a planes municipales muy restrictivos.',
+                text: 'En los 262 municipios catalanes incluidos en el anexo del Decreto-ley 3/2023 (por problemas de acceso a la vivienda o alta concentración de pisos turísticos), una vivienda de uso turístico necesita una licencia urbanística previa del ayuntamiento, con un máximo de 10 licencias por cada 100 habitantes y sujeta a lo que permita el planeamiento municipal. Conviene comprobar si el municipio figura en el anexo.',
               },
               {
                 bold: 'Comprar un piso con "licencia turística":',
                 text: 'La licencia turística no es un título patrimonial que se venda o transfiera automáticamente. Administrativamente solo se realiza un trámite de cambio de titularidad de la actividad, el cual carece de validez si el municipio no permite el uso turístico.',
               },
               {
-                bold: 'Caducidad obligatoria en 2028:',
-                text: 'Las antiguas licencias que antes se consideraban "vitalicias" han pasado a estar sujetas al régimen transitorio del Decreto Ley 3/2023: caducan obligatoriamente a los 5 años (noviembre de 2028). Para continuar la actividad a partir de esa fecha, el Ayuntamiento deberá otorgar una nueva licencia urbanística bajo su planeamiento.',
+                bold: 'Plazo de adaptación hasta 2028:',
+                text: 'Las viviendas turísticas que ya tenían título antes del decreto disponen de 5 años (hasta noviembre de 2028) para obtener la nueva licencia urbanística o cesar la actividad. El plazo puede prorrogarse 5 años más si el titular acredita que no puede compensar las pérdidas.',
               },
             ],
             concludingText: 'Antes de formalizar la compra de una propiedad turística en el Garraf o Costa Daurada, en Golden Coast realizamos una auditoría urbanística previa para comprobar si la actividad se mantendrá legalmente.',
@@ -195,7 +195,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             },
             callout2: {
               title: 'Para Alquiler:',
-              text: 'Es imperativo el justificante del depósito de la fianza en el INCASÒL (Decreto Ley 14/2010), el certificado oficial del Índice de Referencia de Precios en zonas tensionadas y el desglose contractual de gastos.',
+              text: 'Es imperativo el justificante del depósito de la fianza en el INCASÒL (Ley 13/1996 y Decreto 147/1997), el certificado oficial del Índice de Referencia de Precios en zonas tensionadas y el desglose contractual de gastos.',
               borderCol: '#8FA777',
             },
           },
@@ -228,10 +228,10 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 1,
             question: '1. If my flat is in a stressed housing market area (zona tensionada), do I have to lower the rent to the Reference Index price? Or can I raise it if the Index is higher than what I was charging?',
-            answerIntroduction: 'It depends on your profile as a landlord and on the property’s rental history (Law 12/2023 on the Right to Housing and the Spanish Urban Leases Act, LAU):',
+            answerIntroduction: 'It depends on your profile as a landlord and on the property’s rental history (Article 17 of the Spanish Urban Leases Act, LAU, as amended by Law 12/2023 on the Right to Housing and Royal Decree-Law 29/2026):',
             callout1: {
               title: 'If the Index is LOWER than the previous contract (example: you rented at €850 and the Index says €780):',
-              text: 'If you are a small landlord (fewer than 5 or 10 properties, depending on how the area is defined) and the property has been let in the last 5 years, you are NOT required to lower the initial rent to €780. The law allows you to take the rent set in the previous contract (€850) as the ceiling. The obligation to lower the rent to the Index cap applies only to large landlords or to properties with no previous contracts in the last 5 years.',
+              text: 'If you are a small landlord (fewer than 5 or 10 properties, depending on how the area is defined) and the property has been let in the last 5 years, you are NOT required to lower the initial rent to €780. The law allows you to take the rent set in the previous contract (€850) as the ceiling. The obligation to lower the rent to the Index cap applies to large landlords and, only if the resolution declaring the stressed area says so, also to properties that have not been let in the last 5 years.',
               borderCol: '#D4AF37',
             },
             callout2: {
@@ -244,8 +244,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             id: 2,
             question: '2. Can I charge the tenant for IBI (property tax), community fees and the waste collection charge in a new contract?',
             answerIntroduction: '',
-            calloutTop: 'Only if those same costs were already explicitly agreed and passed on to the tenant in the previous contract.',
-            concludingText: 'If they were not charged in the previous contract, adding them to a new contract in a stressed market area to make up for the rent cap is legally treated as a fraudulent rent increase, and the clause is null and void (Articles 6 and 20.1 LAU). If a cost was already included before (for example, the waste collection charge), it can still be passed on, updating only its amount in line with the actual increase in that tax.',
+            calloutTop: 'Taxes on the property (IBI and the waste collection charge): no. Since 8 October 2026 the law forbids passing them on to the tenant. Community fees: only if expressly agreed and, in a stressed market area, if they were already passed on in the previous contract.',
+            concludingText: 'Royal Decree-Law 29/2026, ratified by the Spanish Parliament on 12 November 2026, amended Article 20.1 LAU: taxes linked to the property may never be imposed on the tenant, unless the tenant is the person legally liable for them. In a stressed market area, a new contract also cannot pass on costs that were not in the previous contract (Article 17.6 LAU), and any clause that tries to do so is void (Article 6 LAU). If you have contracts signed before that date, talk to us: each case should be reviewed.',
           },
           {
             id: 3,
@@ -254,15 +254,15 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             bulletPoints: [
               {
                 bold: 'Granting of new licences:',
-                text: 'In more than 260 Catalan municipalities declared stressed (including Sitges, Vilanova, Calafell, Cubelles, etc.), Decree-Law 3/2023 froze the issuing of registrations, requiring prior planning permission subject to very restrictive municipal plans.',
+                text: 'In the 262 Catalan municipalities listed in the annex to Decree-Law 3/2023 (because of housing access problems or a high concentration of holiday lets), a holiday rental needs prior planning permission from the town hall, with a ceiling of 10 licences per 100 inhabitants and subject to what the municipal plan allows. It is worth checking whether the municipality is in the annex.',
               },
               {
                 bold: 'Buying a flat "with a tourist licence":',
                 text: 'A tourist licence is not a property right that can be sold or transferred automatically. Administratively, only a change in the holder of the activity is processed, and it has no validity if the municipality does not allow tourist use.',
               },
               {
-                bold: 'Mandatory expiry in 2028:',
-                text: 'Old licences that used to be considered "for life" are now subject to the transitional regime of Decree-Law 3/2023: they expire automatically after 5 years (November 2028). To continue the activity after that date, the town hall must grant a new planning licence under its urban plan.',
+                bold: 'Transition period until 2028:',
+                text: 'Holiday rentals that were already registered before the decree have 5 years (until November 2028) to obtain the new planning licence or stop the activity. This period can be extended by 5 more years if the owner proves they cannot offset their losses.',
               },
             ],
             concludingText: 'Before completing the purchase of a holiday-rental property in the Garraf or on the Costa Daurada, Golden Coast carries out a prior planning audit to check whether the activity can legally continue.',
@@ -359,7 +359,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             },
             callout2: {
               title: 'For rental:',
-              text: 'Proof that the deposit has been lodged with INCASÒL (Decree-Law 14/2010) is mandatory, as is the official Rental Price Reference Index certificate in stressed market areas and an itemised breakdown of costs in the contract.',
+              text: 'Proof that the deposit has been lodged with INCASÒL (Law 13/1996 and Decree 147/1997) is mandatory, as is the official Rental Price Reference Index certificate in stressed market areas and an itemised breakdown of costs in the contract.',
               borderCol: '#8FA777',
             },
           },
@@ -392,10 +392,10 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 1,
             question: '1. Wenn meine Wohnung in einem Gebiet mit angespanntem Wohnungsmarkt (zona tensionada) liegt: Muss ich die Miete auf den Wert des Referenzindex (Índice de Referencia) senken? Oder darf ich sie erhöhen, wenn der Index über meiner bisherigen Miete liegt?',
-            answerIntroduction: 'Das hängt von Ihrem Profil als Vermieter und von der Vermietungsgeschichte der Immobilie ab (Gesetz 12/2023 über das Recht auf Wohnraum und spanisches Mietrechtsgesetz LAU):',
+            answerIntroduction: 'Das hängt von Ihrem Profil als Vermieter und von der Vermietungsgeschichte der Immobilie ab (Artikel 17 des spanischen Mietrechtsgesetzes LAU in der Fassung des Gesetzes 12/2023 über das Recht auf Wohnraum und des Königlichen Gesetzesdekrets 29/2026):',
             callout1: {
               title: 'Wenn der Index NIEDRIGER ist als der vorherige Vertrag (Beispiel: Sie haben für 850 € vermietet, der Index liegt bei 780 €):',
-              text: 'Wenn Sie ein Kleinvermieter sind (weniger als 5 oder 10 Immobilien, je nach Abgrenzung des Gebiets) und die Wohnung in den letzten 5 Jahren vermietet war, müssen Sie die Anfangsmiete NICHT auf 780 € senken. Das Gesetz erlaubt Ihnen, die im vorherigen Vertrag vereinbarte Miete (850 €) als Obergrenze zu nehmen. Die Pflicht, die Miete auf die Obergrenze des Index zu senken, gilt nur für Großvermieter oder für Wohnungen ohne Mietvertrag in den letzten 5 Jahren.',
+              text: 'Wenn Sie ein Kleinvermieter sind (weniger als 5 oder 10 Immobilien, je nach Abgrenzung des Gebiets) und die Wohnung in den letzten 5 Jahren vermietet war, müssen Sie die Anfangsmiete NICHT auf 780 € senken. Das Gesetz erlaubt Ihnen, die im vorherigen Vertrag vereinbarte Miete (850 €) als Obergrenze zu nehmen. Die Pflicht, die Miete auf die Obergrenze des Index zu senken, gilt für Großvermieter und – nur wenn der Beschluss über das angespannte Gebiet dies vorsieht – auch für Wohnungen, die in den letzten 5 Jahren nicht vermietet waren.',
               borderCol: '#D4AF37',
             },
             callout2: {
@@ -408,8 +408,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             id: 2,
             question: '2. Darf ich dem Mieter in einem neuen Vertrag die Grundsteuer (IBI), das Hausgeld und die Müllgebühr berechnen?',
             answerIntroduction: '',
-            calloutTop: 'Nur wenn genau diese Kosten bereits im vorherigen Vertrag ausdrücklich vereinbart und auf den Mieter umgelegt wurden.',
-            concludingText: 'Wurden sie im vorherigen Vertrag nicht berechnet, gilt es rechtlich als unzulässige Mieterhöhung, sie in einen neuen Vertrag in einem angespannten Gebiet aufzunehmen, um die Mietpreisgrenze auszugleichen; eine solche Klausel ist von Rechts wegen nichtig (Art. 6 und 20.1 LAU). War eine Position bereits zuvor enthalten (zum Beispiel die Müllgebühr), kann sie weiterhin umgelegt werden, wobei nur ihr Betrag entsprechend der tatsächlichen Erhöhung der Abgabe angepasst wird.',
+            calloutTop: 'Steuern und Abgaben auf die Wohnung (IBI und Müllgebühr): nein. Seit dem 8. Oktober 2026 verbietet das Gesetz, sie dem Mieter aufzuerlegen. Hausgeld: nur bei ausdrücklicher Vereinbarung und – in einem angespannten Gebiet – nur, wenn es bereits im vorherigen Vertrag umgelegt wurde.',
+            concludingText: 'Das Königliche Gesetzesdekret 29/2026, vom Parlament am 12. November 2026 bestätigt, hat Artikel 20.1 LAU geändert: Die mit der Wohnung verbundenen Steuern dürfen dem Mieter in keinem Fall auferlegt werden, es sei denn, er selbst ist der Steuerpflichtige. In einem angespannten Gebiet darf der neue Vertrag außerdem keine Kosten umlegen, die im vorherigen Vertrag nicht enthalten waren (Art. 17.6 LAU); eine Klausel, die das versucht, ist nichtig (Art. 6 LAU). Wenn Sie Verträge haben, die vor diesem Datum unterzeichnet wurden, sprechen Sie uns an: Jeder Fall sollte geprüft werden.',
           },
           {
             id: 3,
@@ -418,15 +418,15 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             bulletPoints: [
               {
                 bold: 'Vergabe neuer Lizenzen:',
-                text: 'In mehr als 260 katalanischen Gemeinden, die als angespannt eingestuft sind (darunter Sitges, Vilanova, Calafell, Cubelles usw.), hat das Gesetzesdekret 3/2023 die Vergabe von Registrierungen eingefroren und verlangt eine vorherige städtebauliche Genehmigung, die an sehr restriktive kommunale Pläne gebunden ist.',
+                text: 'In den 262 katalanischen Gemeinden im Anhang des Gesetzesdekrets 3/2023 (wegen Problemen beim Zugang zu Wohnraum oder einer hohen Dichte an Ferienwohnungen) braucht eine Ferienwohnung eine vorherige städtebauliche Genehmigung der Gemeinde; zulässig sind höchstens 10 Lizenzen pro 100 Einwohner, je nach kommunaler Planung. Es lohnt sich zu prüfen, ob die Gemeinde im Anhang steht.',
               },
               {
                 bold: 'Eine Wohnung „mit Ferienlizenz“ kaufen:',
                 text: 'Die Ferienlizenz ist kein Vermögensrecht, das verkauft oder automatisch übertragen werden kann. Verwaltungsrechtlich wird lediglich ein Wechsel des Inhabers der Tätigkeit vorgenommen, der keine Gültigkeit hat, wenn die Gemeinde die touristische Nutzung nicht erlaubt.',
               },
               {
-                bold: 'Verpflichtendes Ablaufdatum 2028:',
-                text: 'Alte Lizenzen, die früher als „unbefristet“ galten, unterliegen jetzt der Übergangsregelung des Gesetzesdekrets 3/2023: Sie laufen nach 5 Jahren (November 2028) zwingend ab. Um die Tätigkeit danach fortzusetzen, muss die Gemeinde nach ihrer Stadtplanung eine neue städtebauliche Genehmigung erteilen.',
+                bold: 'Übergangsfrist bis 2028:',
+                text: 'Ferienwohnungen, die bereits vor dem Dekret registriert waren, haben 5 Jahre Zeit (bis November 2028), um die neue städtebauliche Genehmigung zu erhalten oder die Tätigkeit einzustellen. Die Frist kann um weitere 5 Jahre verlängert werden, wenn der Inhaber nachweist, dass er seine Verluste nicht ausgleichen kann.',
               },
             ],
             concludingText: 'Bevor Sie eine touristisch genutzte Immobilie im Garraf oder an der Costa Daurada kaufen, führt Golden Coast eine vorherige städtebauliche Prüfung durch, um festzustellen, ob die Tätigkeit rechtlich fortgeführt werden kann.',
@@ -523,7 +523,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             },
             callout2: {
               title: 'Für die Vermietung:',
-              text: 'Zwingend sind der Nachweis über die Hinterlegung der Kaution beim INCASÒL (Gesetzesdekret 14/2010), die offizielle Bescheinigung des Mietpreis-Referenzindex in angespannten Gebieten und die Aufschlüsselung der Kosten im Vertrag.',
+              text: 'Zwingend sind der Nachweis über die Hinterlegung der Kaution beim INCASÒL (Gesetz 13/1996 und Dekret 147/1997), die offizielle Bescheinigung des Mietpreis-Referenzindex in angespannten Gebieten und die Aufschlüsselung der Kosten im Vertrag.',
               borderCol: '#8FA777',
             },
           },
@@ -556,10 +556,10 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 1,
             question: '1. Si mon appartement se trouve en zone tendue (zona tensionada), suis-je obligé de baisser le loyer au prix de l’Indice de référence (Índice de Referencia) ? Ou puis-je l’augmenter si l’Indice est supérieur à ce que je demandais ?',
-            answerIntroduction: 'Cela dépend de votre profil de propriétaire et de l’historique locatif du bien (loi 12/2023 sur le droit au logement et loi espagnole sur les baux urbains, LAU) :',
+            answerIntroduction: 'Cela dépend de votre profil de propriétaire et de l’historique locatif du bien (article 17 de la loi espagnole sur les baux urbains, LAU, dans sa rédaction issue de la loi 12/2023 sur le droit au logement et du décret-loi royal 29/2026) :',
             callout1: {
               title: 'Si l’Indice est INFÉRIEUR au contrat précédent (exemple : vous louiez 850 € et l’Indice indique 780 €) :',
-              text: 'Si vous êtes un petit propriétaire (moins de 5 ou 10 biens selon la délimitation de la zone) et que le logement a été loué au cours des 5 dernières années, vous n’êtes PAS obligé de baisser le loyer initial à 780 €. La loi vous autorise à prendre comme plafond le loyer fixé dans le contrat précédent (850 €). L’obligation de baisser impérativement au plafond de l’Indice ne s’applique qu’aux grands propriétaires ou aux logements sans contrat de location au cours des 5 dernières années.',
+              text: 'Si vous êtes un petit propriétaire (moins de 5 ou 10 biens selon la délimitation de la zone) et que le logement a été loué au cours des 5 dernières années, vous n’êtes PAS obligé de baisser le loyer initial à 780 €. La loi vous autorise à prendre comme plafond le loyer fixé dans le contrat précédent (850 €). L’obligation de baisser le loyer au plafond de l’Indice s’applique aux grands propriétaires et, seulement si la résolution déclarant la zone tendue le prévoit, aux logements qui n’ont pas été loués au cours des 5 dernières années.',
               borderCol: '#D4AF37',
             },
             callout2: {
@@ -572,8 +572,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             id: 2,
             question: '2. Puis-je refacturer au locataire la taxe foncière (IBI), les charges de copropriété et la taxe d’ordures ménagères dans un nouveau contrat ?',
             answerIntroduction: '',
-            calloutTop: 'Uniquement si ces mêmes frais étaient déjà expressément prévus et refacturés au locataire dans le contrat précédent.',
-            concludingText: 'S’ils n’étaient pas facturés dans le contrat précédent, vouloir les introduire dans un nouveau contrat soumis à la zone tendue pour compenser le plafonnement du loyer est juridiquement qualifié d’augmentation frauduleuse du loyer, et la clause est nulle de plein droit (art. 6 et 20.1 LAU). Si une charge figurait déjà auparavant (par exemple la taxe d’ordures ménagères), elle peut continuer à être refacturée, en actualisant seulement son montant selon la hausse réelle de la taxe.',
+            calloutTop: 'Les impôts et taxes du logement (IBI et taxe d’ordures ménagères) : non. Depuis le 8 octobre 2026, la loi interdit de les mettre à la charge du locataire. Les charges de copropriété : seulement si elles sont expressément prévues et, en zone tendue, si elles étaient déjà refacturées dans le contrat précédent.',
+            concludingText: 'Le décret-loi royal 29/2026, validé par le Parlement espagnol le 12 novembre 2026, a modifié l’article 20.1 LAU : les impôts liés au logement ne peuvent en aucun cas être mis à la charge du locataire, sauf s’il en est lui-même le redevable. En zone tendue, le nouveau contrat ne peut pas non plus refacturer des charges qui ne figuraient pas dans le contrat précédent (art. 17.6 LAU), et une clause qui le tenterait est nulle (art. 6 LAU). Si vous avez des contrats signés avant cette date, consultez-nous : chaque cas mérite d’être vérifié.',
           },
           {
             id: 3,
@@ -582,15 +582,15 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             bulletPoints: [
               {
                 bold: 'Octroi de nouvelles licences :',
-                text: 'Dans plus de 260 communes catalanes déclarées tendues (dont Sitges, Vilanova, Calafell, Cubelles, etc.), le décret-loi 3/2023 a gelé la délivrance des enregistrements et exige une licence d’urbanisme préalable soumise à des plans municipaux très restrictifs.',
+                text: 'Dans les 262 communes catalanes figurant à l’annexe du décret-loi 3/2023 (en raison de difficultés d’accès au logement ou d’une forte concentration de logements touristiques), un logement touristique doit obtenir au préalable une licence d’urbanisme de la mairie, avec un plafond de 10 licences pour 100 habitants et selon ce que permet le plan d’urbanisme. Il est utile de vérifier si la commune figure à l’annexe.',
               },
               {
                 bold: 'Acheter un appartement « avec licence touristique » :',
                 text: 'La licence touristique n’est pas un droit patrimonial qui se vend ou se transmet automatiquement. Sur le plan administratif, seul un changement de titulaire de l’activité est effectué, et il n’a aucune validité si la commune n’autorise pas l’usage touristique.',
               },
               {
-                bold: 'Expiration obligatoire en 2028 :',
-                text: 'Les anciennes licences autrefois considérées comme « à vie » relèvent désormais du régime transitoire du décret-loi 3/2023 : elles expirent obligatoirement au bout de 5 ans (novembre 2028). Pour poursuivre l’activité après cette date, la mairie devra accorder une nouvelle licence d’urbanisme selon son plan d’urbanisme.',
+                bold: 'Délai d’adaptation jusqu’en 2028 :',
+                text: 'Les logements touristiques déjà enregistrés avant le décret disposent de 5 ans (jusqu’en novembre 2028) pour obtenir la nouvelle licence d’urbanisme ou cesser l’activité. Ce délai peut être prolongé de 5 ans si le titulaire prouve qu’il ne peut pas compenser ses pertes.',
               },
             ],
             concludingText: 'Avant de finaliser l’achat d’un bien à usage touristique dans le Garraf ou sur la Costa Daurada, Golden Coast réalise un audit urbanistique préalable pour vérifier si l’activité pourra légalement se poursuivre.',
@@ -687,7 +687,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             },
             callout2: {
               title: 'Pour la location :',
-              text: 'Sont impératifs le justificatif du dépôt de la caution auprès de l’INCASÒL (décret-loi 14/2010), le certificat officiel de l’Indice de référence des loyers en zone tendue et le détail des charges dans le contrat.',
+              text: 'Sont impératifs le justificatif du dépôt de la caution auprès de l’INCASÒL (loi 13/1996 et décret 147/1997), le certificat officiel de l’Indice de référence des loyers en zone tendue et le détail des charges dans le contrat.',
               borderCol: '#8FA777',
             },
           },
@@ -720,10 +720,10 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 1,
             question: '1. 如果我的房子位于“住房市场紧张区”（zona tensionada），我是否必须把租金降到参考指数（Índice de Referencia）的价格？如果指数高于我原来的租金，我可以涨租吗？',
-            answerIntroduction: '这取决于您作为业主的类型以及房产的出租历史（《住房权法》第 12/2023 号法律及《城市租赁法》LAU）：',
+            answerIntroduction: '这取决于您作为业主的类型以及房产的出租历史（《城市租赁法》LAU 第 17 条，依据第 12/2023 号《住房权法》及第 29/2026 号王室法令修订后的版本）：',
             callout1: {
               title: '如果参考指数低于上一份合同的租金（例如：您原来租 850 欧元，指数为 780 欧元）：',
-              text: '如果您是小业主（根据所在区域的划定，拥有少于 5 套或 10 套房产），并且该房产在过去 5 年内曾经出租，您并不需要把起始租金降到 780 欧元。法律允许您以上一份合同约定的租金（850 欧元）作为上限。必须强制降到指数上限的义务，只适用于大业主，或过去 5 年内没有任何租赁合同的房产。',
+              text: '如果您是小业主（根据所在区域的划定，拥有少于 5 套或 10 套房产），并且该房产在过去 5 年内曾经出租，您并不需要把起始租金降到 780 欧元。法律允许您以上一份合同约定的租金（850 欧元）作为上限。必须降到指数上限的义务适用于大业主；只有在认定住房市场紧张区的决议有此规定时，才同样适用于过去 5 年内没有出租过的房产。',
               borderCol: '#D4AF37',
             },
             callout2: {
@@ -736,8 +736,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             id: 2,
             question: '2. 在新合同中，我可以向租客收取房产税（IBI）、物业费和垃圾处理费吗？',
             answerIntroduction: '',
-            calloutTop: '只有在上一份合同中已经明确约定并由租客承担这些费用的情况下才可以。',
-            concludingText: '如果上一份合同中没有收取这些费用，在受住房市场紧张区限制的新合同中加入这些费用来弥补租金上限，在法律上属于变相违规涨租，相关条款依法完全无效（《城市租赁法》LAU 第 6 条和第 20.1 条）。如果某项费用之前已经约定（例如垃圾处理费），可以继续由租客承担，但只能按该税费实际产生的涨幅更新金额。',
+            calloutTop: '房产相关的税费（IBI 房产税和垃圾处理费）不可以：自 2026 年 10 月 8 日起，法律禁止让租客承担。物业费只有在明确约定的情况下才可以；在住房市场紧张区，还必须是上一份合同中已经由租客承担的。',
+            concludingText: '第 29/2026 号王室法令已于 2026 年 11 月 12 日获西班牙议会确认，它修改了《城市租赁法》LAU 第 20.1 条：与房产相关的税费在任何情况下都不得强加给租客，除非租客本人就是纳税义务人。此外，在住房市场紧张区，新合同不得让租客承担上一份合同中没有的费用（LAU 第 17.6 条），试图这样做的条款无效（LAU 第 6 条）。如果您的合同是在此日期之前签订的，请联系我们：每个情况都值得逐一核查。',
           },
           {
             id: 3,
@@ -746,15 +746,15 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             bulletPoints: [
               {
                 bold: '新许可证的发放：',
-                text: '在加泰罗尼亚 260 多个被认定为住房紧张的市镇（包括锡切斯、维拉诺瓦、卡拉费尔、库贝列斯等），第 3/2023 号法令冻结了许可证的发放，要求事先取得城市规划许可，而且受非常严格的市政规划约束。',
+                text: '在第 3/2023 号法令附件所列的 262 个加泰罗尼亚市镇（因住房获取困难或旅游住房高度集中而列入），旅游用途住房必须事先取得市政府的城市规划许可，每 100 名居民最多发放 10 个许可，并须符合市政规划的规定。建议先确认所在市镇是否在附件名单中。',
               },
               {
                 bold: '购买带“旅游许可证”的房子：',
                 text: '旅游许可证并不是一种可以出售或自动转让的财产权利。在行政上，只是办理经营活动的持有人变更手续；如果所在市镇不允许旅游用途，这一手续就没有效力。',
               },
               {
-                bold: '2028 年强制到期：',
-                text: '过去被视为“终身有效”的旧许可证，现在适用第 3/2023 号法令的过渡制度：自生效起 5 年后（2028 年 11 月）强制到期。如果之后要继续经营，市政府必须根据其城市规划重新发放城市规划许可。',
+                bold: '2028 年前的过渡期：',
+                text: '在该法令之前已经登记的旅游住房，有 5 年时间（至 2028 年 11 月）取得新的城市规划许可，否则必须停止经营。如果持有人证明无法弥补损失，这一期限可以再延长 5 年。',
               },
             ],
             concludingText: '在加拉夫（Garraf）或黄金海岸（Costa Daurada）正式购买旅游出租房产之前，Golden Coast 会先进行城市规划审查，确认该经营活动在法律上能否继续。',
@@ -851,7 +851,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             },
             callout2: {
               title: '出租：',
-              text: '必须提供押金已存放于加泰罗尼亚土地局（INCASÒL）的凭证（第 14/2010 号法令）、住房市场紧张区的官方租金参考指数证明，以及合同中费用的明细。',
+              text: '必须提供押金已存放于加泰罗尼亚土地局（INCASÒL）的凭证（第 13/1996 号法律及第 147/1997 号法令）、住房市场紧张区的官方租金参考指数证明，以及合同中费用的明细。',
               borderCol: '#8FA777',
             },
           },
