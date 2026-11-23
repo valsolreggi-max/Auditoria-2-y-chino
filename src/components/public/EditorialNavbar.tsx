@@ -45,7 +45,7 @@ export const EditorialNavbar: React.FC = () => {
           : 'bg-[#F5F2EA] py-4 sm:py-5 border-b border-[#E8E2D5]'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-12 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 min-[400px]:px-6 sm:px-10 lg:px-12 flex items-center justify-between gap-3 min-[400px]:gap-4">
         
         {/* Brand Masthead / Centered Logo Lockup */}
         <Link 

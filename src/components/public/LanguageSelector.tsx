@@ -103,7 +103,7 @@ export const LanguageSelector: React.FC<LanguageSelectorProps> = ({
         <span className="font-bold text-[11px] uppercase tracking-wider text-[#8FA777] leading-none">
           {currentLang.code.toUpperCase()}
         </span>
-        <span className="text-xs text-[#24211D] font-medium leading-none">
+        <span className="hidden md:inline text-xs text-[#24211D] font-medium leading-none">
           {currentLang.nativeLabel}
         </span>
         <ChevronDown

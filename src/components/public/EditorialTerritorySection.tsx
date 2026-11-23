@@ -193,10 +193,10 @@ export const EditorialTerritorySection: React.FC<EditorialTerritorySectionProps>
                 </p>
                 <button
                   onClick={() => onOpenTerritoryModal(loc.name)}
-                  className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-[#8FA777] border border-[#8FA777] text-[#FBF9F3] text-xs font-semibold tracking-wider uppercase hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:text-[#24211D] active:bg-[#D4AF37] active:border-[#D4AF37] active:text-[#24211D] transition-colors cursor-pointer group shadow-xs whitespace-nowrap"
+                  className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-[#8FA777] border border-[#8FA777] text-[#FBF9F3] text-xs font-semibold tracking-wider uppercase hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:text-[#24211D] active:bg-[#D4AF37] active:border-[#D4AF37] active:text-[#24211D] transition-colors cursor-pointer group shadow-xs max-w-full text-left whitespace-normal sm:whitespace-nowrap"
                 >
                   <span>{content.inquireButton} {loc.name}</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight className="w-4 h-4 shrink-0 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
             </div>

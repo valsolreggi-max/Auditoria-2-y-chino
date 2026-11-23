@@ -16,14 +16,14 @@ export const Logo: React.FC<LogoProps> = ({
   // Size mapping
   const iconSizes = {
     sm: 'w-8 h-8',
-    md: 'w-11 h-11',
+    md: 'w-9 h-9 min-[400px]:w-11 min-[400px]:h-11',
     lg: 'w-16 h-16',
     xl: 'w-24 h-24',
   };
 
   const titleSizes = {
     sm: 'text-sm',
-    md: 'text-lg sm:text-xl',
+    md: 'text-base min-[400px]:text-lg sm:text-xl',
     lg: 'text-2xl sm:text-3xl',
     xl: 'text-3xl sm:text-4xl',
   };
@@ -49,7 +49,7 @@ export const Logo: React.FC<LogoProps> = ({
   return (
     <div
       className={`select-none group inline-flex ${
-        centered ? 'flex-col items-center text-center gap-2' : 'flex-row items-center gap-3.5'
+        centered ? 'flex-col items-center text-center gap-2' : 'flex-row items-center gap-2.5 min-[400px]:gap-3.5'
       }`}
     >
       {/* Official Golden Coast Sunset & Horizon Emblem (Matching logo3.png) */}
