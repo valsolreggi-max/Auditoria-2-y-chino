@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useCallback } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { Language, LanguageOption, Translations } from './types';
 import { es } from './translations/es';
 import { en } from './translations/en';
@@ -71,22 +71,29 @@ export const getCanonicalPath = (rawPath: string, lang: Language = 'es'): string
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const location = useLocation();
 
-  const [language, setLanguageState] = useState<Language>(() => {
-    // 1. Prioritize language encoded directly in URL
-    const urlLang = extractLangFromPath(location.pathname);
-    if (urlLang) return urlLang;
+  const navigate = useNavigate();
 
-    // 2. Local storage preference
+  // The first render must match the prerendered HTML, so the initial language comes
+  // only from the URL (paths without a prefix are Spanish).
+  const [language, setLanguageState] = useState<Language>(
+    () => extractLangFromPath(location.pathname) || 'es'
+  );
+
+  // A visitor who chose another language earlier and lands on a Spanish URL is sent
+  // to the same page in that language, instead of swapping the text in place.
+  useEffect(() => {
+    if (extractLangFromPath(location.pathname)) return;
     try {
       const saved = localStorage.getItem(STORAGE_KEY);
-      if (saved && (saved === 'es' || saved === 'en' || saved === 'de' || saved === 'fr' || saved === 'zh')) {
-        return saved as Language;
+      if (saved === 'en' || saved === 'de' || saved === 'fr' || saved === 'zh') {
+        navigate(getLocalizedPath(location.pathname, saved) + location.search + location.hash, { replace: true });
       }
     } catch {
       // ignore
     }
-    return 'es';
-  });
+    // Only on first load: later navigation already carries the chosen language.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Automatically sync language when URL pathname changes (e.g., navigating to /zh/servicios)
   useEffect(() => {
