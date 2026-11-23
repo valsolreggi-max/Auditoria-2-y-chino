@@ -290,7 +290,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Operations & Care',
-            desc: 'I oversee guest check-ins/outs, contracts, inventories, premium laundry, utility monitoring, and 24/7 guest support.',
+            desc: 'I coordinate check-ins and check-outs, contract drafting, inventories, cleaning and laundry, monitoring of utilities and meters, and 24/7 incident handling.',
           },
           {
             step: '04',
@@ -502,7 +502,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Operativer Service',
-            desc: 'Check-in/Check-out, rechtssichere Verträge, Inventare, Reinigung & Wäsche sowie 24/7 Notfallbetreuung.',
+            desc: 'Ich koordiniere Check-in und Check-out, die Erstellung der Verträge, die Inventarlisten, Reinigung und Wäsche, die Kontrolle von Versorgung und Zählerständen sowie die 24/7-Störungsbetreuung.',
           },
           {
             step: '04',
@@ -576,7 +576,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Persönliche Präsenz von der Vermarktung über die Kautionshinterlegung bis zur finalen Übergabe.',
           },
         ],
-        closing: 'Jedes Objekt ist besonders. Teilen Sie mir Ihre Prioritäten mit.',
+        closing: 'Jede Wohnung und jeder Eigentümer ist anders. Schildern Sie mir Ihren Fall, und wir erstellen ein Angebot, das zu Ihren Bedürfnissen passt.',
         ctaText: 'Informationen anfordern',
         consultationType: 'owner',
       },
@@ -714,7 +714,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Gestion opérationnelle',
-            desc: 'Accueil personnalisé, contrats, inventaires minutieux, blanchisserie soignée et assistance 24/7.',
+            desc: 'Je coordonne les arrivées et les départs (check-in/check-out), la rédaction des contrats, les états des lieux, le ménage et la blanchisserie, le contrôle des compteurs et des consommations, et la gestion des incidents 24 h/24 et 7 j/7.',
           },
           {
             step: '04',

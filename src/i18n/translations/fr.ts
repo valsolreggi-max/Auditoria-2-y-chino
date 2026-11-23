@@ -176,7 +176,7 @@ export const fr: Translations = {
     legalP1: 'Golden Coast Property Advisory est un cabinet indépendant de conseil et d’intermédiation immobilière dirigé par Valeria, agent immobilier accrédité (API) et expert judiciaire immobilier.',
     legalP3: 'Toutes les opérations respectent rigoureusement la loi sur les baux urbains (LAU), le Code civil espagnol et les décrets d’encadrement des loyers de la Generalitat de Catalogne.',
     privacyModalEyebrow: 'PROTECTION DES DONNÉES PERSONNELLES',
-    privacyP1: 'Conformément au RGPD (UE) 2016/679 et à la législation espagnole en vigueur, vos données sont traitées avec la plus haute confidentialité.',
+    privacyP1: 'Conformément au RGPD (UE) 2016/679 et à la loi organique espagnole 3/2018 sur la protection des données (LOPDGDD), les données personnelles transmises via nos canaux de contact sont traitées avec la plus grande confidentialité.',
     privacyP2: 'Finalité : traitement de votre demande immobilière et conseil sollicité. Vos données ne sont en aucun cas cédées à des tiers sans obligation légale.',
     cookieModalEyebrow: 'POLITIQUE RELATIVE AUX COOKIES & CONFIDENTIALITÉ',
     cookieP1: 'Ce site web emploie uniquement des cookies techniques essentiels assurant la navigation, la sécurité et vos préférences linguistiques.',
