@@ -10,7 +10,7 @@ export const en: BlogPostContent = {
     'A court-appointed property expert explains what to look for on a viewing, when to bring a surveyor and which documents to check before paying a deposit in Spain.',
   excerpt:
     'A freshly renovated home can hide more than one shown exactly as it is. Four steps to buy in Spain knowing exactly what you are getting.',
-  authorRole: 'Licensed estate agent (API) and court-appointed property expert',
+  authorRole: 'Certified estate agent (API) and court-appointed property expert',
   readingTime: '9 min read',
   updatedLabel: 'Updated November 2026',
   blocks: [

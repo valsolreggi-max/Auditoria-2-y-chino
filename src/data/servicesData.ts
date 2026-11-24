@@ -964,7 +964,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: '全程陪伴您',
-            desc: '作为注册房地产经纪人（API）和司法房产鉴定师，我为您提供个性化的咨询，让您安心、有保障地出租。',
+            desc: '作为持证房地产经纪人（API）和司法房产鉴定师，我为您提供个性化的咨询，让您安心、有保障地出租。',
           },
         ],
         closing: '每一次出租都不一样。告诉我您的情况，我们会准备最适合您房子的解决方案。',
@@ -1015,7 +1015,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: '为您的房产估价',
-            desc: '作为注册房地产经纪人（API）和司法房产鉴定师，我会进行技术估价，帮您确定最佳的市场定位。',
+            desc: '作为持证房地产经纪人（API）和司法房产鉴定师，我会进行技术估价，帮您确定最佳的市场定位。',
           },
           {
             step: '02',

@@ -173,7 +173,7 @@ export const es: Translations = {
     cookiePolicy: 'Política de Cookies',
     backToTop: 'Subir al inicio',
     legalModalEyebrow: 'MARCO REGULATORIO Y TRANSPARENCIA',
-    legalP1: 'Golden Coast Property Advisory es una firma independiente de asesoramiento e intermediación inmobiliaria dirigida por Valeria, Agente de la Propiedad Inmobiliaria (API colegiada) y Perito Judicial Inmobiliario.',
+    legalP1: 'Golden Coast Property Advisory es una firma independiente de asesoramiento e intermediación inmobiliaria dirigida por Valeria, Agente de la Propiedad Inmobiliaria (API) y Perito Judicial Inmobiliario.',
     legalP3: 'Todas las operaciones se desarrollan con estricto apego a la Ley de Arrendamientos Urbanos (LAU), el Código Civil español y la normativa urbanística y de contención de rentas de la Generalitat de Catalunya.',
     privacyModalEyebrow: 'PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL',
     privacyP1: 'En cumplimiento del RGPD (UE) 2016/679 y la LOPDGDD 3/2018, los datos personales facilitados a través de nuestros canales de contacto serán tratados con la máxima confidencialidad.',

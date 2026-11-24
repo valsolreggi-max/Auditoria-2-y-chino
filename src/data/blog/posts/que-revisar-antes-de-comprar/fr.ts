@@ -10,7 +10,7 @@ export const fr: BlogPostContent = {
     'Une experte judiciaire immobilière explique quoi observer lors d’une visite, quand faire appel à un expert et quels documents vérifier avant de verser des arrhes en Espagne.',
   excerpt:
     'Une maison fraîchement rénovée peut cacher davantage qu’une maison montrée telle quelle. Quatre étapes pour acheter en Espagne en sachant exactement ce que vous achetez.',
-  authorRole: 'Agente immobilière agréée (API) et experte judiciaire immobilière',
+  authorRole: 'Agente immobilière diplômée (API) et experte judiciaire immobilière',
   readingTime: '9 min de lecture',
   updatedLabel: 'Mis à jour en novembre 2026',
   blocks: [

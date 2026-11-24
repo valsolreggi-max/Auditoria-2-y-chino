@@ -19,7 +19,7 @@ export const ServiciosPage: React.FC = () => {
     zh: '专业置业顾问服务 | 西班牙住宅出售、专属买手与移居全案规划',
   };
   const descriptions: Record<string, string> = {
-    es: 'Servicios inmobiliarios de alto nivel en Costa Dorada y Garraf: acompañamiento a propietarios, compradores e inversores con asesoría legal y técnica por API colegiada.',
+    es: 'Servicios inmobiliarios de alto nivel en Costa Dorada y Garraf: acompañamiento a propietarios, compradores e inversores con asesoría legal y técnica por API titulada.',
     en: 'High-end real estate advisory services: exclusive buyer representation, property sales and seamless relocation with legal and judicial oversight in Catalonia.',
     de: 'Maßgeschneiderte Immobiliendienstleistungen: exklusive Käufervertretung, werthaltiger Verkauf und Relocation mit fundierter rechtlicher Absicherung in Spanien.',
     fr: 'Services immobiliers haut de gamme : représentation exclusive d’acquéreurs, vente valorisée et accompagnement à la réinstallation en Espagne.',

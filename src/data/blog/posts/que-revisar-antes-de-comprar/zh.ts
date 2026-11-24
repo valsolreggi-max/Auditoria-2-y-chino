@@ -8,7 +8,7 @@ export const zh: BlogPostContent = {
   metaDescription:
     '西班牙司法房产鉴定师详解：看房时注意什么、何时请专业人员验房、支付定金前要核查哪些文件，帮助您在西班牙安心置业。',
   excerpt: '刚翻新的房子，可能比原样展示的房子藏着更多问题。四个步骤，让您在西班牙买房时清楚知道自己买的是什么。',
-  authorRole: '西班牙注册房地产经纪人（API）、司法指定房产鉴定师',
+  authorRole: '西班牙持证房地产经纪人（API）、司法指定房产鉴定师',
   readingTime: '阅读约 9 分钟',
   updatedLabel: '更新于 2026 年 11 月',
   blocks: [

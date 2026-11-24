@@ -10,7 +10,7 @@ export const de: BlogPostContent = {
     'Eine gerichtliche Immobiliensachverständige erklärt, worauf Sie bei der Besichtigung achten, wann ein Gutachter nötig ist und welche Unterlagen Sie vorab prüfen sollten.',
   excerpt:
     'Ein frisch renoviertes Haus kann mehr verbergen als eines, das so gezeigt wird, wie es ist. Vier Schritte, damit Sie in Spanien genau wissen, was Sie kaufen.',
-  authorRole: 'Staatlich zugelassene Maklerin (API) und gerichtliche Immobiliensachverständige',
+  authorRole: 'Zertifizierte Maklerin (API) und gerichtliche Immobiliensachverständige',
   readingTime: '9 Min. Lesezeit',
   updatedLabel: 'Aktualisiert im November 2026',
   blocks: [
