@@ -177,7 +177,7 @@ export const en: Translations = {
     legalP3: 'All operations strictly adhere to the Spanish Urban Tenancy Act (LAU), the Civil Code, and municipal/Catalan rent containment directives.',
     privacyModalEyebrow: 'PERSONAL DATA PROTECTION',
     privacyP1: 'In compliance with GDPR (EU) 2016/679 and Spanish Organic Law 3/2018, personal information submitted through our contact channels is treated with absolute confidentiality.',
-    privacyP2: 'Purpose: managing property inquiries and requested advisory. Your data will never be transferred to third parties without legal requirement.',
+    privacyP2: 'Purpose: managing property inquiries and requested advisory. Your data will never be transferred to third parties without legal requirement. The forms on this website are processed by Formspree, an external provider that forwards your enquiry to us by email.',
     cookieModalEyebrow: 'COOKIE POLICY & TECHNICAL PRIVACY',
     cookieP1: 'This website utilizes only essential technical cookies necessary for safe navigation, functionality, and language preference.',
     cookieP2: 'We do not employ third-party advertising tracking cookies without your explicit consent.',

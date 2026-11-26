@@ -177,7 +177,7 @@ export const es: Translations = {
     legalP3: 'Todas las operaciones se desarrollan con estricto apego a la Ley de Arrendamientos Urbanos (LAU), el Código Civil español y la normativa urbanística y de contención de rentas de la Generalitat de Catalunya.',
     privacyModalEyebrow: 'PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL',
     privacyP1: 'En cumplimiento del RGPD (UE) 2016/679 y la LOPDGDD 3/2018, los datos personales facilitados a través de nuestros canales de contacto serán tratados con la máxima confidencialidad.',
-    privacyP2: 'Finalidad: gestión de consultas inmobiliarias y asesoramiento solicitado. Sus datos no serán cedidos a terceros salvo imperativo legal.',
+    privacyP2: 'Finalidad: gestión de consultas inmobiliarias y asesoramiento solicitado. Sus datos no serán cedidos a terceros salvo imperativo legal. Los formularios de esta web se procesan mediante Formspree, proveedor externo que nos reenvía su consulta por correo electrónico.',
     cookieModalEyebrow: 'POLÍTICA DE COOKIES Y PRIVACIDAD TÉCNICA',
     cookieP1: 'Este sitio web utiliza únicamente cookies técnicas esenciales para su correcto funcionamiento, navegación segura y preferencia idiomática.',
     cookieP2: 'No empleamos cookies de rastreo publicitario de terceros sin su consentimiento explícito.',

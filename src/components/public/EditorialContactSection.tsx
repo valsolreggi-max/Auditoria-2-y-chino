@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Send, CheckCircle2, Phone, Mail, MapPin } from 'lucide-react';
 import { useLanguage } from '../../i18n';
+import { sendInquiry } from '../../lib/sendInquiry';
+import { SendErrorNotice } from './SendErrorNotice';
 
 export const EditorialContactSection: React.FC = () => {
   const { messages } = useLanguage();
@@ -16,9 +18,24 @@ export const EditorialContactSection: React.FC = () => {
 
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [sendFailed, setSendFailed] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setSendFailed(false);
+    const ok = await sendInquiry({
+      _subject: 'Consulta desde la web · Golden Coast',
+      nombre: formData.nombreCompleto,
+      email: formData.correoElectronico,
+      telefono: formData.telefonoContacto,
+      tipo_de_consulta: formData.tipoConsulta,
+      mensaje: formData.mensaje,
+    });
+    setIsSubmitting(false);
+    if (ok) setSubmitted(true);
+    else setSendFailed(true);
   };
 
   return (
@@ -235,11 +252,16 @@ export const EditorialContactSection: React.FC = () => {
                 />
               </div>
 
+              {sendFailed && (
+                <SendErrorNotice message={`${formData.nombreCompleto}: ${formData.mensaje}`} />
+              )}
+
               {/* Botón de envío */}
               <div className="pt-2 text-center">
                 <button
                   type="submit"
-                  className="w-full sm:w-auto min-w-[220px] py-4 px-9 bg-[#8FA777] border border-[#8FA777] text-[#FBF9F3] text-xs font-sans font-semibold uppercase tracking-[0.2em] hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:text-[#24211D] transition-all duration-200 cursor-pointer inline-flex items-center justify-center gap-2.5 shadow-xs"
+                  disabled={isSubmitting}
+                  className="disabled:opacity-50 w-full sm:w-auto min-w-[220px] py-4 px-9 bg-[#8FA777] border border-[#8FA777] text-[#FBF9F3] text-xs font-sans font-semibold uppercase tracking-[0.2em] hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:text-[#24211D] transition-all duration-200 cursor-pointer inline-flex items-center justify-center gap-2.5 shadow-xs"
                 >
                   <span>{contact.submitButton}</span>
                   <Send className="w-3.5 h-3.5" />

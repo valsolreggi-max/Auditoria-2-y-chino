@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { X, CheckCircle, ShieldCheck, Send, Loader2, AlertCircle } from 'lucide-react';
 import { Logo } from '../Logo';
 import { useLanguage } from '../../i18n';
+import { sendInquiry } from '../../lib/sendInquiry';
+import { SendErrorNotice } from './SendErrorNotice';
 
 export type ModalType = 'owner' | 'buyer' | 'general' | 'services' | 'territory' | 'testimonials' | null;
 
@@ -11,10 +13,6 @@ interface EditorialModalProps {
   selectedZone?: string;
   onClose: () => void;
 }
-
-const FORMSPREE_ENDPOINT =
-  (import.meta.env.VITE_FORMSPREE_ENDPOINT as string) ||
-  'https://formspree.io/f/realtygoldencoast@gmail.com';
 
 const ZONE_OPTIONS = [
   'Sitges',
@@ -60,6 +58,8 @@ export const EditorialModal: React.FC<EditorialModalProps> = ({
   const [submitted, setSubmitted] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
 
+  const [sendFailed, setSendFailed] = useState(false);
+
   // Sync selectedZone when it changes or when modal opens
   useEffect(() => {
     if (selectedZone) {
@@ -90,6 +90,7 @@ export const EditorialModal: React.FC<EditorialModalProps> = ({
     setSubmitted(false);
     setIsSubmitting(false);
     setSubmitError(null);
+    setSendFailed(false);
     onClose();
   };
 
@@ -123,32 +124,29 @@ export const EditorialModal: React.FC<EditorialModalProps> = ({
       politica_privacidad_aceptada: 'Sí',
     };
 
-    try {
-      const response = await fetch(FORMSPREE_ENDPOINT, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'application/json',
-        },
-        body: JSON.stringify(payload),
-      });
-
-      if (response.ok) {
-        setSubmitted(true);
-      } else {
-        setSubmitted(true);
-      }
-    } catch {
-      setSubmitted(true);
-    } finally {
-      setIsSubmitting(false);
-    }
+    setSendFailed(false);
+    const ok = await sendInquiry(payload);
+    setIsSubmitting(false);
+    if (ok) setSubmitted(true);
+    else setSendFailed(true);
   };
 
   // Standard form submit for owner/buyer/general
-  const handleStandardSubmit = (e: React.FormEvent) => {
+  const handleStandardSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setIsSubmitting(true);
+    setSendFailed(false);
+    const ok = await sendInquiry({
+      _subject: `Consulta (${type}) · Golden Coast`,
+      nombre_apellidos: formData.name,
+      email: formData.email,
+      telefono: formData.phone,
+      zona_consultada: formData.location,
+      mensaje: formData.message,
+    });
+    setIsSubmitting(false);
+    if (ok) setSubmitted(true);
+    else setSendFailed(true);
   };
 
   const intentOptions = [
@@ -427,6 +425,10 @@ export const EditorialModal: React.FC<EditorialModalProps> = ({
                 </label>
               </div>
 
+              {sendFailed && (
+                <SendErrorNotice message={`${territoryForm.name} (${territoryForm.zone}): ${territoryForm.message}`} />
+              )}
+
               {/* Footer row with confidentiality badge & submit button */}
               <div className="pt-3 border-t border-[#E8E2D5] flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-[11px] text-[#5C574E] flex items-center gap-1.5 font-sans">
@@ -530,6 +532,10 @@ export const EditorialModal: React.FC<EditorialModalProps> = ({
                 />
               </div>
 
+              {sendFailed && (
+                <SendErrorNotice message={`${formData.name} (${formData.location}): ${formData.message}`} />
+              )}
+
               <div className="pt-2 flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div className="text-[11px] text-[#5C574E] flex items-center gap-1.5 font-sans">
                   <ShieldCheck className="w-3.5 h-3.5 text-[#8FA777]" />
@@ -538,7 +544,8 @@ export const EditorialModal: React.FC<EditorialModalProps> = ({
 
                 <button
                   type="submit"
-                  className="w-full sm:w-auto px-7 py-3 bg-[#8FA777] border border-[#8FA777] text-[#FBF9F3] text-xs font-semibold uppercase tracking-widest hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:text-[#24211D] active:bg-[#D4AF37] active:border-[#D4AF37] active:text-[#24211D] transition-colors shadow-xs cursor-pointer flex items-center justify-center gap-2"
+                  disabled={isSubmitting}
+                  className="disabled:opacity-50 w-full sm:w-auto px-7 py-3 bg-[#8FA777] border border-[#8FA777] text-[#FBF9F3] text-xs font-semibold uppercase tracking-widest hover:bg-[#D4AF37] hover:border-[#D4AF37] hover:text-[#24211D] active:bg-[#D4AF37] active:border-[#D4AF37] active:text-[#24211D] transition-colors shadow-xs cursor-pointer flex items-center justify-center gap-2"
                 >
                   <span>{modal.sendConsultation}</span>
                   <Send className="w-3.5 h-3.5" />
