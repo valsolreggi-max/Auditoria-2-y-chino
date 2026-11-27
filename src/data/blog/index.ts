@@ -1,6 +1,13 @@
 import type { Language } from '../../i18n/types';
 import type { BlogPost } from './types';
+import photoInquilinaBalcon from '../../assets/images/inquilina_balcon_notificacion.webp';
 import photoCasaInteriorCocina from '../../assets/images/casa_interior_cocina_1786745865467.webp';
+
+import { es as post2Es } from './posts/propietario-no-quiere-renovar-alquiler/es';
+import { en as post2En } from './posts/propietario-no-quiere-renovar-alquiler/en';
+import { de as post2De } from './posts/propietario-no-quiere-renovar-alquiler/de';
+import { fr as post2Fr } from './posts/propietario-no-quiere-renovar-alquiler/fr';
+import { zh as post2Zh } from './posts/propietario-no-quiere-renovar-alquiler/zh';
 
 import { es as post1Es } from './posts/que-revisar-antes-de-comprar/es';
 import { en as post1En } from './posts/que-revisar-antes-de-comprar/en';
@@ -16,6 +23,20 @@ export type { BlogPost, BlogPostContent, BlogBlock, BlogSource } from './types';
  * por idioma y añadirlo al principio de esta lista.
  */
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    id: 'propietario-no-quiere-renovar-alquiler',
+    datePublished: '2026-11-27',
+    dateModified: '2026-11-27',
+    image: photoInquilinaBalcon,
+    imageAlt: {
+      es: 'Inquilina pensativa en el balcón con una notificación sobre la mesa',
+      en: 'Tenant deep in thought on a balcony with a notice on the table',
+      de: 'Nachdenkliche Mieterin auf dem Balkon mit einem Schreiben auf dem Tisch',
+      fr: 'Locataire pensive sur son balcon, un courrier posé sur la table',
+      zh: '一位租客坐在阳台上沉思，桌上放着一份通知',
+    },
+    content: { es: post2Es, en: post2En, de: post2De, fr: post2Fr, zh: post2Zh },
+  },
   {
     id: 'que-revisar-antes-de-comprar',
     datePublished: '2026-11-23',
