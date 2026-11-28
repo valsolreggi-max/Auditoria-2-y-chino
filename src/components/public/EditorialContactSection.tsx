@@ -5,7 +5,7 @@ import { sendInquiry } from '../../lib/sendInquiry';
 import { SendErrorNotice } from './SendErrorNotice';
 
 export const EditorialContactSection: React.FC = () => {
-  const { messages } = useLanguage();
+  const { messages, language } = useLanguage();
   const { contact } = messages;
 
   const [formData, setFormData] = useState({
@@ -17,6 +17,7 @@ export const EditorialContactSection: React.FC = () => {
   });
 
   const [submitted, setSubmitted] = useState(false);
+  const [qrOpen, setQrOpen] = useState(false);
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [sendFailed, setSendFailed] = useState(false);
@@ -299,6 +300,51 @@ export const EditorialContactSection: React.FC = () => {
                   {contact.directPhoneSub}
                 </span>
               </div>
+              {language === 'zh' && (
+                <button
+                  type="button"
+                  onClick={() => setQrOpen(true)}
+                  className="text-xs font-sans font-semibold tracking-[0.12em] text-[#D4AF37] underline underline-offset-4 hover:text-[#24211D] transition-colors cursor-pointer"
+                >
+                  添加微信
+                </button>
+              )}
+              {qrOpen && (
+                <div
+                  role="dialog"
+                  aria-modal="true"
+                  aria-label="微信二维码"
+                  onClick={() => setQrOpen(false)}
+                  onKeyDown={(e) => e.key === 'Escape' && setQrOpen(false)}
+                  className="fixed inset-0 z-[100] flex items-center justify-center bg-[#24211D]/60 px-4"
+                >
+                  <div
+                    onClick={(e) => e.stopPropagation()}
+                    className="bg-white px-8 py-7 text-center shadow-xl max-w-xs w-full"
+                  >
+                    <p className="font-serif text-lg text-[#24211D]">Valeria Golden Coast</p>
+                    <img
+                      src="/wechat-qr.png"
+                      alt="Valeria Golden Coast 的微信二维码"
+                      width={420}
+                      height={420}
+                      className="w-56 h-auto mx-auto my-2"
+                    />
+                    <p className="text-xs text-[#5C574E] font-sans font-light">扫描二维码，添加我的微信</p>
+                    <p className="text-xs text-[#5C574E] font-sans font-light mt-2 leading-relaxed">
+                      手机用户：请长按保存图片，然后打开微信“扫一扫”，从相册中选择
+                    </p>
+                    <button
+                      type="button"
+                      autoFocus
+                      onClick={() => setQrOpen(false)}
+                      className="mt-4 px-6 py-2 border border-[#8FA777] text-xs font-sans text-[#24211D] hover:bg-[#8FA777] hover:text-[#FBF9F3] transition-colors cursor-pointer"
+                    >
+                      关闭
+                    </button>
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* Correo Electrónico */}
