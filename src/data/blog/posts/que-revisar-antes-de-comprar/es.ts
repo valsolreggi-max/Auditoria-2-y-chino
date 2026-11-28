@@ -10,7 +10,7 @@ export const es: BlogPostContent = {
     'Una perito judicial inmobiliaria explica qué mirar en la visita, cuándo llevar un técnico y qué papeles pedir antes de firmar las arras.',
   excerpt:
     'Una casa recién reformada puede esconder más que una que se enseña tal como está. Cuatro pasos para comprar sabiendo exactamente qué compras.',
-  authorRole: 'API titulada y Perito Judicial Inmobiliario',
+  authorRole: 'API diplomada y Perito Judicial Inmobiliario',
   readingTime: '9 min de lectura',
   updatedLabel: 'Actualizado en noviembre de 2026',
   blocks: [

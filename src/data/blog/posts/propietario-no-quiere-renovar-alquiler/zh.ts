@@ -8,7 +8,7 @@ export const zh: BlogPostContent = {
   metaDescription:
     '西班牙房东不想续签租赁合同？搬走之前先检查：租期、通知期限、2026 年的延期规定、涨租上限和无效条款。',
   excerpt: '房东不续租，并不一定意味着您必须搬走。本文介绍我们如何一步步审查西班牙的租赁合同，以及 2026 年法律的规定。',
-  authorRole: '西班牙持证房地产经纪人（API），持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格',
+  authorRole: '具备西班牙房地产经纪人（API）资格，持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格',
   readingTime: '阅读约 10 分钟',
   updatedLabel: '更新于 2026 年 11 月',
   blocks: [

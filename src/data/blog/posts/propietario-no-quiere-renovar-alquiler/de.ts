@@ -10,7 +10,7 @@ export const de: BlogPostContent = {
     'Ihr Vermieter in Spanien will den Mietvertrag nicht verlängern? Was Sie vor dem Auszug prüfen sollten: Laufzeit, Kündigungsfrist, Verlängerungen 2026, Mieterhöhungen.',
   excerpt:
     'Wenn der Vermieter nicht verlängert, müssen Sie nicht immer ausziehen. Wie wir einen Mietvertrag in Spanien Schritt für Schritt prüfen und was das Gesetz 2026 sagt.',
-  authorRole: 'Zertifizierte Maklerin (API), spanische Qualifikation „Perito Judicial Inmobiliario“',
+  authorRole: 'Diplomierte Maklerin (API), spanische Qualifikation „Perito Judicial Inmobiliario“',
   readingTime: '10 Min. Lesezeit',
   updatedLabel: 'Aktualisiert im November 2026',
   blocks: [

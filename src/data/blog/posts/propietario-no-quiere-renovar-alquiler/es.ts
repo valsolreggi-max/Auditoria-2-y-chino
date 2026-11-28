@@ -10,7 +10,7 @@ export const es: BlogPostContent = {
     '¿El propietario no quiere renovar tu contrato de alquiler? Qué revisar antes de irte: duración, aviso, prórrogas de 2026, subidas y cláusulas.',
   excerpt:
     'Que el propietario no renueve no siempre significa que tengas que irte. Cómo revisamos un contrato de alquiler, paso a paso, y qué dice la ley en 2026.',
-  authorRole: 'API titulada y Perito Judicial Inmobiliario',
+  authorRole: 'API diplomada y Perito Judicial Inmobiliario',
   readingTime: '10 min de lectura',
   updatedLabel: 'Actualizado en noviembre de 2026',
   blocks: [

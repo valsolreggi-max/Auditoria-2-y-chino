@@ -8,7 +8,7 @@ export const zh: BlogPostContent = {
   metaDescription:
     '持有西班牙房产鉴定资格的经纪人详解：看房时注意什么、何时请专业人员验房、支付定金前要核查哪些文件，帮助您在西班牙安心置业。',
   excerpt: '刚翻新的房子，可能比原样展示的房子藏着更多问题。四个步骤，让您在西班牙买房时清楚知道自己买的是什么。',
-  authorRole: '西班牙持证房地产经纪人（API），持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格',
+  authorRole: '具备西班牙房地产经纪人（API）资格，持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格',
   readingTime: '阅读约 9 分钟',
   updatedLabel: '更新于 2026 年 11 月',
   blocks: [

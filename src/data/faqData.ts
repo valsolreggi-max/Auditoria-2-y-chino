@@ -46,14 +46,14 @@ export interface FAQPageContent {
 export const FAQ_I18N: Record<Language, FAQPageContent> = {
   es: {
     headerEyebrow: 'PREGUNTAS FRECUENTES · GOLDEN COAST',
-    headerTitle: 'Respuestas claras y rigor jurídico para cada duda.',
-    headerSubtitle: 'La información transparente es la base de la tranquilidad. Aquí resolvemos las preguntas más habituales sobre la gestión, compraventa y alquiler de propiedades.',
+    headerTitle: 'Respuestas claras para cada duda.',
+    headerSubtitle: 'La información transparente es la base de la tranquilidad. Aquí respondo las preguntas más habituales sobre la gestión, compraventa y alquiler de propiedades.',
     expandAll: 'Abrir todas',
     collapseAll: 'Cerrar todas',
     answerLabel: 'Respuesta:',
     bottomEyebrow: 'ASESORAMIENTO RIGUROSO',
     bottomTitle: '¿Tienes una consulta específica sobre tu propiedad?',
-    bottomSubtitle: 'Cada caso patrimonial es único. Analizo tu situación de forma confidencial y sin compromiso para ofrecerte la máxima seguridad técnica y legal.',
+    bottomSubtitle: 'Cada caso patrimonial es único. Analizo tu situación de forma confidencial y sin compromiso para que puedas decidir con tranquilidad.',
     bottomBtn: 'Hacer una consulta con Valeria',
     blocks: [
       {
@@ -81,7 +81,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             question: '2. ¿Puedo cobrar al inquilino los gastos de IBI, comunidad y tasa de basuras en un contrato nuevo?',
             answerIntroduction: '',
             calloutTop: 'Los impuestos y tasas de la vivienda (IBI y tasa de basuras), no: desde el 8 de octubre de 2026 la ley prohíbe imponérselos al inquilino. Los gastos de comunidad, solo si se pactan expresamente y, en zona tensionada, si ya se repercutían en el contrato anterior.',
-            concludingText: 'El Real Decreto-ley 29/2026, convalidado por el Congreso el 12 de noviembre de 2026, modificó el artículo 20.1 de la LAU: en ningún caso pueden imponerse al inquilino los tributos asociados a la vivienda, salvo que sea él mismo el obligado tributario. En zona tensionada, además, el nuevo contrato no puede repercutir gastos que no figuraban en el contrato anterior (art. 17.6 LAU), y una cláusula que lo intente es nula (art. 6 LAU). Si tienes contratos firmados antes de esa fecha, consúltanos: conviene revisar cada caso.',
+            concludingText: 'El Real Decreto-ley 29/2026, convalidado por el Congreso el 12 de noviembre de 2026, modificó el artículo 20.1 de la LAU: en ningún caso pueden imponerse al inquilino los tributos asociados a la vivienda, salvo que sea él mismo el obligado tributario. En zona tensionada, además, el nuevo contrato no puede repercutir gastos que no figuraban en el contrato anterior (art. 17.6 LAU), y una cláusula que lo intente es nula (art. 6 LAU). Si tienes contratos firmados antes de esa fecha, consúltame: conviene revisar cada caso.',
           },
           {
             id: 3,
@@ -101,29 +101,29 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
                 text: 'Las viviendas turísticas que ya tenían título antes del decreto disponen de 5 años (hasta noviembre de 2028) para obtener la nueva licencia urbanística o cesar la actividad. El plazo puede prorrogarse 5 años más si el titular acredita que no puede compensar las pérdidas.',
               },
             ],
-            concludingText: 'Antes de formalizar la compra de una propiedad turística en el Garraf o Costa Daurada, en Golden Coast realizamos una auditoría urbanística previa para comprobar si la actividad se mantendrá legalmente.',
+            concludingText: 'Antes de formalizar la compra de una propiedad turística en el Garraf o Costa Daurada, reviso antes la situación urbanística, para saber si la actividad podrá mantenerse legalmente.',
           },
           {
             id: 4,
             question: '4. ¿Puedo contratar únicamente servicios puntuales para mi alquiler vacacional o de temporada sin delegar la gestión integral?',
-            answerIntroduction: 'Sí. En Golden Coast adaptamos la propuesta a lo que realmente necesitas. En alquiler vacacional (hasta 31 noches) y en alquiler de temporada (desde 32 noches o 1 mes hasta 12 meses) en municipios como Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell y Calafell, puedes contratar la gestión integral 360° o solicitar servicios a la carta: recepción y entrega de llaves (check-in/check-out), elaboración de contratos de temporada conforme a ley, inventarios con control de suministros, servicio de limpieza y lavandería o atención de incidencias 24/7.',
+            answerIntroduction: 'Sí. Adapto la propuesta a lo que realmente necesitas. En alquiler vacacional (hasta 31 noches) y en alquiler de temporada (desde 32 noches o 1 mes hasta 12 meses) en municipios como Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell y Calafell, puedes contratar la gestión integral 360° o solicitar servicios a la carta: recepción y entrega de llaves (check-in/check-out), elaboración de contratos de temporada conforme a ley, inventarios con control de suministros, servicio de limpieza y lavandería o atención de incidencias 24/7.',
           },
           {
             id: 5,
             question: '5. Si vivo fuera (Madrid, Alemania, Reino Unido...), ¿cómo gestiona Golden Coast mi propiedad sin que yo tenga que desplazarme?',
-            answerIntroduction: 'Ofrecemos un servicio de gestión integral "llave en mano" diseñado para propietarios con residencia remota o internacional:',
+            answerIntroduction: 'Ofrezco un servicio de gestión integral "llave en mano" diseñado para propietarios con residencia remota o internacional:',
             bulletPoints: [
               {
                 bold: 'Gestión a distancia:',
-                text: 'Realizamos la valoración, preparación del inmueble, reportajes y selección de candidatos con total transparencia y comunicación constante.',
+                text: 'Me ocupo de la valoración, la preparación del inmueble, reportajes y selección de candidatos con total transparencia y comunicación constante.',
               },
               {
                 bold: 'Firma Digital Avanzada:',
-                text: 'Coordinamos las reuniones por videoconferencia, la entrega de llaves y la firma del contrato mediante herramientas de firma digital avanzada con plena validez y seguridad jurídica (Reglamento EIDAS), sin necesidad de desplazamientos ni trámites presenciales.',
+                text: 'Coordino las reuniones por videoconferencia, la entrega de llaves y la firma del contrato mediante herramientas de firma digital avanzada con plena validez y seguridad jurídica (Reglamento EIDAS), sin necesidad de desplazamientos ni trámites presenciales.',
               },
               {
                 bold: 'Administración Total:',
-                text: 'Tramitamos el depósito de fianzas en el INCASÒL, cobros, liquidaciones y mantenimiento, ofreciendo un seguimiento periódico para tu total tranquilidad.',
+                text: 'Tramito el depósito de la fianza en el INCASÒL, cobros, liquidaciones y mantenimiento, ofreciendo un seguimiento periódico para tu total tranquilidad.',
               },
             ],
           },
@@ -137,7 +137,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. ¿Cómo calculáis el valor real de mercado de mi vivienda para venderla al mejor precio?',
-            answerIntroduction: 'A diferencia de las valoraciones automáticas de portales inmobiliarios basadas en precios de oferta inflados, en Golden Coast combinamos nuestra capacitación como Peritos Judiciales Inmobiliarios y API con un análisis comparativo de transacciones reales cerradas en el Registro de la Propiedad. Evaluamos el estado técnico, la situación legal, la eficiencia energética y la demanda solvente activa para fijar un precio competitivo que maximice el rendimiento financiero sin estancar la propiedad.',
+            answerIntroduction: 'A diferencia de las valoraciones automáticas de portales inmobiliarios basadas en precios de oferta inflados, combino mi formación como Perito Judicial Inmobiliario y API con un análisis comparativo de transacciones reales cerradas en el Registro de la Propiedad. Evalúo el estado técnico, la situación legal, la eficiencia energética y la demanda solvente activa para fijar un precio competitivo que maximice el rendimiento financiero sin estancar la propiedad.',
           },
           {
             id: 7,
@@ -159,12 +159,12 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 9,
             question: '9. Si quiero COMPRAR una vivienda en el Garraf o Costa Daurada, ¿cómo me ayuda Golden Coast?',
-            answerIntroduction: 'Actuamos como tu Personal Shopper Inmobiliario para proteger tus intereses frente a las agencias vendedoras. Analizamos tus necesidades y presupuesto, realizamos la búsqueda personalizada, filtramos las opciones que realmente encajan, auditamos la documentación legal de la finca (cargas, nota simple, situación urbanística) y negociamos el mejor precio y condiciones en tu nombre hasta la firma en notaría.',
+            answerIntroduction: 'Actúo como tu Personal Shopper Inmobiliario para defender tus intereses frente a las agencias vendedoras. Analizo tus necesidades y tu presupuesto, hago la búsqueda personalizada, filtro las opciones que realmente encajan, reviso la documentación de la finca (cargas, nota simple, situación urbanística) y negocio el mejor precio y condiciones en tu nombre hasta la firma en notaría.',
           },
           {
             id: 10,
             question: '10. Vengo a vivir o invertir desde el extranjero o de otra comunidad, ¿en qué consiste el Servicio de Reubicación (Relocation)?',
-            answerIntroduction: 'Mudarse implica mucho más que encontrar una casa. Nuestro servicio de Relocation acompaña a clientes e inversores internacionales (Reino Unido, Alemania, Francia...) y nacionales durante todo el proceso de llegada a España:',
+            answerIntroduction: 'Mudarse implica mucho más que encontrar una casa. Mi servicio de Relocation acompaña a clientes e inversores internacionales (Reino Unido, Alemania, Francia...) y nacionales durante todo el proceso de llegada a España:',
             bulletPoints: [
               {
                 bold: 'Asesoramiento de zona:',
@@ -176,7 +176,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
               },
               {
                 bold: 'Coordinación legal y administrativa:',
-                text: 'Trámites de NIE, apertura de cuentas bancarias y asesoría fiscal asociada.',
+                text: 'Trámites de NIE, apertura de cuentas bancarias y orientación sobre los impuestos ligados a la vivienda.',
               },
               {
                 bold: 'Acompañamiento posterior:',
@@ -201,8 +201,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           },
           {
             id: 12,
-            question: '12. ¿En qué consiste el servicio de doble check jurídico y pericial de Golden Coast frente a una inmobiliaria tradicional?',
-            answerIntroduction: 'La mayoría de agencias intermediarias emplean contratos estándar y descuidan la comprobación técnica. En Golden Coast operamos con el rigor de un despacho pericial inmobiliario: auditamos el historial de contratos anteriores, comprobamos notas simples, cargas, estatutos de comunidad, concordancia catastral y la normativa vigente (LAU y contención de rentas). Redactamos contratos a medida para garantizar que la operación sea inatacable jurídicamente.',
+            question: '12. ¿En qué se diferencia mi revisión de la de una inmobiliaria tradicional?',
+            answerIntroduction: 'La mayoría de agencias intermediarias emplean contratos estándar y descuidan la comprobación técnica. Yo reviso cada operación con criterio de perito: el historial de contratos anteriores, la nota simple, las cargas, los estatutos de la comunidad, que el Catastro coincida y la normativa vigente (LAU y contención de rentas). Y redacto cada contrato a medida, conforme a esa normativa.',
           },
         ],
       },
@@ -210,14 +210,14 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
   },
   en: {
     headerEyebrow: 'FREQUENTLY ASKED QUESTIONS · GOLDEN COAST',
-    headerTitle: 'Clear answers and legal rigour for every question.',
-    headerSubtitle: 'Transparent information is the foundation of peace of mind. Here we answer the most common questions about managing, buying, selling and renting property.',
+    headerTitle: 'Clear answers to every question.',
+    headerSubtitle: 'Transparent information is the foundation of peace of mind. Here I answer the most common questions about managing, buying, selling and renting property.',
     expandAll: 'Open all',
     collapseAll: 'Close all',
     answerLabel: 'Answer:',
     bottomEyebrow: 'RIGOROUS ADVICE',
     bottomTitle: 'Do you have a specific question about your property?',
-    bottomSubtitle: 'Every property situation is unique. I review your case confidentially and with no obligation, to give you the highest level of technical and legal certainty.',
+    bottomSubtitle: 'Every property situation is unique. I review your case confidentially and with no obligation, so you can decide with peace of mind.',
     bottomBtn: 'Ask Valeria a question',
     blocks: [
       {
@@ -245,7 +245,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             question: '2. Can I charge the tenant for IBI (property tax), community fees and the waste collection charge in a new contract?',
             answerIntroduction: '',
             calloutTop: 'Taxes on the property (IBI and the waste collection charge): no. Since 8 October 2026 the law forbids passing them on to the tenant. Community fees: only if expressly agreed and, in a stressed market area, if they were already passed on in the previous contract.',
-            concludingText: 'Royal Decree-Law 29/2026, ratified by the Spanish Parliament on 12 November 2026, amended Article 20.1 LAU: taxes linked to the property may never be imposed on the tenant, unless the tenant is the person legally liable for them. In a stressed market area, a new contract also cannot pass on costs that were not in the previous contract (Article 17.6 LAU), and any clause that tries to do so is void (Article 6 LAU). If you have contracts signed before that date, talk to us: each case should be reviewed.',
+            concludingText: 'Royal Decree-Law 29/2026, ratified by the Spanish Parliament on 12 November 2026, amended Article 20.1 LAU: taxes linked to the property may never be imposed on the tenant, unless the tenant is the person legally liable for them. In a stressed market area, a new contract also cannot pass on costs that were not in the previous contract (Article 17.6 LAU), and any clause that tries to do so is void (Article 6 LAU). If you have contracts signed before that date, talk to me: each case should be reviewed.',
           },
           {
             id: 3,
@@ -270,24 +270,24 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. Can I hire just specific services for my holiday or seasonal rental, without handing over full management?',
-            answerIntroduction: 'Yes. At Golden Coast we tailor the proposal to what you really need. For holiday rentals (up to 31 nights) and seasonal rentals (from 32 nights or 1 month up to 12 months) in towns such as Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell and Calafell, you can choose full 360° management or à la carte services: key handover (check-in/check-out), legally compliant seasonal rental contracts, inventories with utility meter readings, cleaning and laundry, or 24/7 incident handling.',
+            answerIntroduction: 'Yes. I tailor the proposal to what you really need. For holiday rentals (up to 31 nights) and seasonal rentals (from 32 nights or 1 month up to 12 months) in towns such as Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell and Calafell, you can choose full 360° management or à la carte services: key handover (check-in/check-out), legally compliant seasonal rental contracts, inventories with utility meter readings, cleaning and laundry, or 24/7 incident handling.',
           },
           {
             id: 5,
             question: '5. If I live elsewhere (Madrid, Germany, the UK...), how does Golden Coast manage my property without me having to travel?',
-            answerIntroduction: 'We offer a full "turnkey" management service designed for owners who live elsewhere or abroad:',
+            answerIntroduction: 'I offer a full "turnkey" management service designed for owners who live elsewhere or abroad:',
             bulletPoints: [
               {
                 bold: 'Remote management:',
-                text: 'We handle the valuation, preparation of the property, photography and tenant selection with complete transparency and constant communication.',
+                text: 'I handle the valuation, preparation of the property, photography and tenant selection with complete transparency and constant communication.',
               },
               {
                 bold: 'Advanced electronic signature:',
-                text: 'We arrange video-call meetings, the key handover and the signing of the contract using advanced electronic signature tools with full legal validity and security (EU eIDAS Regulation), with no need to travel or attend in person.',
+                text: 'I arrange video-call meetings, the key handover and the signing of the contract using advanced electronic signature tools with full legal validity and security (EU eIDAS Regulation), with no need to travel or attend in person.',
               },
               {
                 bold: 'Full administration:',
-                text: 'We lodge the deposit with INCASÒL (the Catalan land and housing agency), and handle rent collection, settlements and maintenance, with regular updates for your complete peace of mind.',
+                text: 'I lodge the deposit with INCASÒL (the Catalan land and housing agency), and handle rent collection, settlements and maintenance, with regular updates for your complete peace of mind.',
               },
             ],
           },
@@ -301,7 +301,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. How do you calculate the real market value of my home so I can sell it at the best price?',
-            answerIntroduction: 'Unlike the automatic valuations on property portals, which are based on inflated asking prices, Golden Coast combines our qualifications as certified estate agents (API) and holders of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert) with a comparative analysis of real completed transactions recorded at the Land Registry. We assess the technical condition, legal status, energy efficiency and active solvent demand to set a competitive price that maximises your return without leaving the property stuck on the market.',
+            answerIntroduction: 'Unlike the automatic valuations on property portals, which are based on inflated asking prices, I combine my training as a qualified estate agent (API) and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert) with a comparative analysis of real completed transactions recorded at the Land Registry. I assess the technical condition, legal status, energy efficiency and active solvent demand to set a competitive price that maximises your return without leaving the property stuck on the market.',
           },
           {
             id: 7,
@@ -323,12 +323,12 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 9,
             question: '9. If I want to BUY a home in the Garraf or on the Costa Daurada, how does Golden Coast help me?',
-            answerIntroduction: 'We act as your property buyer’s agent (Personal Shopper) to protect your interests in front of the selling agencies. We analyse your needs and budget, carry out a personalised search, filter the options that really fit, audit the property’s legal documentation (charges, land registry extract or nota simple, planning status) and negotiate the best price and terms on your behalf through to signing at the notary.',
+            answerIntroduction: 'I act as your property buyer’s agent (Personal Shopper) to protect your interests in front of the selling agencies. I analyse your needs and budget, carry out a personalised search, filter the options that really fit, check the property’s documentation (charges, land registry extract or nota simple, planning status) and negotiate the best price and terms on your behalf through to signing at the notary.',
           },
           {
             id: 10,
             question: '10. I am moving or investing from abroad or from another region of Spain. What does the Relocation service include?',
-            answerIntroduction: 'Moving involves much more than finding a house. Our Relocation service supports international clients and investors (UK, Germany, France...) and Spanish clients throughout the whole process of arriving in Spain:',
+            answerIntroduction: 'Moving involves much more than finding a house. My Relocation service supports international clients and investors (UK, Germany, France...) and Spanish clients throughout the whole process of arriving in Spain:',
             bulletPoints: [
               {
                 bold: 'Area advice:',
@@ -340,7 +340,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
               },
               {
                 bold: 'Legal and administrative coordination:',
-                text: 'NIE (foreigner identity number) applications, opening bank accounts and related tax advice.',
+                text: 'NIE (foreigner identity number) applications, opening bank accounts and guidance on the taxes linked to the property.',
               },
               {
                 bold: 'Ongoing support:',
@@ -365,8 +365,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           },
           {
             id: 12,
-            question: '12. What is Golden Coast’s double legal and expert check, compared with a traditional estate agency?',
-            answerIntroduction: 'Most agencies use standard contracts and neglect technical checks. Golden Coast works with the rigour of a property expert’s practice: we audit the history of previous contracts and check land registry extracts, charges, community statutes, consistency with the Cadastre and the regulations in force (LAU and rent control). We draft bespoke contracts so that the transaction is legally unchallengeable.',
+            question: '12. How is my review different from that of a traditional estate agency?',
+            answerIntroduction: 'Most agencies use standard contracts and neglect technical checks. I review every transaction with an expert’s eye: the history of previous contracts, the land registry extract, charges, community statutes, consistency with the Cadastre and the regulations in force (LAU and rent control). And I draft each contract to measure, in line with those rules.',
           },
         ],
       },
@@ -375,13 +375,13 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
   de: {
     headerEyebrow: 'HÄUFIG GESTELLTE FRAGEN · GOLDEN COAST',
     headerTitle: 'Klare Antworten und juristische Sorgfalt für jede Frage.',
-    headerSubtitle: 'Transparente Informationen sind die Grundlage für ein gutes Gefühl. Hier beantworten wir die häufigsten Fragen zu Verwaltung, Kauf, Verkauf und Vermietung von Immobilien.',
+    headerSubtitle: 'Transparente Informationen sind die Grundlage für ein gutes Gefühl. Hier beantworte ich die häufigsten Fragen zu Verwaltung, Kauf, Verkauf und Vermietung von Immobilien.',
     expandAll: 'Alle öffnen',
     collapseAll: 'Alle schließen',
     answerLabel: 'Antwort:',
     bottomEyebrow: 'FUNDIERTE BERATUNG',
     bottomTitle: 'Haben Sie eine konkrete Frage zu Ihrer Immobilie?',
-    bottomSubtitle: 'Jede Vermögenssituation ist einzigartig. Ich prüfe Ihren Fall vertraulich und unverbindlich, um Ihnen größtmögliche technische und rechtliche Sicherheit zu geben.',
+    bottomSubtitle: 'Jede Vermögenssituation ist einzigartig. Ich prüfe Ihren Fall vertraulich und unverbindlich, damit Sie in Ruhe entscheiden können.',
     bottomBtn: 'Valeria eine Frage stellen',
     blocks: [
       {
@@ -409,7 +409,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             question: '2. Darf ich dem Mieter in einem neuen Vertrag die Grundsteuer (IBI), das Hausgeld und die Müllgebühr berechnen?',
             answerIntroduction: '',
             calloutTop: 'Steuern und Abgaben auf die Wohnung (IBI und Müllgebühr): nein. Seit dem 8. Oktober 2026 verbietet das Gesetz, sie dem Mieter aufzuerlegen. Hausgeld: nur bei ausdrücklicher Vereinbarung und – in einem angespannten Gebiet – nur, wenn es bereits im vorherigen Vertrag umgelegt wurde.',
-            concludingText: 'Das Königliche Gesetzesdekret 29/2026, vom Parlament am 12. November 2026 bestätigt, hat Artikel 20.1 LAU geändert: Die mit der Wohnung verbundenen Steuern dürfen dem Mieter in keinem Fall auferlegt werden, es sei denn, er selbst ist der Steuerpflichtige. In einem angespannten Gebiet darf der neue Vertrag außerdem keine Kosten umlegen, die im vorherigen Vertrag nicht enthalten waren (Art. 17.6 LAU); eine Klausel, die das versucht, ist nichtig (Art. 6 LAU). Wenn Sie Verträge haben, die vor diesem Datum unterzeichnet wurden, sprechen Sie uns an: Jeder Fall sollte geprüft werden.',
+            concludingText: 'Das Königliche Gesetzesdekret 29/2026, vom Parlament am 12. November 2026 bestätigt, hat Artikel 20.1 LAU geändert: Die mit der Wohnung verbundenen Steuern dürfen dem Mieter in keinem Fall auferlegt werden, es sei denn, er selbst ist der Steuerpflichtige. In einem angespannten Gebiet darf der neue Vertrag außerdem keine Kosten umlegen, die im vorherigen Vertrag nicht enthalten waren (Art. 17.6 LAU); eine Klausel, die das versucht, ist nichtig (Art. 6 LAU). Wenn Sie Verträge haben, die vor diesem Datum unterzeichnet wurden, sprechen Sie mich an: Jeder Fall sollte geprüft werden.',
           },
           {
             id: 3,
@@ -434,24 +434,24 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. Kann ich für meine Ferien- oder Zeitvermietung nur einzelne Leistungen buchen, ohne die gesamte Verwaltung abzugeben?',
-            answerIntroduction: 'Ja. Bei Golden Coast passen wir das Angebot an das an, was Sie wirklich brauchen. Bei der Ferienvermietung (bis zu 31 Nächte) und der Zeitvermietung (ab 32 Nächten bzw. 1 Monat bis zu 12 Monaten) in Orten wie Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell und Calafell können Sie die 360°-Rundumverwaltung wählen oder Leistungen à la carte buchen: Schlüsselübergabe (Check-in/Check-out), rechtskonforme Zeitmietverträge, Inventarlisten mit Zählerständen, Reinigung und Wäscheservice oder 24/7-Störungsdienst.',
+            answerIntroduction: 'Ja. Ich passe das Angebot an das an, was Sie wirklich brauchen. Bei der Ferienvermietung (bis zu 31 Nächte) und der Zeitvermietung (ab 32 Nächten bzw. 1 Monat bis zu 12 Monaten) in Orten wie Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell und Calafell können Sie die 360°-Rundumverwaltung wählen oder Leistungen à la carte buchen: Schlüsselübergabe (Check-in/Check-out), rechtskonforme Zeitmietverträge, Inventarlisten mit Zählerständen, Reinigung und Wäscheservice oder 24/7-Störungsdienst.',
           },
           {
             id: 5,
             question: '5. Wenn ich woanders lebe (Madrid, Deutschland, Großbritannien …), wie verwaltet Golden Coast meine Immobilie, ohne dass ich anreisen muss?',
-            answerIntroduction: 'Wir bieten eine schlüsselfertige Rundumverwaltung für Eigentümer, die woanders oder im Ausland leben:',
+            answerIntroduction: 'Ich biete eine schlüsselfertige Rundumverwaltung für Eigentümer, die woanders oder im Ausland leben:',
             bulletPoints: [
               {
                 bold: 'Verwaltung aus der Ferne:',
-                text: 'Wir übernehmen Bewertung, Vorbereitung der Immobilie, Fotos und Mieterauswahl mit voller Transparenz und ständiger Kommunikation.',
+                text: 'Ich übernehme Bewertung, Vorbereitung der Immobilie, Fotos und Mieterauswahl mit voller Transparenz und ständiger Kommunikation.',
               },
               {
                 bold: 'Fortgeschrittene elektronische Signatur:',
-                text: 'Wir organisieren Videokonferenzen, die Schlüsselübergabe und die Vertragsunterzeichnung mit fortgeschrittener elektronischer Signatur mit voller Rechtsgültigkeit und Sicherheit (EU-Verordnung eIDAS), ohne Anreise und ohne persönliche Termine.',
+                text: 'Ich organisiere Videokonferenzen, die Schlüsselübergabe und die Vertragsunterzeichnung mit fortgeschrittener elektronischer Signatur mit voller Rechtsgültigkeit und Sicherheit (EU-Verordnung eIDAS), ohne Anreise und ohne persönliche Termine.',
               },
               {
                 bold: 'Komplette Verwaltung:',
-                text: 'Wir hinterlegen die Kaution beim INCASÒL (katalanische Boden- und Wohnungsbehörde), kümmern uns um Mieteinzug, Abrechnungen und Instandhaltung und berichten Ihnen regelmäßig, damit Sie ganz beruhigt sein können.',
+                text: 'Ich hinterlege die Kaution beim INCASÒL (katalanische Boden- und Wohnungsbehörde), kümmere mich um Mieteinzug, Abrechnungen und Instandhaltung und berichte Ihnen regelmäßig, damit Sie ganz beruhigt sein können.',
               },
             ],
           },
@@ -465,7 +465,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. Wie ermitteln Sie den tatsächlichen Marktwert meiner Wohnung, damit ich sie zum besten Preis verkaufe?',
-            answerIntroduction: 'Anders als die automatischen Bewertungen von Immobilienportalen, die auf überhöhten Angebotspreisen beruhen, verbindet Golden Coast unsere spanische Qualifikation „Perito Judicial Inmobiliario“ (Immobiliengutachten) und unsere Qualifikation als zertifizierte Makler (API) mit einer Vergleichsanalyse tatsächlich abgeschlossener, im Grundbuch eingetragener Verkäufe. Wir bewerten den technischen Zustand, die rechtliche Situation, die Energieeffizienz und die aktive zahlungsfähige Nachfrage, um einen wettbewerbsfähigen Preis festzulegen, der den Ertrag maximiert, ohne dass die Immobilie lange auf dem Markt bleibt.',
+            answerIntroduction: 'Anders als die automatischen Bewertungen von Immobilienportalen, die auf überhöhten Angebotspreisen beruhen, verbinde ich meine spanische Qualifikation „Perito Judicial Inmobiliario“ (Immobiliengutachten) und mein Diplom als Immobilienmaklerin (API) mit einer Vergleichsanalyse tatsächlich abgeschlossener, im Grundbuch eingetragener Verkäufe. Ich bewerte den technischen Zustand, die rechtliche Situation, die Energieeffizienz und die aktive zahlungsfähige Nachfrage, um einen wettbewerbsfähigen Preis festzulegen, der den Ertrag maximiert, ohne dass die Immobilie lange auf dem Markt bleibt.',
           },
           {
             id: 7,
@@ -487,12 +487,12 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 9,
             question: '9. Wenn ich im Garraf oder an der Costa Daurada eine Wohnung KAUFEN möchte, wie hilft mir Golden Coast?',
-            answerIntroduction: 'Wir handeln als Ihr persönlicher Immobilienberater auf Käuferseite (Personal Shopper) und schützen Ihre Interessen gegenüber den Verkaufsmaklern. Wir analysieren Ihre Bedürfnisse und Ihr Budget, suchen gezielt, filtern die wirklich passenden Optionen, prüfen die rechtlichen Unterlagen der Immobilie (Belastungen, Grundbuchauszug bzw. nota simple, städtebauliche Situation) und verhandeln in Ihrem Namen den besten Preis und die besten Bedingungen bis zur Unterzeichnung beim Notar.',
+            answerIntroduction: 'Ich handle als Ihre persönliche Immobilienberaterin auf Käuferseite (Personal Shopper) und vertrete Ihre Interessen gegenüber den Verkaufsmaklern. Ich analysiere Ihre Bedürfnisse und Ihr Budget, suche gezielt, filtere die wirklich passenden Optionen, prüfe die Unterlagen der Immobilie (Belastungen, Grundbuchauszug bzw. nota simple, städtebauliche Situation) und verhandle in Ihrem Namen den besten Preis und die besten Bedingungen bis zur Unterzeichnung beim Notar.',
           },
           {
             id: 10,
             question: '10. Ich ziehe aus dem Ausland oder aus einer anderen spanischen Region hierher oder möchte investieren. Was umfasst der Relocation-Service?',
-            answerIntroduction: 'Ein Umzug bedeutet viel mehr, als ein Haus zu finden. Unser Relocation-Service begleitet internationale Kunden und Investoren (Großbritannien, Deutschland, Frankreich …) sowie spanische Kunden während des gesamten Ankommens in Spanien:',
+            answerIntroduction: 'Ein Umzug bedeutet viel mehr, als ein Haus zu finden. Mein Relocation-Service begleitet internationale Kunden und Investoren (Großbritannien, Deutschland, Frankreich …) sowie spanische Kunden während des gesamten Ankommens in Spanien:',
             bulletPoints: [
               {
                 bold: 'Beratung zur Lage:',
@@ -504,7 +504,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
               },
               {
                 bold: 'Rechtliche und behördliche Koordination:',
-                text: 'Beantragung der NIE (Ausländer-Identifikationsnummer), Eröffnung von Bankkonten und zugehörige Steuerberatung.',
+                text: 'Beantragung der NIE (Ausländer-Identifikationsnummer), Eröffnung von Bankkonten und Orientierung zu den Steuern rund um die Immobilie.',
               },
               {
                 bold: 'Begleitung danach:',
@@ -529,8 +529,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           },
           {
             id: 12,
-            question: '12. Was ist der doppelte rechtliche und gutachterliche Check von Golden Coast im Vergleich zu einem klassischen Maklerbüro?',
-            answerIntroduction: 'Die meisten Makler verwenden Standardverträge und vernachlässigen die technische Prüfung. Golden Coast arbeitet mit der Sorgfalt eines Immobiliengutachterbüros: Wir prüfen die Historie früherer Verträge, Grundbuchauszüge, Belastungen, die Satzung der Eigentümergemeinschaft, die Übereinstimmung mit dem Kataster sowie die geltenden Vorschriften (LAU und Mietpreisbegrenzung). Wir erstellen maßgeschneiderte Verträge, damit das Geschäft rechtlich unangreifbar ist.',
+            question: '12. Was unterscheidet meine Prüfung von der eines klassischen Maklerbüros?',
+            answerIntroduction: 'Die meisten Makler verwenden Standardverträge und vernachlässigen die technische Prüfung. Ich prüfe jedes Geschäft mit dem Blick einer Gutachterin: die Historie früherer Verträge, den Grundbuchauszug, Belastungen, die Satzung der Eigentümergemeinschaft, die Übereinstimmung mit dem Kataster sowie die geltenden Vorschriften (LAU und Mietpreisbegrenzung). Und ich erstelle jeden Vertrag maßgeschneidert, im Einklang mit diesen Vorschriften.',
           },
         ],
       },
@@ -538,14 +538,14 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
   },
   fr: {
     headerEyebrow: 'QUESTIONS FRÉQUENTES · GOLDEN COAST',
-    headerTitle: 'Des réponses claires et une rigueur juridique pour chaque question.',
-    headerSubtitle: 'Une information transparente est la base de la sérénité. Nous répondons ici aux questions les plus fréquentes sur la gestion, l’achat, la vente et la location de biens immobiliers.',
+    headerTitle: 'Des réponses claires à chaque question.',
+    headerSubtitle: 'Une information transparente est la base de la sérénité. Je réponds ici aux questions les plus fréquentes sur la gestion, l’achat, la vente et la location de biens immobiliers.',
     expandAll: 'Tout ouvrir',
     collapseAll: 'Tout fermer',
     answerLabel: 'Réponse :',
     bottomEyebrow: 'CONSEIL RIGOUREUX',
     bottomTitle: 'Vous avez une question précise sur votre bien ?',
-    bottomSubtitle: 'Chaque situation patrimoniale est unique. J’analyse votre cas de façon confidentielle et sans engagement, pour vous offrir le plus haut niveau de sécurité technique et juridique.',
+    bottomSubtitle: 'Chaque situation patrimoniale est unique. J’analyse votre cas de façon confidentielle et sans engagement, pour vous permettre de décider en toute sérénité.',
     bottomBtn: 'Poser une question à Valeria',
     blocks: [
       {
@@ -573,7 +573,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             question: '2. Puis-je refacturer au locataire la taxe foncière (IBI), les charges de copropriété et la taxe d’ordures ménagères dans un nouveau contrat ?',
             answerIntroduction: '',
             calloutTop: 'Les impôts et taxes du logement (IBI et taxe d’ordures ménagères) : non. Depuis le 8 octobre 2026, la loi interdit de les mettre à la charge du locataire. Les charges de copropriété : seulement si elles sont expressément prévues et, en zone tendue, si elles étaient déjà refacturées dans le contrat précédent.',
-            concludingText: 'Le décret-loi royal 29/2026, validé par le Parlement espagnol le 12 novembre 2026, a modifié l’article 20.1 LAU : les impôts liés au logement ne peuvent en aucun cas être mis à la charge du locataire, sauf s’il en est lui-même le redevable. En zone tendue, le nouveau contrat ne peut pas non plus refacturer des charges qui ne figuraient pas dans le contrat précédent (art. 17.6 LAU), et une clause qui le tenterait est nulle (art. 6 LAU). Si vous avez des contrats signés avant cette date, consultez-nous : chaque cas mérite d’être vérifié.',
+            concludingText: 'Le décret-loi royal 29/2026, validé par le Parlement espagnol le 12 novembre 2026, a modifié l’article 20.1 LAU : les impôts liés au logement ne peuvent en aucun cas être mis à la charge du locataire, sauf s’il en est lui-même le redevable. En zone tendue, le nouveau contrat ne peut pas non plus refacturer des charges qui ne figuraient pas dans le contrat précédent (art. 17.6 LAU), et une clause qui le tenterait est nulle (art. 6 LAU). Si vous avez des contrats signés avant cette date, consultez-moi : chaque cas mérite d’être vérifié.',
           },
           {
             id: 3,
@@ -598,24 +598,24 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. Puis-je recourir uniquement à des services ponctuels pour ma location saisonnière ou temporaire, sans déléguer la gestion complète ?',
-            answerIntroduction: 'Oui. Chez Golden Coast, nous adaptons la proposition à vos besoins réels. Pour la location saisonnière (jusqu’à 31 nuits) et la location temporaire (à partir de 32 nuits ou 1 mois, jusqu’à 12 mois) dans des communes comme Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell et Calafell, vous pouvez choisir la gestion complète à 360° ou des services à la carte : remise des clés (check-in/check-out), contrats de location temporaire conformes à la loi, états des lieux avec relevé des compteurs, ménage et blanchisserie, ou gestion des incidents 24 h/24 et 7 j/7.',
+            answerIntroduction: 'Oui. J’adapte la proposition à vos besoins réels. Pour la location saisonnière (jusqu’à 31 nuits) et la location temporaire (à partir de 32 nuits ou 1 mois, jusqu’à 12 mois) dans des communes comme Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell et Calafell, vous pouvez choisir la gestion complète à 360° ou des services à la carte : remise des clés (check-in/check-out), contrats de location temporaire conformes à la loi, états des lieux avec relevé des compteurs, ménage et blanchisserie, ou gestion des incidents 24 h/24 et 7 j/7.',
           },
           {
             id: 5,
             question: '5. Si je vis ailleurs (Madrid, Allemagne, Royaume-Uni…), comment Golden Coast gère-t-il mon bien sans que j’aie à me déplacer ?',
-            answerIntroduction: 'Nous proposons une gestion complète « clés en main » pensée pour les propriétaires qui résident ailleurs ou à l’étranger :',
+            answerIntroduction: 'Je propose une gestion complète « clés en main » pensée pour les propriétaires qui résident ailleurs ou à l’étranger :',
             bulletPoints: [
               {
                 bold: 'Gestion à distance :',
-                text: 'Nous réalisons l’estimation, la préparation du bien, les photos et la sélection des candidats en toute transparence et avec une communication constante.',
+                text: 'Je réalise l’estimation, la préparation du bien, les photos et la sélection des candidats en toute transparence et avec une communication constante.',
               },
               {
                 bold: 'Signature électronique avancée :',
-                text: 'Nous organisons les rendez-vous en visioconférence, la remise des clés et la signature du contrat au moyen d’outils de signature électronique avancée ayant pleine valeur et sécurité juridiques (règlement européen eIDAS), sans déplacement ni démarche en personne.',
+                text: 'J’organise les rendez-vous en visioconférence, la remise des clés et la signature du contrat au moyen d’outils de signature électronique avancée ayant pleine valeur et sécurité juridiques (règlement européen eIDAS), sans déplacement ni démarche en personne.',
               },
               {
                 bold: 'Administration complète :',
-                text: 'Nous déposons la caution auprès de l’INCASÒL (organisme catalan du foncier et du logement), gérons l’encaissement des loyers, les décomptes et l’entretien, avec un suivi régulier pour votre totale tranquillité.',
+                text: 'Je dépose la caution auprès de l’INCASÒL (organisme catalan du foncier et du logement), je gère l’encaissement des loyers, les décomptes et l’entretien, avec un suivi régulier pour votre totale tranquillité.',
               },
             ],
           },
@@ -629,7 +629,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. Comment calculez-vous la valeur réelle de mon logement pour le vendre au meilleur prix ?',
-            answerIntroduction: 'Contrairement aux estimations automatiques des portails immobiliers, fondées sur des prix affichés gonflés, Golden Coast associe notre qualification espagnole « Perito Judicial Inmobiliario » (expertise immobilière) et celle d’agents immobiliers diplômés (API) à une analyse comparative des ventes réellement conclues et inscrites au registre de la propriété. Nous évaluons l’état technique, la situation juridique, la performance énergétique et la demande solvable active afin de fixer un prix compétitif qui maximise votre rendement sans que le bien reste bloqué sur le marché.',
+            answerIntroduction: 'Contrairement aux estimations automatiques des portails immobiliers, fondées sur des prix affichés gonflés, j’associe ma qualification espagnole « Perito Judicial Inmobiliario » (expertise immobilière) et mon diplôme d’agente immobilière (API) à une analyse comparative des ventes réellement conclues et inscrites au registre de la propriété. J’évalue l’état technique, la situation juridique, la performance énergétique et la demande solvable active afin de fixer un prix compétitif qui maximise votre rendement sans que le bien reste bloqué sur le marché.',
           },
           {
             id: 7,
@@ -651,12 +651,12 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 9,
             question: '9. Si je veux ACHETER un logement dans le Garraf ou sur la Costa Daurada, comment Golden Coast m’aide-t-il ?',
-            answerIntroduction: 'Nous agissons comme votre chasseur immobilier (Personal Shopper) pour défendre vos intérêts face aux agences des vendeurs. Nous analysons vos besoins et votre budget, menons une recherche personnalisée, sélectionnons les options qui vous correspondent vraiment, vérifions les documents juridiques du bien (charges, extrait du registre foncier ou nota simple, situation urbanistique) et négocions en votre nom le meilleur prix et les meilleures conditions jusqu’à la signature chez le notaire.',
+            answerIntroduction: 'J’agis comme votre chasseuse immobilière (Personal Shopper) pour défendre vos intérêts face aux agences des vendeurs. J’analyse vos besoins et votre budget, je mène une recherche personnalisée, je sélectionne les options qui vous correspondent vraiment, je vérifie les documents du bien (charges, extrait du registre foncier ou nota simple, situation urbanistique) et je négocie en votre nom le meilleur prix et les meilleures conditions jusqu’à la signature chez le notaire.',
           },
           {
             id: 10,
             question: '10. Je viens vivre ou investir depuis l’étranger ou une autre région d’Espagne : en quoi consiste le service de relocation ?',
-            answerIntroduction: 'Déménager implique bien plus que trouver une maison. Notre service de relocation accompagne les clients et investisseurs internationaux (Royaume-Uni, Allemagne, France…) et espagnols tout au long de leur arrivée en Espagne :',
+            answerIntroduction: 'Déménager implique bien plus que trouver une maison. Mon service de relocation accompagne les clients et investisseurs internationaux (Royaume-Uni, Allemagne, France…) et espagnols tout au long de leur arrivée en Espagne :',
             bulletPoints: [
               {
                 bold: 'Conseil sur la zone :',
@@ -668,7 +668,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
               },
               {
                 bold: 'Coordination juridique et administrative :',
-                text: 'Démarches de NIE (numéro d’identification des étrangers), ouverture de comptes bancaires et conseil fiscal associé.',
+                text: 'Démarches de NIE (numéro d’identification des étrangers), ouverture de comptes bancaires et repères sur les impôts liés au logement.',
               },
               {
                 bold: 'Accompagnement ensuite :',
@@ -693,8 +693,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           },
           {
             id: 12,
-            question: '12. En quoi consiste le double contrôle juridique et d’expertise de Golden Coast par rapport à une agence immobilière traditionnelle ?',
-            answerIntroduction: 'La plupart des agences utilisent des contrats types et négligent la vérification technique. Golden Coast travaille avec la rigueur d’un cabinet d’expertise immobilière : nous vérifions l’historique des contrats précédents, les extraits du registre foncier, les charges, le règlement de copropriété, la concordance avec le cadastre et la réglementation en vigueur (LAU et encadrement des loyers). Nous rédigeons des contrats sur mesure pour que l’opération soit juridiquement inattaquable.',
+            question: '12. En quoi ma vérification diffère-t-elle de celle d’une agence immobilière traditionnelle ?',
+            answerIntroduction: 'La plupart des agences utilisent des contrats types et négligent la vérification technique. Je vérifie chaque opération avec un regard d’experte : l’historique des contrats précédents, l’extrait du registre foncier, les charges, le règlement de copropriété, la concordance avec le cadastre et la réglementation en vigueur (LAU et encadrement des loyers). Et je rédige chaque contrat sur mesure, conformément à cette réglementation.',
           },
         ],
       },
@@ -703,13 +703,13 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
   zh: {
     headerEyebrow: '常见问题 · GOLDEN COAST',
     headerTitle: '每个疑问，都有清晰的答案和严谨的法律依据。',
-    headerSubtitle: '透明的信息是安心的基础。我们在这里解答关于房产管理、买卖和出租最常见的问题。',
+    headerSubtitle: '透明的信息是安心的基础。我在这里解答关于房产管理、买卖和出租最常见的问题。',
     expandAll: '全部展开',
     collapseAll: '全部收起',
     answerLabel: '解答：',
     bottomEyebrow: '严谨的专业咨询',
     bottomTitle: '关于您的房产，有具体问题想咨询吗？',
-    bottomSubtitle: '每一个资产情况都是独特的。我会以保密、无任何义务的方式分析您的情况，为您提供最高程度的技术与法律保障。',
+    bottomSubtitle: '每一个资产情况都是独特的。我会以保密、无任何义务的方式分析您的情况，让您安心做出决定。',
     bottomBtn: '向 Valeria 咨询',
     blocks: [
       {
@@ -737,7 +737,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
             question: '2. 在新合同中，我可以向租客收取房产税（IBI）、物业费和垃圾处理费吗？',
             answerIntroduction: '',
             calloutTop: '房产相关的税费（IBI 房产税和垃圾处理费）不可以：自 2026 年 10 月 8 日起，法律禁止让租客承担。物业费只有在明确约定的情况下才可以；在住房市场紧张区，还必须是上一份合同中已经由租客承担的。',
-            concludingText: '第 29/2026 号王室法令已于 2026 年 11 月 12 日获西班牙议会确认，它修改了《城市租赁法》LAU 第 20.1 条：与房产相关的税费在任何情况下都不得强加给租客，除非租客本人就是纳税义务人。此外，在住房市场紧张区，新合同不得让租客承担上一份合同中没有的费用（LAU 第 17.6 条），试图这样做的条款无效（LAU 第 6 条）。如果您的合同是在此日期之前签订的，请联系我们：每个情况都值得逐一核查。',
+            concludingText: '第 29/2026 号王室法令已于 2026 年 11 月 12 日获西班牙议会确认，它修改了《城市租赁法》LAU 第 20.1 条：与房产相关的税费在任何情况下都不得强加给租客，除非租客本人就是纳税义务人。此外，在住房市场紧张区，新合同不得让租客承担上一份合同中没有的费用（LAU 第 17.6 条），试图这样做的条款无效（LAU 第 6 条）。如果您的合同是在此日期之前签订的，请联系我：每个情况都值得逐一核查。',
           },
           {
             id: 3,
@@ -767,19 +767,19 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 5,
             question: '5. 如果我住在其他地方（马德里、德国、英国……），Golden Coast 如何在我无需亲自前来的情况下管理我的房产？',
-            answerIntroduction: '我们为身在外地或海外的业主提供“交钥匙式”的全面管理服务：',
+            answerIntroduction: '我为身在外地或海外的业主提供“交钥匙式”的全面管理服务：',
             bulletPoints: [
               {
                 bold: '远程管理：',
-                text: '我们负责房产估价、出租前的准备、拍摄以及租客筛选，全程透明，并与您保持持续沟通。',
+                text: '我负责房产估价、出租前的准备、拍摄以及租客筛选，全程透明，并与您保持持续沟通。',
               },
               {
                 bold: '高级电子签名：',
-                text: '我们通过视频会议安排沟通，负责钥匙交接，并使用具有完全法律效力和安全保障的高级电子签名工具签署合同（符合欧盟 eIDAS 条例），您无需出行，也无需到场办理。',
+                text: '我通过视频会议安排沟通，负责钥匙交接，并使用具有完全法律效力和安全保障的高级电子签名工具签署合同（符合欧盟 eIDAS 条例），您无需出行，也无需到场办理。',
               },
               {
                 bold: '全面管理：',
-                text: '我们办理押金在加泰罗尼亚土地局（INCASÒL）的存放手续，负责收租、结算和维护，并定期向您汇报，让您完全安心。',
+                text: '我办理押金在加泰罗尼亚土地局（INCASÒL）的存放手续，负责收租、结算和维护，并定期向您汇报，让您完全安心。',
               },
             ],
           },
@@ -793,7 +793,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. 你们如何计算我房子的真实市场价值，以便卖出最好的价格？',
-            answerIntroduction: '房产门户网站的自动估价往往基于被抬高的挂牌价，而 Golden Coast 则结合我们的西班牙房地产鉴定资格（Perito Judicial Inmobiliario）和持证房地产经纪人（API）资质，对比不动产登记处（Registro de la Propiedad）中真实成交的交易。我们评估房屋的技术状况、法律状况、能源效率以及具有实际购买力的需求，从而定出有竞争力的价格，在不让房子滞销的前提下实现最大收益。',
+            answerIntroduction: '房产门户网站的自动估价往往基于被抬高的挂牌价，而我结合自己的西班牙房地产鉴定资格（Perito Judicial Inmobiliario）和房地产经纪人（API）资格，对比不动产登记处（Registro de la Propiedad）中真实成交的交易。我会评估房屋的技术状况、法律状况、能源效率以及具有实际购买力的需求，从而定出有竞争力的价格，在不让房子滞销的前提下实现最大收益。',
           },
           {
             id: 7,
@@ -815,12 +815,12 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 9,
             question: '9. 如果我想在加拉夫或黄金海岸买房，Golden Coast 能怎样帮我？',
-            answerIntroduction: '我们作为您的专属房产买手（Personal Shopper），在面对卖方中介时维护您的利益。我们分析您的需求和预算，进行个性化搜寻，筛选出真正合适的房源，审查房产的法律文件（负担、房产登记摘要 nota simple、城市规划状况），并代表您谈判最好的价格和条件，直到在公证处签约。',
+            answerIntroduction: '我作为您的专属房产买手（Personal Shopper），在面对卖方中介时维护您的利益。我会分析您的需求和预算，进行个性化搜寻，筛选出真正合适的房源，审查房产的相关文件（负担、房产登记摘要 nota simple、城市规划状况），并代表您谈判最好的价格和条件，直到在公证处签约。',
           },
           {
             id: 10,
             question: '10. 我从国外或西班牙其他自治区来这里生活或投资，移居安置服务（Relocation）包括什么？',
-            answerIntroduction: '搬家远不只是找到一套房子。我们的移居安置服务在您来到西班牙的整个过程中，陪伴国际客户和投资者（英国、德国、法国……）以及西班牙国内客户：',
+            answerIntroduction: '搬家远不只是找到一套房子。我的移居安置服务在您来到西班牙的整个过程中，陪伴国际客户和投资者（英国、德国、法国……）以及西班牙国内客户：',
             bulletPoints: [
               {
                 bold: '区域建议：',
@@ -832,7 +832,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
               },
               {
                 bold: '法律与行政协调：',
-                text: '办理外国人身份号码（NIE）、开设银行账户以及相关的税务咨询。',
+                text: '办理外国人身份号码（NIE）、开设银行账户以及与房产相关的税费说明。',
               },
               {
                 bold: '后续陪伴：',
@@ -857,8 +857,8 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           },
           {
             id: 12,
-            question: '12. 与传统房产中介相比，Golden Coast 的“法律与鉴定双重核查”服务是什么？',
-            answerIntroduction: '大多数中介使用标准合同，忽视技术核查。Golden Coast 以房产鉴定的严谨态度工作：我们审查以往合同的历史，核对房产登记摘要、负担、业主共同体章程、与土地登记局（Catastro）记录是否一致，以及现行法规（《城市租赁法》LAU 和租金管控）。我们量身起草合同，确保交易在法律上无懈可击。',
+            question: '12. 与传统房产中介相比，我的核查有什么不同？',
+            answerIntroduction: '大多数中介使用标准合同，忽视技术核查。我以房产鉴定师的眼光审查每一笔交易：以往合同的历史、房产登记摘要、负担、业主共同体章程、与土地登记局（Catastro）记录是否一致，以及现行法规（《城市租赁法》LAU 和租金管控）。我会依照这些法规，为每一份合同量身起草。',
           },
         ],
       },

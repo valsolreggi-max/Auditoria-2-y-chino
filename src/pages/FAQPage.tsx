@@ -29,7 +29,7 @@ export const FAQPage: React.FC = () => {
     },
     zh: {
       title: '常见问题解答 (FAQ) | Golden Coast Property Advisory',
-      description: '关于置业顾问服务费、西中购房与转让全流程、司法尽职调查（Due Diligence）、加泰罗尼亚租赁法（LAU）以及海外买家安家服务的权威解答。',
+      description: '关于置业顾问服务费、西中购房与转让全流程、房产尽职调查（Due Diligence）、加泰罗尼亚租赁法（LAU）以及海外买家安家服务的权威解答。',
     },
   }[currentLanguage];
 

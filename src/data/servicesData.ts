@@ -51,9 +51,9 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
     ownerSectionEyebrow: '¿TIENES UNA PROPIEDAD?',
     buyerSectionEyebrow: '¿BUSCAS UNA PROPIEDAD?',
     howCanIHelp: '¿Cómo puedo ayudarte?',
-    bottomEyebrow: 'ASESORAMIENTO OFICIAL & RIGOR JURÍDICO',
+    bottomEyebrow: 'TITULACIONES Y ESPECIALIDAD INMOBILIARIA',
     bottomTitle: '¿Tienes dudas sobre qué modalidad de gestión se adapta mejor a tu vivienda?',
-    bottomSubtitle: 'Analizamos tu propiedad y objetivos para diseñar una propuesta jurídica y comercial personalizada.',
+    bottomSubtitle: 'Analizo tu propiedad y tus objetivos para diseñar una propuesta inmobiliaria a tu medida.',
     bottomBtnConsult: 'Consultar sobre mi propiedad',
     bottomBtnContact: 'Ir a formulario de contacto',
     ownerServices: [
@@ -86,7 +86,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Puedes contratar servicios concretos o confiarme la gestión integral de tu vivienda. Siempre encontrarás una propuesta adaptada a tus necesidades.',
           },
         ],
-        closing: 'Cada propiedad es diferente. Cuéntame qué necesitas y prepararemos una propuesta personalizada.',
+        closing: 'Cada propiedad es diferente. Cuéntame qué necesitas y prepararé una propuesta personalizada.',
         ctaText: 'Solicitar información',
         consultationType: 'owner',
       },
@@ -119,7 +119,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Como API y Perito Judicial Inmobiliario, te ofrezco un asesoramiento personalizado para que puedas alquilar con tranquilidad y seguridad.',
           },
         ],
-        closing: 'Cada alquiler es diferente. Cuéntame tu caso y prepararemos la solución que mejor se adapte a tu vivienda.',
+        closing: 'Cada alquiler es diferente. Cuéntame tu caso y prepararé la solución que mejor se adapte a tu vivienda.',
         ctaText: 'Solicitar información',
         consultationType: 'owner',
       },
@@ -144,7 +144,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Preparo toda la documentación',
-            desc: 'Redacto el contrato conforme a la legislación vigente y la normativa de zonas tensionadas para garantizar seguridad jurídica.',
+            desc: 'Redacto el contrato conforme a la legislación vigente y la normativa de zonas tensionadas.',
           },
           {
             step: '04',
@@ -152,7 +152,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Te asesoro en cada paso del proceso, desde la comercialización de la vivienda hasta la entrega de llaves.',
           },
         ],
-        closing: 'Cada vivienda y cada propietario son diferentes. Cuéntame tu caso y prepararemos una propuesta adaptada a tus necesidades.',
+        closing: 'Cada vivienda y cada propietario son diferentes. Cuéntame tu caso y prepararé una propuesta adaptada a tus necesidades.',
         ctaText: 'Solicitar información',
         consultationType: 'owner',
       },
@@ -185,7 +185,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Te asesoro durante la negociación, la firma en notaría y la entrega de llaves para tu total serenidad.',
           },
         ],
-        closing: 'Cada propiedad es única. Cuéntame tu proyecto y prepararemos una estrategia adaptada a tu vivienda.',
+        closing: 'Cada propiedad es única. Cuéntame tu proyecto y prepararé una estrategia adaptada a tu vivienda.',
         ctaText: 'Solicitar información',
         consultationType: 'owner',
       },
@@ -263,9 +263,9 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
     ownerSectionEyebrow: 'DO YOU OWN A PROPERTY?',
     buyerSectionEyebrow: 'LOOKING TO ACQUIRE A PROPERTY?',
     howCanIHelp: 'How can I assist you?',
-    bottomEyebrow: 'OFFICIAL ACCREDITATION & LEGAL RIGOR',
+    bottomEyebrow: 'QUALIFICATIONS & PROPERTY EXPERTISE',
     bottomTitle: 'Unsure which management model best fits your property?',
-    bottomSubtitle: 'We evaluate your property and goals to design a bespoke legal and commercial strategy.',
+    bottomSubtitle: 'I assess your property and your goals to design a property strategy tailored to you.',
     bottomBtnConsult: 'Inquire about my property',
     bottomBtnContact: 'Go to contact form',
     ownerServices: [
@@ -298,7 +298,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Choose selected operational modules or complete full-service stewardship. You always receive an adaptable proposal.',
           },
         ],
-        closing: 'Every home is unique. Share your vision and we will craft a personalized management plan.',
+        closing: 'Every home is unique. Share your vision and I will craft a personalized management plan.',
         ctaText: 'Request information',
         consultationType: 'owner',
       },
@@ -318,7 +318,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '02',
             title: 'Legal Documentation',
-            desc: 'I draft bulletproof seasonal contracts justifying legal purpose and ensuring full compliance with regional regulations.',
+            desc: 'I draft seasonal contracts that state the reason for the stay and comply with regional regulations.',
           },
           {
             step: '03',
@@ -328,10 +328,10 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: 'End-to-End Advisory',
-            desc: 'As a certified API and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), I offer expert oversight so you lease with serenity.',
+            desc: 'As a qualified estate agent (API) and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), I offer expert oversight so you lease with serenity.',
           },
         ],
-        closing: 'Every seasonal lease is different. Let us discuss your property and find the optimal legal approach.',
+        closing: 'Every seasonal lease is different. Let us discuss your property and find the approach that suits it best.',
         ctaText: 'Request information',
         consultationType: 'owner',
       },
@@ -355,7 +355,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           },
           {
             step: '03',
-            title: 'Airtight Legal Drafting',
+            title: 'Careful Contract Drafting',
             desc: 'I draft contracts compliant with Spanish Urban Tenancy Law (LAU) and Catalan capped-rent zone mandates.',
           },
           {
@@ -379,7 +379,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Forensic Valuation',
-            desc: 'As a certified API and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), I establish an authoritative market assessment and positioning.',
+            desc: 'As a qualified estate agent (API) and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), I establish an authoritative market assessment and positioning.',
           },
           {
             step: '02',
@@ -397,7 +397,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'I guide price negotiations, earnest money agreements (arras), and accompany you at the notary closing.',
           },
         ],
-        closing: 'Every home is unique. Share your goals and we will establish a tailored sales strategy.',
+        closing: 'Every home is unique. Share your goals and I will establish a tailored sales strategy.',
         ctaText: 'Request information',
         consultationType: 'owner',
       },
@@ -414,7 +414,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Brief & Criteria Definition',
-            desc: 'We define your lifestyle needs, aesthetic preferences, budget, and timeline to build a focused acquisition strategy.',
+            desc: 'I identify your lifestyle needs, aesthetic preferences, budget, and timeline to build a focused acquisition strategy.',
           },
           {
             step: '02',
@@ -423,7 +423,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           },
           {
             step: '03',
-            title: 'Legal Audit & Negotiation',
+            title: 'Document Review & Negotiation',
             desc: 'I audit land registry certificates, urban charges, and structural permits, negotiating terms on your exclusive behalf.',
           },
           {
@@ -446,7 +446,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Lifestyle Assessment',
-            desc: 'We examine your family requirements, schooling, and commuting needs to recommend ideal neighborhoods.',
+            desc: 'I examine your family requirements, schooling, and commuting needs to recommend ideal neighborhoods.',
           },
           {
             step: '02',
@@ -475,9 +475,9 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
     ownerSectionEyebrow: 'BESITZEN SIE EINE IMMOBILIE?',
     buyerSectionEyebrow: 'SUCHEN SIE EINE IMMOBILIE?',
     howCanIHelp: 'Wie kann ich Ihnen helfen?',
-    bottomEyebrow: 'OFFIZIELLE AKKREDITIERUNG & JURISTISCHE PRÄZISION',
+    bottomEyebrow: 'QUALIFIKATIONEN & IMMOBILIENKOMPETENZ',
     bottomTitle: 'Unsicher, welches Betreuungsmodell am besten zu Ihrer Immobilie passt?',
-    bottomSubtitle: 'Wir analysieren Ihr Objekt und Ihre Wünsche für ein maßgeschneidertes rechtliches und wirtschaftliches Konzept.',
+    bottomSubtitle: 'Ich analysiere Ihr Objekt und Ihre Ziele für ein Immobilienkonzept, das zu Ihnen passt.',
     bottomBtnConsult: 'Beratung für meine Immobilie',
     bottomBtnContact: 'Zum Kontaktformular',
     ownerServices: [
@@ -525,7 +525,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Fallanalyse',
-            desc: 'Wir analysieren den Zweck der Vermietung und wählen die rechtlich sicherste Vertragsmodalität.',
+            desc: 'Ich analysiere den Zweck der Vermietung und wähle die passende Vertragsart.',
           },
           {
             step: '02',
@@ -576,7 +576,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Persönliche Präsenz von der Vermarktung über die Kautionshinterlegung bis zur finalen Übergabe.',
           },
         ],
-        closing: 'Jede Wohnung und jeder Eigentümer ist anders. Schildern Sie mir Ihren Fall, und wir erstellen ein Angebot, das zu Ihren Bedürfnissen passt.',
+        closing: 'Jede Wohnung und jeder Eigentümer ist anders. Schildern Sie mir Ihren Fall, und ich erstelle ein Angebot, das zu Ihren Bedürfnissen passt.',
         ctaText: 'Informationen anfordern',
         consultationType: 'owner',
       },
@@ -626,7 +626,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Bedarfsanalyse',
-            desc: 'Wir erfassen Ihre Wünsche, Lebensgewohnheiten und Ihr Budget für eine zielgerichtete Suchstrategie.',
+            desc: 'Ich erfasse Ihre Wünsche, Lebensgewohnheiten und Ihr Budget für eine zielgerichtete Suchstrategie.',
           },
           {
             step: '02',
@@ -687,9 +687,9 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
     ownerSectionEyebrow: 'VOUS POSSÉDEZ UN BIEN IMMOBILIER ?',
     buyerSectionEyebrow: 'VOUS RECHERCHEZ UN BIEN ?',
     howCanIHelp: 'Comment puis-je vous accompagner ?',
-    bottomEyebrow: 'ACCRÉDITATION OFFICIELLE & RIGUEUR JURIDIQUE',
+    bottomEyebrow: 'DIPLÔMES & EXPERTISE IMMOBILIÈRE',
     bottomTitle: 'Des doutes sur la formule de gestion la plus adaptée à votre logement ?',
-    bottomSubtitle: 'Nous analysons votre bien et vos objectifs pour bâtir une proposition sur mesure.',
+    bottomSubtitle: 'J’analyse votre bien et vos objectifs pour bâtir une proposition sur mesure.',
     bottomBtnConsult: 'Consulter pour mon bien',
     bottomBtnContact: 'Aller au formulaire de contact',
     ownerServices: [
@@ -722,7 +722,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: 'Choisissez des prestations précises ou confiez-moi la gérance globale de votre bien en toute quiétude.',
           },
         ],
-        closing: 'Chaque bien est unique. Présentez-moi votre projet et nous concevrons une offre adaptée.',
+        closing: 'Chaque bien est unique. Présentez-moi votre projet et je concevrai une offre adaptée.',
         ctaText: 'Demander des renseignements',
         consultationType: 'owner',
       },
@@ -752,7 +752,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: 'Conseil expert API',
-            desc: 'En tant qu’API titulaire de la qualification « Perito Judicial Inmobiliario », je vous garantis une sécurité juridique totale tout au long du contrat.',
+            desc: 'En tant qu’agente immobilière diplômée (API) et titulaire de la qualification « Perito Judicial Inmobiliario », je veille à ce que le contrat respecte la réglementation en vigueur du début à la fin.',
           },
         ],
         closing: 'Chaque location a ses spécificités. Parlons de votre bien pour définir la meilleure approche.',
@@ -899,9 +899,9 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
     ownerSectionEyebrow: '您有房产吗？',
     buyerSectionEyebrow: '您在找房吗？',
     howCanIHelp: '我能为您做些什么？',
-    bottomEyebrow: '专业咨询与严谨的法律保障',
+    bottomEyebrow: '专业资格与房产专长',
     bottomTitle: '不确定哪种管理方式最适合您的房子？',
-    bottomSubtitle: '我们会分析您的房产和目标，为您设计个性化的法律与商业方案。',
+    bottomSubtitle: '我会分析您的房产和目标，为您设计量身定制的房产方案。',
     bottomBtnConsult: '咨询我的房产',
     bottomBtnContact: '前往联系表单',
     ownerServices: [
@@ -934,7 +934,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: '您可以只选择具体的单项服务，也可以把房子的全面管理交给我。您总能得到符合自己需求的方案。',
           },
         ],
-        closing: '每套房产都不一样。告诉我您需要什么，我们会为您准备个性化的方案。',
+        closing: '每套房产都不一样。告诉我您需要什么，我会为您准备个性化的方案。',
         ctaText: '索取信息',
         consultationType: 'owner',
       },
@@ -964,10 +964,10 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: '全程陪伴您',
-            desc: '作为持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的持证房地产经纪人（API），我为您提供个性化的咨询，让您安心、有保障地出租。',
+            desc: '作为持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的房地产经纪人（API），我为您提供个性化的咨询，让您安心、有保障地出租。',
           },
         ],
-        closing: '每一次出租都不一样。告诉我您的情况，我们会准备最适合您房子的解决方案。',
+        closing: '每一次出租都不一样。告诉我您的情况，我会准备最适合您房子的解决方案。',
         ctaText: '索取信息',
         consultationType: 'owner',
       },
@@ -992,7 +992,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: '准备全部文件',
-            desc: '我会依照现行法律和住房市场紧张区的相关规定起草合同，确保法律上的安全。',
+            desc: '我会依照现行法律和住房市场紧张区的相关规定起草合同。',
           },
           {
             step: '04',
@@ -1000,7 +1000,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: '从房屋推广到交钥匙，每一步我都会为您提供建议。',
           },
         ],
-        closing: '每套房子、每位业主都不一样。告诉我您的情况，我们会准备符合您需求的方案。',
+        closing: '每套房子、每位业主都不一样。告诉我您的情况，我会准备符合您需求的方案。',
         ctaText: '索取信息',
         consultationType: 'owner',
       },
@@ -1015,7 +1015,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: '为您的房产估价',
-            desc: '作为持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的持证房地产经纪人（API），我会进行技术估价，帮您确定最佳的市场定位。',
+            desc: '作为持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的房地产经纪人（API），我会进行技术估价，帮您确定最佳的市场定位。',
           },
           {
             step: '02',
@@ -1033,7 +1033,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
             desc: '在谈判、公证处签约和交钥匙的过程中，我都会为您提供建议，让您完全安心。',
           },
         ],
-        closing: '每套房产都是独一无二的。告诉我您的计划，我们会制定适合您房子的策略。',
+        closing: '每套房产都是独一无二的。告诉我您的计划，我会制定适合您房子的策略。',
         ctaText: '索取信息',
         consultationType: 'owner',
       },

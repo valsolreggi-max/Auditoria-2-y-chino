@@ -7,10 +7,10 @@ export const de: BlogPostContent = {
     'Was Sie bei der ersten Besichtigung selbst erkennen, was nur ein Bausachverständiger findet und welche Unterlagen Sie vor dem Anzahlungsvertrag brauchen.',
   seoTitle: 'Immobilienkauf in Spanien: Worauf achten? | Checkliste',
   metaDescription:
-    'Eine zertifizierte Maklerin (API) mit der spanischen Qualifikation „Perito Judicial Inmobiliario“ erklärt, worauf Sie bei der Besichtigung achten, wann ein Gutachter nötig ist und welche Unterlagen Sie vorab prüfen sollten.',
+    'Eine diplomierte Maklerin (API) mit der spanischen Qualifikation „Perito Judicial Inmobiliario“ erklärt, worauf Sie bei der Besichtigung achten, wann ein Gutachter nötig ist und welche Unterlagen Sie vorab prüfen sollten.',
   excerpt:
     'Ein frisch renoviertes Haus kann mehr verbergen als eines, das so gezeigt wird, wie es ist. Vier Schritte, damit Sie in Spanien genau wissen, was Sie kaufen.',
-  authorRole: 'Zertifizierte Maklerin (API), spanische Qualifikation „Perito Judicial Inmobiliario“',
+  authorRole: 'Diplomierte Maklerin (API), spanische Qualifikation „Perito Judicial Inmobiliario“',
   readingTime: '9 Min. Lesezeit',
   updatedLabel: 'Aktualisiert im November 2026',
   blocks: [
