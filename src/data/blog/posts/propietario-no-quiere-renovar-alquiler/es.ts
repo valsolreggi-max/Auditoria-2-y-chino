@@ -120,12 +120,13 @@ export const es: BlogPostContent = {
       items: [
         '**Del 8 de octubre de 2026 al 31 de diciembre de 2027:** como máximo un 2%, y ninguna subida si la renta ya supera el índice de referencia.',
         '**En 2024:** como máximo un 3%.',
-        '**De la primavera de 2022 a finales de 2023:** como máximo la variación del Índice de Garantía de Competitividad.',
+        '**De 2025 al 7 de octubre de 2026:** el límite de referencia era el índice del INE para actualizar los alquileres (IRAV).',
+        '**Del 31 de marzo de 2022 a finales de 2023:** como máximo la variación del Índice de Garantía de Competitividad.',
       ],
     },
     {
       type: 'p',
-      text: 'Si firmas un contrato nuevo en zona tensionada, la renta tampoco es libre: no puede superar la del inquilino anterior. Y si el propietario es un gran tenedor, o el piso no se alquiló en los últimos cinco años, el límite lo marca el índice oficial del Ministerio de Vivienda.',
+      text: 'Si firmas un contrato nuevo en zona tensionada, la renta tampoco es libre: no puede superar la del inquilino anterior, con la actualización anual que preveía su contrato. Y si el propietario es un gran tenedor, o el piso no se alquiló en los últimos cinco años, el límite lo marca el índice oficial del Ministerio de Vivienda.',
     },
     {
       type: 'p',
@@ -138,7 +139,7 @@ export const es: BlogPostContent = {
     {
       type: 'callout',
       label: 'Lo que dice la ley',
-      text: 'Actualización: art. 18 LAU y disposición final sexta del Real Decreto-ley 29/2026. Límites anteriores: art. 46 del Real Decreto-ley 6/2022 y disposición final sexta de la Ley 12/2023. Tope en zona tensionada: art. 17.6 y 17.7 LAU. Gastos y tributos: art. 20 LAU.',
+      text: 'Actualización: art. 18 LAU y disposición final sexta del Real Decreto-ley 29/2026. Límites anteriores: art. 46 del Real Decreto-ley 6/2022 y disposición final sexta de la Ley 12/2023; desde 2025, disposición adicional undécima LAU. Tope en zona tensionada: art. 17.6 y 17.7 LAU. Gastos y tributos: art. 20 LAU.',
     },
     {
       type: 'p',

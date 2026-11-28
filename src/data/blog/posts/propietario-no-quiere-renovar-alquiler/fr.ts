@@ -120,12 +120,13 @@ export const fr: BlogPostContent = {
       items: [
         '**Du 8 octobre 2026 au 31 décembre 2027 :** 2 % au maximum, et aucune hausse si le loyer dépasse déjà l’indice de référence.',
         '**En 2024 :** 3 % au maximum.',
-        '**Du printemps 2022 à fin 2023 :** au maximum la variation de l’indice de garantie de compétitivité (*Índice de Garantía de Competitividad*).',
+        '**De 2025 au 7 octobre 2026 :** la limite de référence était l’indice de l’INE pour la révision des loyers (IRAV).',
+        '**Du 31 mars 2022 à fin 2023 :** au maximum la variation de l’indice de garantie de compétitivité (*Índice de Garantía de Competitividad*).',
       ],
     },
     {
       type: 'p',
-      text: 'Si vous signez un nouveau contrat en zone tendue, le loyer n’est pas libre non plus : il ne peut pas dépasser celui du locataire précédent. Et si le propriétaire est un grand propriétaire (*gran tenedor*), ou si le logement n’a pas été loué au cours des cinq dernières années, la limite est fixée par l’indice officiel du ministère du Logement.',
+      text: 'Si vous signez un nouveau contrat en zone tendue, le loyer n’est pas libre non plus : il ne peut pas dépasser celui du locataire précédent, majoré de la révision annuelle prévue dans son contrat. Et si le propriétaire est un grand propriétaire (*gran tenedor*), ou si le logement n’a pas été loué au cours des cinq dernières années, la limite est fixée par l’indice officiel du ministère du Logement.',
     },
     {
       type: 'p',
@@ -138,7 +139,7 @@ export const fr: BlogPostContent = {
     {
       type: 'callout',
       label: 'Ce que dit la loi',
-      text: 'Révision du loyer : art. 18 LAU et sixième disposition finale du décret-loi royal 29/2026. Limites antérieures : art. 46 du décret-loi royal 6/2022 et sixième disposition finale de la loi 12/2023. Plafond en zone tendue : art. 17.6 et 17.7 LAU. Charges et impôts : art. 20 LAU.',
+      text: 'Révision du loyer : art. 18 LAU et sixième disposition finale du décret-loi royal 29/2026. Limites antérieures : art. 46 du décret-loi royal 6/2022 et sixième disposition finale de la loi 12/2023 ; à partir de 2025, onzième disposition additionnelle LAU. Plafond en zone tendue : art. 17.6 et 17.7 LAU. Charges et impôts : art. 20 LAU.',
     },
     {
       type: 'p',

@@ -120,12 +120,13 @@ export const de: BlogPostContent = {
       items: [
         '**Vom 8. Oktober 2026 bis 31. Dezember 2027:** höchstens 2 %, und keine Erhöhung, wenn die Miete bereits über dem Referenzindex liegt.',
         '**2024:** höchstens 3 %.',
-        '**Vom Frühjahr 2022 bis Ende 2023:** höchstens die Veränderung des Wettbewerbsgarantie-Index (*Índice de Garantía de Competitividad*).',
+        '**Von 2025 bis zum 7. Oktober 2026:** Als Referenzgrenze galt der Index des spanischen Statistikamts INE für die Mietanpassung (IRAV).',
+        '**Vom 31. März 2022 bis Ende 2023:** höchstens die Veränderung des Wettbewerbsgarantie-Index (*Índice de Garantía de Competitividad*).',
       ],
     },
     {
       type: 'p',
-      text: 'Unterschreiben Sie in einem angespannten Gebiet einen neuen Vertrag, ist die Miete auch nicht frei: Sie darf die des Vormieters nicht übersteigen. Und ist der Vermieter ein Großeigentümer (*gran tenedor*) oder wurde die Wohnung in den letzten fünf Jahren nicht vermietet, setzt der offizielle Index des Wohnungsministeriums die Grenze.',
+      text: 'Unterschreiben Sie in einem angespannten Gebiet einen neuen Vertrag, ist die Miete auch nicht frei: Sie darf die des Vormieters nicht übersteigen, zuzüglich der jährlichen Anpassung, die dessen Vertrag vorsah. Und ist der Vermieter ein Großeigentümer (*gran tenedor*) oder wurde die Wohnung in den letzten fünf Jahren nicht vermietet, setzt der offizielle Index des Wohnungsministeriums die Grenze.',
     },
     {
       type: 'p',
@@ -138,7 +139,7 @@ export const de: BlogPostContent = {
     {
       type: 'callout',
       label: 'Was das Gesetz sagt',
-      text: 'Mietanpassung: Art. 18 LAU und sechste Schlussbestimmung des Königlichen Gesetzesdekrets 29/2026. Frühere Grenzen: Art. 46 des Königlichen Gesetzesdekrets 6/2022 und sechste Schlussbestimmung des Gesetzes 12/2023. Obergrenze in angespannten Gebieten: Art. 17.6 und 17.7 LAU. Kosten und Steuern: Art. 20 LAU.',
+      text: 'Mietanpassung: Art. 18 LAU und sechste Schlussbestimmung des Königlichen Gesetzesdekrets 29/2026. Frühere Grenzen: Art. 46 des Königlichen Gesetzesdekrets 6/2022 und sechste Schlussbestimmung des Gesetzes 12/2023; ab 2025 elfte Zusatzbestimmung LAU. Obergrenze in angespannten Gebieten: Art. 17.6 und 17.7 LAU. Kosten und Steuern: Art. 20 LAU.',
     },
     {
       type: 'p',

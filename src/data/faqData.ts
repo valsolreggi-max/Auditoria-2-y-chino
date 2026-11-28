@@ -106,7 +106,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. ¿Puedo contratar únicamente servicios puntuales para mi alquiler vacacional o de temporada sin delegar la gestión integral?',
-            answerIntroduction: 'Sí. Adapto la propuesta a lo que realmente necesitas. En alquiler vacacional (hasta 31 noches) y en alquiler de temporada (desde 32 noches o 1 mes hasta 12 meses) en municipios como Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell y Calafell, puedes contratar la gestión integral 360° o solicitar servicios a la carta: recepción y entrega de llaves (check-in/check-out), elaboración de contratos de temporada conforme a ley, inventarios con control de suministros, servicio de limpieza y lavandería o atención de incidencias 24/7.',
+            answerIntroduction: 'Sí. Adapto la propuesta a lo que realmente necesitas. En alquiler vacacional (hasta 31 noches) y en alquiler de temporada (desde 32 noches o 1 mes hasta 12 meses) en municipios como Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell y Calafell, puedes contratar la gestión integral 360° o solicitar servicios a la carta: recepción y entrega de llaves (check-in/check-out), elaboración de contratos de temporada conforme a ley, inventarios con control de suministros, coordinación de limpieza y lavandería o atención de incidencias 24/7.',
           },
           {
             id: 5,
@@ -147,7 +147,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 8,
             question: '8. ¿En cuánto tiempo se vende una propiedad si la gestión se hace correctamente desde el primer día?',
-            answerIntroduction: 'Una propiedad con una valoración técnica rigurosa, una puesta a punto impecable y una estrategia de comercialización dirigida no debe tardar más de 3 meses en venderse. Superar este plazo suele ser síntoma de un error en la fijación de precio inicial o en la presentación y filtrado del cliente comprador.',
+            answerIntroduction: 'Depende sobre todo del precio de salida y de cómo se presenta la casa. Cuando el trabajo está bien hecho desde el principio (una valoración rigurosa, una buena puesta a punto y una comercialización dirigida), los resultados son mejores y llegan antes. Si una casa tarda demasiado en venderse, casi siempre hay que revisar el precio inicial o la forma de presentarla.',
           },
         ],
       },
@@ -270,7 +270,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. Can I hire just specific services for my holiday or seasonal rental, without handing over full management?',
-            answerIntroduction: 'Yes. I tailor the proposal to what you really need. For holiday rentals (up to 31 nights) and seasonal rentals (from 32 nights or 1 month up to 12 months) in towns such as Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell and Calafell, you can choose full 360° management or à la carte services: key handover (check-in/check-out), legally compliant seasonal rental contracts, inventories with utility meter readings, cleaning and laundry, or 24/7 incident handling.',
+            answerIntroduction: 'Yes. I tailor the proposal to what you really need. For holiday rentals (up to 31 nights) and seasonal rentals (from 32 nights or 1 month up to 12 months) in towns such as Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell and Calafell, you can choose full 360° management or à la carte services: key handover (check-in/check-out), legally compliant seasonal rental contracts, inventories with utility meter readings, coordination of cleaning and laundry, or 24/7 incident handling.',
           },
           {
             id: 5,
@@ -311,7 +311,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 8,
             question: '8. How long does it take to sell a property if it is managed correctly from day one?',
-            answerIntroduction: 'A property with a rigorous technical valuation, impeccable preparation and a targeted marketing strategy should not take more than 3 months to sell. Going beyond that period usually points to a mistake in the initial asking price or in the presentation and screening of buyers.',
+            answerIntroduction: 'It depends above all on the asking price and on how the home is presented. When the work is done well from the start (a rigorous valuation, good preparation and targeted marketing), the results are better and come sooner. If a home takes too long to sell, it is almost always worth reviewing the initial price or the way it is presented.',
           },
         ],
       },
@@ -434,7 +434,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. Kann ich für meine Ferien- oder Zeitvermietung nur einzelne Leistungen buchen, ohne die gesamte Verwaltung abzugeben?',
-            answerIntroduction: 'Ja. Ich passe das Angebot an das an, was Sie wirklich brauchen. Bei der Ferienvermietung (bis zu 31 Nächte) und der Zeitvermietung (ab 32 Nächten bzw. 1 Monat bis zu 12 Monaten) in Orten wie Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell und Calafell können Sie die 360°-Rundumverwaltung wählen oder Leistungen à la carte buchen: Schlüsselübergabe (Check-in/Check-out), rechtskonforme Zeitmietverträge, Inventarlisten mit Zählerständen, Reinigung und Wäscheservice oder 24/7-Störungsdienst.',
+            answerIntroduction: 'Ja. Ich passe das Angebot an das an, was Sie wirklich brauchen. Bei der Ferienvermietung (bis zu 31 Nächte) und der Zeitvermietung (ab 32 Nächten bzw. 1 Monat bis zu 12 Monaten) in Orten wie Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell und Calafell können Sie die 360°-Rundumverwaltung wählen oder Leistungen à la carte buchen: Schlüsselübergabe (Check-in/Check-out), rechtskonforme Zeitmietverträge, Inventarlisten mit Zählerständen, Koordination von Reinigung und Wäscheservice oder 24/7-Störungsdienst.',
           },
           {
             id: 5,
@@ -475,7 +475,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 8,
             question: '8. Wie schnell lässt sich eine Immobilie verkaufen, wenn sie vom ersten Tag an richtig betreut wird?',
-            answerIntroduction: 'Eine Immobilie mit einer sorgfältigen technischen Bewertung, einer tadellosen Vorbereitung und einer gezielten Vermarktungsstrategie sollte nicht länger als 3 Monate für den Verkauf brauchen. Dauert es länger, deutet das meist auf einen Fehler beim ursprünglichen Angebotspreis oder bei der Präsentation und der Auswahl der Käufer hin.',
+            answerIntroduction: 'Das hängt vor allem vom Angebotspreis ab und davon, wie die Immobilie präsentiert wird. Wenn die Arbeit von Anfang an gut gemacht ist (eine sorgfältige Bewertung, eine gute Vorbereitung und eine gezielte Vermarktung), sind die Ergebnisse besser und kommen schneller. Dauert der Verkauf zu lange, lohnt es sich fast immer, den Anfangspreis oder die Präsentation zu überprüfen.',
           },
         ],
       },
@@ -598,7 +598,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. Puis-je recourir uniquement à des services ponctuels pour ma location saisonnière ou temporaire, sans déléguer la gestion complète ?',
-            answerIntroduction: 'Oui. J’adapte la proposition à vos besoins réels. Pour la location saisonnière (jusqu’à 31 nuits) et la location temporaire (à partir de 32 nuits ou 1 mois, jusqu’à 12 mois) dans des communes comme Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell et Calafell, vous pouvez choisir la gestion complète à 360° ou des services à la carte : remise des clés (check-in/check-out), contrats de location temporaire conformes à la loi, états des lieux avec relevé des compteurs, ménage et blanchisserie, ou gestion des incidents 24 h/24 et 7 j/7.',
+            answerIntroduction: 'Oui. J’adapte la proposition à vos besoins réels. Pour la location saisonnière (jusqu’à 31 nuits) et la location temporaire (à partir de 32 nuits ou 1 mois, jusqu’à 12 mois) dans des communes comme Sitges, Vilanova i la Geltrú, Cubelles, Cunit, Segur de Calafell et Calafell, vous pouvez choisir la gestion complète à 360° ou des services à la carte : remise des clés (check-in/check-out), contrats de location temporaire conformes à la loi, états des lieux avec relevé des compteurs, coordination du ménage et de la blanchisserie, ou gestion des incidents 24 h/24 et 7 j/7.',
           },
           {
             id: 5,
@@ -639,7 +639,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 8,
             question: '8. En combien de temps un bien se vend-il si la gestion est bien faite dès le premier jour ?',
-            answerIntroduction: 'Un bien bénéficiant d’une estimation technique rigoureuse, d’une préparation impeccable et d’une stratégie de commercialisation ciblée ne devrait pas mettre plus de 3 mois à se vendre. Au-delà, c’est généralement le signe d’une erreur dans le prix de départ ou dans la présentation et la sélection des acheteurs.',
+            answerIntroduction: 'Cela dépend surtout du prix de départ et de la manière dont le bien est présenté. Quand le travail est bien fait dès le début (une estimation rigoureuse, une bonne préparation et une commercialisation ciblée), les résultats sont meilleurs et arrivent plus vite. Si un bien tarde trop à se vendre, il faut presque toujours revoir le prix initial ou sa présentation.',
           },
         ],
       },
@@ -762,7 +762,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 4,
             question: '4. 对于度假出租或短期出租，我可以只购买单项服务，而不委托全面管理吗？',
-            answerIntroduction: '可以。Golden Coast 会根据您真正的需要量身定制方案。在锡切斯、维拉诺瓦（Vilanova i la Geltrú）、库贝列斯、库尼特、塞古尔德卡拉费尔（Segur de Calafell）和卡拉费尔等市镇，无论是度假出租（最长 31 晚），还是短期出租（32 晚或 1 个月起，最长 12 个月），您都可以选择 360° 全面管理，或按需选择单项服务：钥匙交接（入住/退房）、依法起草短期租赁合同、含水电气读数的物品清单、清洁与洗衣服务，或 24/7 故障处理。',
+            answerIntroduction: '可以。Golden Coast 会根据您真正的需要量身定制方案。在锡切斯、维拉诺瓦（Vilanova i la Geltrú）、库贝列斯、库尼特、塞古尔德卡拉费尔（Segur de Calafell）和卡拉费尔等市镇，无论是度假出租（最长 31 晚），还是短期出租（32 晚或 1 个月起，最长 12 个月），您都可以选择 360° 全面管理，或按需选择单项服务：钥匙交接（入住/退房）、依法起草短期租赁合同、含水电气读数的物品清单、协调清洁与洗衣服务，或 24/7 故障处理。',
           },
           {
             id: 5,
@@ -803,7 +803,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 8,
             question: '8. 如果从第一天起就正确管理，一套房子多久能卖出去？',
-            answerIntroduction: '一套经过严谨技术估价、准备得无可挑剔、并有针对性营销策略的房子，出售时间不应超过 3 个月。超过这个期限，通常说明最初定价有误，或者在房屋展示和买家筛选上出了问题。',
+            answerIntroduction: '这主要取决于挂牌价格以及房子的展示方式。如果从一开始就把工作做好（严谨的估价、充分的准备和有针对性的推广），效果会更好，也会更快。如果房子迟迟卖不出去，几乎总是需要重新审视最初的定价或展示方式。',
           },
         ],
       },

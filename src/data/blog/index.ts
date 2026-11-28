@@ -26,7 +26,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'propietario-no-quiere-renovar-alquiler',
     datePublished: '2026-11-27',
-    dateModified: '2026-11-27',
+    dateModified: '2026-11-28',
     image: photoInquilinaBalcon,
     imageAlt: {
       es: 'Inquilina pensativa en el balcón con una notificación sobre la mesa',

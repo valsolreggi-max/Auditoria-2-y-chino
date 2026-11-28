@@ -120,12 +120,13 @@ export const en: BlogPostContent = {
       items: [
         '**From 8 October 2026 to 31 December 2027:** a maximum of 2%, and no increase at all if the rent is already above the reference index.',
         '**In 2024:** a maximum of 3%.',
-        '**From spring 2022 to the end of 2023:** a maximum equal to the change in the Competitiveness Guarantee Index (Índice de Garantía de Competitividad).',
+        '**From 2025 to 7 October 2026:** the reference limit was the INE index for updating rents (IRAV).',
+        '**From 31 March 2022 to the end of 2023:** a maximum equal to the change in the Competitiveness Guarantee Index (Índice de Garantía de Competitividad).',
       ],
     },
     {
       type: 'p',
-      text: 'If you sign a new contract in a stressed area, the rent is not free either: it cannot exceed what the previous tenant paid. And if the landlord is a large owner (gran tenedor), or the flat has not been let in the last five years, the limit is set by the Ministry of Housing’s official reference index.',
+      text: 'If you sign a new contract in a stressed area, the rent is not free either: it cannot exceed what the previous tenant paid, plus the annual update provided for in that contract. And if the landlord is a large owner (gran tenedor), or the flat has not been let in the last five years, the limit is set by the Ministry of Housing’s official reference index.',
     },
     {
       type: 'p',
@@ -138,7 +139,7 @@ export const en: BlogPostContent = {
     {
       type: 'callout',
       label: 'What the law says',
-      text: 'Rent updates: art. 18 LAU and sixth final provision of Royal Decree-law 29/2026. Earlier limits: art. 46 of Royal Decree-law 6/2022 and sixth final provision of Law 12/2023. Cap in stressed areas: art. 17.6 and 17.7 LAU. Charges and taxes: art. 20 LAU.',
+      text: 'Rent updates: art. 18 LAU and sixth final provision of Royal Decree-law 29/2026. Earlier limits: art. 46 of Royal Decree-law 6/2022 and sixth final provision of Law 12/2023; from 2025, eleventh additional provision LAU. Cap in stressed areas: art. 17.6 and 17.7 LAU. Charges and taxes: art. 20 LAU.',
     },
     {
       type: 'p',

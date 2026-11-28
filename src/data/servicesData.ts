@@ -78,7 +78,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Gestiono el servicio',
-            desc: 'Coordino los check-in y check-out, la elaboración de contratos, los inventarios, la limpieza y lavandería, el control de suministros y contadores y la atención de incidencias 24/7.',
+            desc: 'Coordino los check-in y check-out, la elaboración de contratos, los inventarios, la coordinación de limpieza y lavandería, el control de suministros y contadores y la atención de incidencias 24/7.',
           },
           {
             step: '04',
@@ -290,7 +290,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Operations & Care',
-            desc: 'I coordinate check-ins and check-outs, contract drafting, inventories, cleaning and laundry, monitoring of utilities and meters, and 24/7 incident handling.',
+            desc: 'I coordinate check-ins and check-outs, contract drafting, inventories, coordination of cleaning and laundry, monitoring of utilities and meters, and 24/7 incident handling.',
           },
           {
             step: '04',
@@ -502,7 +502,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Operativer Service',
-            desc: 'Ich koordiniere Check-in und Check-out, die Erstellung der Verträge, die Inventarlisten, Reinigung und Wäsche, die Kontrolle von Versorgung und Zählerständen sowie die 24/7-Störungsbetreuung.',
+            desc: 'Ich koordiniere Check-in und Check-out, die Erstellung der Verträge, die Inventarlisten, die Koordination von Reinigung und Wäsche, die Kontrolle von Versorgung und Zählerständen sowie die 24/7-Störungsbetreuung.',
           },
           {
             step: '04',
@@ -714,7 +714,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: 'Gestion opérationnelle',
-            desc: 'Je coordonne les arrivées et les départs (check-in/check-out), la rédaction des contrats, les états des lieux, le ménage et la blanchisserie, le contrôle des compteurs et des consommations, et la gestion des incidents 24 h/24 et 7 j/7.',
+            desc: 'Je coordonne les arrivées et les départs (check-in/check-out), la rédaction des contrats, les états des lieux, la coordination du ménage et de la blanchisserie, le contrôle des compteurs et des consommations, et la gestion des incidents 24 h/24 et 7 j/7.',
           },
           {
             step: '04',
@@ -926,7 +926,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '03',
             title: '管理日常服务',
-            desc: '我负责协调入住和退房、起草合同、物品清单、清洁与洗衣、水电气及计量表的核查，以及 24/7 故障处理。',
+            desc: '我负责协调入住和退房、起草合同、物品清单、协调清洁与洗衣、水电气及计量表的核查，以及 24/7 故障处理。',
           },
           {
             step: '04',
