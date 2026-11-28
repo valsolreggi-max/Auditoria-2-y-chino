@@ -301,7 +301,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. How do you calculate the real market value of my home so I can sell it at the best price?',
-            answerIntroduction: 'Unlike the automatic valuations on property portals, which are based on inflated asking prices, Golden Coast combines our qualifications as court-appointed property experts and certified estate agents (API) with a comparative analysis of real completed transactions recorded at the Land Registry. We assess the technical condition, legal status, energy efficiency and active solvent demand to set a competitive price that maximises your return without leaving the property stuck on the market.',
+            answerIntroduction: 'Unlike the automatic valuations on property portals, which are based on inflated asking prices, Golden Coast combines our qualifications as certified estate agents (API) and holders of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert) with a comparative analysis of real completed transactions recorded at the Land Registry. We assess the technical condition, legal status, energy efficiency and active solvent demand to set a competitive price that maximises your return without leaving the property stuck on the market.',
           },
           {
             id: 7,
@@ -465,7 +465,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. Wie ermitteln Sie den tatsächlichen Marktwert meiner Wohnung, damit ich sie zum besten Preis verkaufe?',
-            answerIntroduction: 'Anders als die automatischen Bewertungen von Immobilienportalen, die auf überhöhten Angebotspreisen beruhen, verbindet Golden Coast unsere Qualifikation als gerichtliche Immobiliensachverständige und zertifizierte Makler (API) mit einer Vergleichsanalyse tatsächlich abgeschlossener, im Grundbuch eingetragener Verkäufe. Wir bewerten den technischen Zustand, die rechtliche Situation, die Energieeffizienz und die aktive zahlungsfähige Nachfrage, um einen wettbewerbsfähigen Preis festzulegen, der den Ertrag maximiert, ohne dass die Immobilie lange auf dem Markt bleibt.',
+            answerIntroduction: 'Anders als die automatischen Bewertungen von Immobilienportalen, die auf überhöhten Angebotspreisen beruhen, verbindet Golden Coast unsere spanische Qualifikation „Perito Judicial Inmobiliario“ (Immobiliengutachten) und unsere Qualifikation als zertifizierte Makler (API) mit einer Vergleichsanalyse tatsächlich abgeschlossener, im Grundbuch eingetragener Verkäufe. Wir bewerten den technischen Zustand, die rechtliche Situation, die Energieeffizienz und die aktive zahlungsfähige Nachfrage, um einen wettbewerbsfähigen Preis festzulegen, der den Ertrag maximiert, ohne dass die Immobilie lange auf dem Markt bleibt.',
           },
           {
             id: 7,
@@ -629,7 +629,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. Comment calculez-vous la valeur réelle de mon logement pour le vendre au meilleur prix ?',
-            answerIntroduction: 'Contrairement aux estimations automatiques des portails immobiliers, fondées sur des prix affichés gonflés, Golden Coast associe nos qualifications d’experts judiciaires immobiliers et d’agents immobiliers diplômés (API) à une analyse comparative des ventes réellement conclues et inscrites au registre de la propriété. Nous évaluons l’état technique, la situation juridique, la performance énergétique et la demande solvable active afin de fixer un prix compétitif qui maximise votre rendement sans que le bien reste bloqué sur le marché.',
+            answerIntroduction: 'Contrairement aux estimations automatiques des portails immobiliers, fondées sur des prix affichés gonflés, Golden Coast associe notre qualification espagnole « Perito Judicial Inmobiliario » (expertise immobilière) et celle d’agents immobiliers diplômés (API) à une analyse comparative des ventes réellement conclues et inscrites au registre de la propriété. Nous évaluons l’état technique, la situation juridique, la performance énergétique et la demande solvable active afin de fixer un prix compétitif qui maximise votre rendement sans que le bien reste bloqué sur le marché.',
           },
           {
             id: 7,
@@ -793,7 +793,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 6,
             question: '6. 你们如何计算我房子的真实市场价值，以便卖出最好的价格？',
-            answerIntroduction: '房产门户网站的自动估价往往基于被抬高的挂牌价，而 Golden Coast 则结合我们作为司法房产鉴定师和持证房地产经纪人（API）的专业资质，对比不动产登记处（Registro de la Propiedad）中真实成交的交易。我们评估房屋的技术状况、法律状况、能源效率以及具有实际购买力的需求，从而定出有竞争力的价格，在不让房子滞销的前提下实现最大收益。',
+            answerIntroduction: '房产门户网站的自动估价往往基于被抬高的挂牌价，而 Golden Coast 则结合我们的西班牙房地产鉴定资格（Perito Judicial Inmobiliario）和持证房地产经纪人（API）资质，对比不动产登记处（Registro de la Propiedad）中真实成交的交易。我们评估房屋的技术状况、法律状况、能源效率以及具有实际购买力的需求，从而定出有竞争力的价格，在不让房子滞销的前提下实现最大收益。',
           },
           {
             id: 7,
@@ -858,7 +858,7 @@ export const FAQ_I18N: Record<Language, FAQPageContent> = {
           {
             id: 12,
             question: '12. 与传统房产中介相比，Golden Coast 的“法律与鉴定双重核查”服务是什么？',
-            answerIntroduction: '大多数中介使用标准合同，忽视技术核查。Golden Coast 以房产鉴定事务所的严谨态度工作：我们审查以往合同的历史，核对房产登记摘要、负担、业主共同体章程、与土地登记局（Catastro）记录是否一致，以及现行法规（《城市租赁法》LAU 和租金管控）。我们量身起草合同，确保交易在法律上无懈可击。',
+            answerIntroduction: '大多数中介使用标准合同，忽视技术核查。Golden Coast 以房产鉴定的严谨态度工作：我们审查以往合同的历史，核对房产登记摘要、负担、业主共同体章程、与土地登记局（Catastro）记录是否一致，以及现行法规（《城市租赁法》LAU 和租金管控）。我们量身起草合同，确保交易在法律上无懈可击。',
           },
         ],
       },

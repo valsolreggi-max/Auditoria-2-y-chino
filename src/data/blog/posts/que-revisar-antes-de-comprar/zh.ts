@@ -2,13 +2,13 @@ import type { BlogPostContent } from '../../types';
 
 export const zh: BlogPostContent = {
   slug: 'spain-home-buying-checklist',
-  title: '在西班牙买房前要检查什么？一位司法房产鉴定师的验房清单',
+  title: '在西班牙买房前要检查什么？一位房产鉴定专业人士的验房清单',
   subtitle: '第一次看房时您能自己发现的问题、只有专业人员才能查出的隐患，以及签定金合同前必须备齐的文件。',
-  seoTitle: '西班牙买房前要检查什么？司法房产鉴定师的验房清单',
+  seoTitle: '西班牙买房前要检查什么？房产鉴定专业人士的验房清单',
   metaDescription:
-    '西班牙司法房产鉴定师详解：看房时注意什么、何时请专业人员验房、支付定金前要核查哪些文件，帮助您在西班牙安心置业。',
+    '持有西班牙房产鉴定资格的经纪人详解：看房时注意什么、何时请专业人员验房、支付定金前要核查哪些文件，帮助您在西班牙安心置业。',
   excerpt: '刚翻新的房子，可能比原样展示的房子藏着更多问题。四个步骤，让您在西班牙买房时清楚知道自己买的是什么。',
-  authorRole: '西班牙持证房地产经纪人（API）、司法指定房产鉴定师',
+  authorRole: '西班牙持证房地产经纪人（API），持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格',
   readingTime: '阅读约 9 分钟',
   updatedLabel: '更新于 2026 年 11 月',
   blocks: [
@@ -26,7 +26,7 @@ export const zh: BlogPostContent = {
     },
     {
       type: 'p',
-      text: '作为司法房产鉴定师（*perito judicial inmobiliario*），我有一部分工作是在问题已经发生之后才开始的。这篇文章讲的恰恰相反：在您还能议价、要求出具报告或者放弃购买的时候，应该提前检查什么。我把它分成四个步骤，从您自己就能看到的，到只会出现在文件里的。',
+      text: '我持有西班牙房地产鉴定资格（*Perito Judicial Inmobiliario*），我有一部分工作是在问题已经发生之后才开始的。这篇文章讲的恰恰相反：在您还能议价、要求出具报告或者放弃购买的时候，应该提前检查什么。我把它分成四个步骤，从您自己就能看到的，到只会出现在文件里的。',
     },
 
     { type: 'h2', text: '第一步：第一次看房——您自己能看到的' },

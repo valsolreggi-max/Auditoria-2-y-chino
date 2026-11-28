@@ -7,10 +7,10 @@ export const fr: BlogPostContent = {
     'Ce que vous pouvez repérer lors de la première visite, ce que seul un expert en bâtiment détectera et les documents à réunir avant de signer le contrat d’arrhes.',
   seoTitle: 'Acheter en Espagne : que vérifier avant de signer ?',
   metaDescription:
-    'Une experte judiciaire immobilière explique quoi observer lors d’une visite, quand faire appel à un expert et quels documents vérifier avant de verser des arrhes en Espagne.',
+    'Une agente immobilière titulaire de la qualification espagnole « Perito Judicial Inmobiliario » explique quoi observer lors d’une visite, quand faire appel à un expert et quels documents vérifier avant de verser des arrhes en Espagne.',
   excerpt:
     'Une maison fraîchement rénovée peut cacher davantage qu’une maison montrée telle quelle. Quatre étapes pour acheter en Espagne en sachant exactement ce que vous achetez.',
-  authorRole: 'Agente immobilière diplômée (API) et experte judiciaire immobilière',
+  authorRole: 'Agente immobilière diplômée (API), qualification espagnole « Perito Judicial Inmobiliario »',
   readingTime: '9 min de lecture',
   updatedLabel: 'Mis à jour en novembre 2026',
   blocks: [
@@ -28,7 +28,7 @@ export const fr: BlogPostContent = {
     },
     {
       type: 'p',
-      text: 'En tant qu’experte judiciaire immobilière (*perito judicial inmobiliario*), une partie de mon travail commence quand le problème est déjà là. Cet article parle de l’inverse : de ce qu’il faut vérifier avant, tant qu’on peut encore négocier, demander un rapport ou renoncer. Je l’ai organisé en quatre étapes, de ce que vous pouvez voir vous-même à ce qui n’apparaît que dans les documents.',
+      text: 'Je suis titulaire de la qualification espagnole « Perito Judicial Inmobiliario » (expertise immobilière), et une partie de mon travail commence quand le problème est déjà là. Cet article parle de l’inverse : de ce qu’il faut vérifier avant, tant qu’on peut encore négocier, demander un rapport ou renoncer. Je l’ai organisé en quatre étapes, de ce que vous pouvez voir vous-même à ce qui n’apparaît que dans les documents.',
     },
 
     { type: 'h2', text: 'Étape 1. La première visite : ce que vous pouvez voir vous-même' },

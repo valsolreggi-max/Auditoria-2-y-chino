@@ -16,20 +16,20 @@ export const SobreMiPage: React.FC = () => {
       description: 'Conozca la trayectoria de Valeria Reggi: perito judicial inmobiliario, API titulada y especialista en LAU con más de 7 años acompañando a familias e inversores en la Costa Dorada y Garraf.',
     },
     en: {
-      title: 'About Me — Valeria Reggi | Certified Real Estate Agent (API) & Judicial Expert',
-      description: 'Discover Valeria Reggi: Certified API agent, judicial real estate appraiser, and urban leasing specialist guiding buyers and investors across Costa Dorada and Garraf.',
+      title: 'About Me — Valeria Reggi | Certified Real Estate Agent (API) & Perito Judicial Inmobiliario',
+      description: 'Discover Valeria Reggi: Certified API agent, holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert) and urban leasing specialist guiding buyers and investors across Costa Dorada and Garraf.',
     },
     de: {
-      title: 'Über Mich — Valeria Reggi | Zertifizierte Immobilienmaklerin (API) & Gerichtsgutachterin',
-      description: 'Lernen Sie Valeria Reggi kennen: Zertifizierte API-Maklerin und Gerichtsgutachterin mit über 7 Jahren Erfahrung an der Costa Dorada und im Garraf.',
+      title: 'Über Mich — Valeria Reggi | Zertifizierte Immobilienmaklerin (API) & Perito Judicial Inmobiliario',
+      description: 'Lernen Sie Valeria Reggi kennen: Zertifizierte API-Maklerin mit der spanischen Qualifikation „Perito Judicial Inmobiliario“, mit über 7 Jahren Erfahrung an der Costa Dorada und im Garraf.',
     },
     fr: {
-      title: 'À Propos — Valeria Reggi | Agente Immobilière Diplômée (API) & Expert Judiciaire',
-      description: 'Découvrez le parcours de Valeria Reggi : agente immobilière diplômée (API), experte judiciaire immobilière et spécialiste des baux urbains sur la Costa Dorada et le Garraf.',
+      title: 'À Propos — Valeria Reggi | Agente Immobilière Diplômée (API) & Perito Judicial Inmobiliario',
+      description: 'Découvrez le parcours de Valeria Reggi : agente immobilière diplômée (API), titulaire de la qualification espagnole « Perito Judicial Inmobiliario » et spécialiste des baux urbains sur la Costa Dorada et le Garraf.',
     },
     zh: {
-      title: '关于我 — Valeria Reggi | 持证房地产经纪人 (API) 与司法鉴定专家',
-      description: '走近 Valeria Reggi：持证 API 房地产经纪人、房产司法鉴定人及租赁法专家。七年深耕西班牙黄金海岸与加拉夫，为全球高净值家族与投资者提供独立、严谨、深具法律保障的私享置业顾问服务。',
+      title: '关于我 — Valeria Reggi | 持证房地产经纪人 (API) 与 Perito Judicial Inmobiliario',
+      description: '走近 Valeria Reggi：持证 API 房地产经纪人、持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格、租赁法专家。七年深耕西班牙黄金海岸与加拉夫，为全球高净值家族与投资者提供独立、严谨、深具法律保障的私享置业顾问服务。',
     },
   }[currentLanguage];
 

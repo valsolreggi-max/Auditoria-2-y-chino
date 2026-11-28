@@ -23,10 +23,10 @@ export const HomePage: React.FC = () => {
 
   const descriptions: Record<string, string> = {
     es: 'Asesoría inmobiliaria boutique en Costa Dorada y Garraf por Valeria Reggi, API titulada y Perito Judicial Inmobiliario. Acompañamiento honesto e integral en compraventa, inversión y relocation.',
-    en: 'Boutique real estate advisory in Costa Dorada and Garraf by Valeria Reggi, certified API agent and Judicial Appraiser. Tailored guidance for property purchase, sales and relocation.',
-    de: 'Boutique-Immobilienberatung an der Costa Dorada und im Garraf durch Valeria Reggi, zertifizierte Maklerin (API) und gerichtliche Immobiliensachverständige.',
-    fr: 'Conseil immobilier boutique sur la Costa Dorada et le Garraf par Valeria Reggi, agente immobilière diplômée (API) et experte judiciaire immobilière.',
-    zh: '加拉夫海滨与黄金海岸精品房地产咨询，由西班牙持证经纪人（API）兼司法指定不动产估价师 Valeria Reggi 主理，为您提供客观、独立且高度私密的海外置业与资产伴护。',
+    en: 'Boutique real estate advisory in Costa Dorada and Garraf by Valeria Reggi, certified API agent and Perito Judicial Inmobiliario. Tailored guidance for property purchase, sales and relocation.',
+    de: 'Boutique-Immobilienberatung an der Costa Dorada und im Garraf durch Valeria Reggi, zertifizierte Maklerin (API), spanische Qualifikation „Perito Judicial Inmobiliario“.',
+    fr: 'Conseil immobilier boutique sur la Costa Dorada et le Garraf par Valeria Reggi, agente immobilière diplômée (API), qualification espagnole « Perito Judicial Inmobiliario ».',
+    zh: '加拉夫海滨与黄金海岸精品房地产咨询，由西班牙持证经纪人（API）、持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的 Valeria Reggi 主理，为您提供客观、独立且高度私密的海外置业与资产伴护。',
   };
 
   return (

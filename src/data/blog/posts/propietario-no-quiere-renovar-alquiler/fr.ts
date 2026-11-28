@@ -10,7 +10,7 @@ export const fr: BlogPostContent = {
     'Votre propriétaire en Espagne ne veut pas renouveler votre bail ? Ce qu’il faut vérifier avant de partir : durée, préavis, prolongations 2026, hausses de loyer, clauses.',
   excerpt:
     'Un propriétaire qui ne renouvelle pas ne signifie pas toujours qu’il faut partir. Comment nous examinons un bail en Espagne, étape par étape, et ce que dit la loi en 2026.',
-  authorRole: 'Agente immobilière diplômée (API) et experte judiciaire immobilière',
+  authorRole: 'Agente immobilière diplômée (API), qualification espagnole « Perito Judicial Inmobiliario »',
   readingTime: '10 min de lecture',
   updatedLabel: 'Mis à jour en novembre 2026',
   blocks: [

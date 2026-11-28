@@ -10,7 +10,7 @@ export const en: BlogPostContent = {
     "Your landlord in Spain won't renew your lease? What to check before you move out: duration, notice, 2026 extensions, rent increases and clauses.",
   excerpt:
     "A landlord who won't renew doesn't always mean you have to leave. How we review a rental contract in Spain, step by step, and what the law says in 2026.",
-  authorRole: 'Certified estate agent (API) and court-appointed property expert',
+  authorRole: 'Certified estate agent (API) and Spanish “Perito Judicial Inmobiliario” (real estate expert qualification)',
   readingTime: '10 min read',
   updatedLabel: 'Updated November 2026',
   blocks: [

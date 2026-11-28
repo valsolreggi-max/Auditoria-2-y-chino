@@ -7,10 +7,10 @@ export const de: BlogPostContent = {
     'Was Sie bei der ersten Besichtigung selbst erkennen, was nur ein Bausachverständiger findet und welche Unterlagen Sie vor dem Anzahlungsvertrag brauchen.',
   seoTitle: 'Immobilienkauf in Spanien: Worauf achten? | Checkliste',
   metaDescription:
-    'Eine gerichtliche Immobiliensachverständige erklärt, worauf Sie bei der Besichtigung achten, wann ein Gutachter nötig ist und welche Unterlagen Sie vorab prüfen sollten.',
+    'Eine zertifizierte Maklerin (API) mit der spanischen Qualifikation „Perito Judicial Inmobiliario“ erklärt, worauf Sie bei der Besichtigung achten, wann ein Gutachter nötig ist und welche Unterlagen Sie vorab prüfen sollten.',
   excerpt:
     'Ein frisch renoviertes Haus kann mehr verbergen als eines, das so gezeigt wird, wie es ist. Vier Schritte, damit Sie in Spanien genau wissen, was Sie kaufen.',
-  authorRole: 'Zertifizierte Maklerin (API) und gerichtliche Immobiliensachverständige',
+  authorRole: 'Zertifizierte Maklerin (API), spanische Qualifikation „Perito Judicial Inmobiliario“',
   readingTime: '9 Min. Lesezeit',
   updatedLabel: 'Aktualisiert im November 2026',
   blocks: [
@@ -28,7 +28,7 @@ export const de: BlogPostContent = {
     },
     {
       type: 'p',
-      text: 'Als gerichtliche Immobiliensachverständige (*perito judicial inmobiliario*) beginnt ein Teil meiner Arbeit erst, wenn das Problem schon da ist. In diesem Artikel geht es um das Gegenteil: worauf Sie vorher achten sollten, solange Sie noch verhandeln, ein Gutachten anfordern oder Nein sagen können. Ich habe es in vier Schritte gegliedert – von dem, was Sie selbst sehen, bis zu dem, was nur in den Unterlagen steht.',
+      text: 'Ich habe die spanische Qualifikation „Perito Judicial Inmobiliario“ (Immobiliengutachten). Ein Teil meiner Arbeit beginnt erst, wenn das Problem schon da ist. In diesem Artikel geht es um das Gegenteil: worauf Sie vorher achten sollten, solange Sie noch verhandeln, ein Gutachten anfordern oder Nein sagen können. Ich habe es in vier Schritte gegliedert – von dem, was Sie selbst sehen, bis zu dem, was nur in den Unterlagen steht.',
     },
 
     { type: 'h2', text: 'Schritt 1. Die erste Besichtigung: was Sie selbst sehen können' },

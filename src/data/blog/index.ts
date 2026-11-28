@@ -112,10 +112,10 @@ export const BLOG_UI: Record<
     eyebrow: 'Blog',
     indexTitle: 'Buying, selling and renting with insight',
     indexSubtitle:
-      'Practical guides on the Costa Dorada and Garraf from a court-appointed property expert, always based on official sources.',
+      'Practical guides on the Costa Dorada and Garraf from a holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), always based on official sources.',
     seoTitle: 'Spain Property Blog: Costa Dorada & Garraf | Golden Coast Property Advisory',
     seoDescription:
-      'Practical guides to buying, selling and renting property on the Costa Dorada and Garraf, written by a court-appointed property expert and based on official sources.',
+      'Practical guides to buying, selling and renting property on the Costa Dorada and Garraf, written by a holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert) and based on official sources.',
     readMore: 'Read the article',
     backToBlog: 'Back to the blog',
     by: 'By',
@@ -125,10 +125,10 @@ export const BLOG_UI: Record<
     eyebrow: 'Blog',
     indexTitle: 'Kaufen, verkaufen und vermieten mit Sachverstand',
     indexSubtitle:
-      'Praxisnahe Ratgeber einer gerichtlichen Immobiliensachverständigen zur Costa Dorada und zum Garraf – stets auf Basis offizieller Quellen.',
+      'Praxisnahe Ratgeber von einer Maklerin mit der spanischen Qualifikation „Perito Judicial Inmobiliario“ zur Costa Dorada und zum Garraf – stets auf Basis offizieller Quellen.',
     seoTitle: 'Immobilien-Blog Costa Dorada & Garraf | Golden Coast Property Advisory',
     seoDescription:
-      'Praxisnahe Ratgeber zu Kauf, Verkauf und Vermietung von Immobilien an der Costa Dorada und im Garraf – von einer gerichtlichen Sachverständigen, auf Basis offizieller Quellen.',
+      'Praxisnahe Ratgeber zu Kauf, Verkauf und Vermietung von Immobilien an der Costa Dorada und im Garraf – von einer Maklerin mit der spanischen Qualifikation „Perito Judicial Inmobiliario“, auf Basis offizieller Quellen.',
     readMore: 'Artikel lesen',
     backToBlog: 'Zurück zum Blog',
     by: 'Von',
@@ -138,10 +138,10 @@ export const BLOG_UI: Record<
     eyebrow: 'Blog',
     indexTitle: 'Acheter, vendre et louer en connaissance de cause',
     indexSubtitle:
-      'Des guides pratiques sur la Costa Dorada et le Garraf, rédigés par une experte judiciaire immobilière et fondés sur des sources officielles.',
+      'Des guides pratiques sur la Costa Dorada et le Garraf, rédigés par une titulaire de la qualification espagnole « Perito Judicial Inmobiliario » et fondés sur des sources officielles.',
     seoTitle: 'Blog Immobilier Costa Dorada & Garraf | Golden Coast Property Advisory',
     seoDescription:
-      'Guides pratiques sur l’achat, la vente et la location immobilière sur la Costa Dorada et le Garraf, rédigés par une experte judiciaire et fondés sur des sources officielles.',
+      'Guides pratiques sur l’achat, la vente et la location immobilière sur la Costa Dorada et le Garraf, rédigés par une titulaire de la qualification espagnole « Perito Judicial Inmobiliario » et fondés sur des sources officielles.',
     readMore: 'Lire l’article',
     backToBlog: 'Retour au blog',
     by: 'Par',
@@ -150,10 +150,10 @@ export const BLOG_UI: Record<
   zh: {
     eyebrow: '博客',
     indexTitle: '买房、卖房与出租，心中有数',
-    indexSubtitle: '由司法房产鉴定师撰写的黄金海岸与加拉夫实用指南，所有信息均以官方来源为依据。',
+    indexSubtitle: '由持有西班牙房产鉴定资格的经纪人撰写的黄金海岸与加拉夫实用指南，所有信息均以官方来源为依据。',
     seoTitle: '西班牙房产博客：黄金海岸与加拉夫 | Golden Coast Property Advisory',
     seoDescription:
-      '西班牙黄金海岸与加拉夫地区买房、卖房和出租的实用指南，由司法房产鉴定师撰写，所有信息均以官方来源为依据。',
+      '西班牙黄金海岸与加拉夫地区买房、卖房和出租的实用指南，由持有西班牙房产鉴定资格的经纪人撰写，所有信息均以官方来源为依据。',
     readMore: '阅读全文',
     backToBlog: '返回博客',
     by: '作者',

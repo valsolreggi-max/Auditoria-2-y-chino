@@ -328,7 +328,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: 'End-to-End Advisory',
-            desc: 'As an official API and Judicial Real Estate Appraiser, I offer expert oversight so you lease with serenity.',
+            desc: 'As a certified API and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), I offer expert oversight so you lease with serenity.',
           },
         ],
         closing: 'Every seasonal lease is different. Let us discuss your property and find the optimal legal approach.',
@@ -379,7 +379,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Forensic Valuation',
-            desc: 'As a certified API and Judicial Appraiser, I establish an authoritative market assessment and positioning.',
+            desc: 'As a certified API and holder of the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), I establish an authoritative market assessment and positioning.',
           },
           {
             step: '02',
@@ -591,7 +591,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: 'Gutachterliche Wertermittlung',
-            desc: 'Als API und Gerichtssachverständige erstelle ich eine fundierte Wertermittlung für die optimale Positionierung.',
+            desc: 'Als API mit der spanischen Qualifikation „Perito Judicial Inmobiliario“ erstelle ich eine fundierte Wertermittlung für die optimale Positionierung.',
           },
           {
             step: '02',
@@ -752,7 +752,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: 'Conseil expert API',
-            desc: 'En tant qu’API et experte judiciaire, je vous garantis une sécurité juridique totale tout au long du contrat.',
+            desc: 'En tant qu’API titulaire de la qualification « Perito Judicial Inmobiliario », je vous garantis une sécurité juridique totale tout au long du contrat.',
           },
         ],
         closing: 'Chaque location a ses spécificités. Parlons de votre bien pour définir la meilleure approche.',
@@ -802,7 +802,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
         steps: [
           {
             step: '01',
-            title: 'Estimation judiciaire',
+            title: 'Estimation technique',
             desc: 'Évaluation technique rigoureuse permettant de définir le meilleur positionnement prix sur le marché.',
           },
           {
@@ -964,7 +964,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '04',
             title: '全程陪伴您',
-            desc: '作为持证房地产经纪人（API）和司法房产鉴定师，我为您提供个性化的咨询，让您安心、有保障地出租。',
+            desc: '作为持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的持证房地产经纪人（API），我为您提供个性化的咨询，让您安心、有保障地出租。',
           },
         ],
         closing: '每一次出租都不一样。告诉我您的情况，我们会准备最适合您房子的解决方案。',
@@ -1015,7 +1015,7 @@ export const SERVICES_I18N: Record<Language, ServicesPageContent> = {
           {
             step: '01',
             title: '为您的房产估价',
-            desc: '作为持证房地产经纪人（API）和司法房产鉴定师，我会进行技术估价，帮您确定最佳的市场定位。',
+            desc: '作为持有西班牙“Perito Judicial Inmobiliario”房地产鉴定资格的持证房地产经纪人（API），我会进行技术估价，帮您确定最佳的市场定位。',
           },
           {
             step: '02',

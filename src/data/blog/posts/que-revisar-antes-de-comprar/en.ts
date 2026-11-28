@@ -7,10 +7,10 @@ export const en: BlogPostContent = {
     'What you can spot on the first viewing, what only a surveyor will find, and the paperwork to have in hand before you sign the deposit contract.',
   seoTitle: 'What to Check Before Buying Property in Spain | Expert Checklist',
   metaDescription:
-    'A court-appointed property expert explains what to look for on a viewing, when to bring a surveyor and which documents to check before paying a deposit in Spain.',
+    'A certified estate agent (API) and holder of the Spanish “Perito Judicial Inmobiliario” qualification explains what to look for on a viewing, when to bring a surveyor and which documents to check before paying a deposit in Spain.',
   excerpt:
     'A freshly renovated home can hide more than one shown exactly as it is. Four steps to buy in Spain knowing exactly what you are getting.',
-  authorRole: 'Certified estate agent (API) and court-appointed property expert',
+  authorRole: 'Certified estate agent (API) and Spanish “Perito Judicial Inmobiliario” (real estate expert qualification)',
   readingTime: '9 min read',
   updatedLabel: 'Updated November 2026',
   blocks: [
@@ -28,7 +28,7 @@ export const en: BlogPostContent = {
     },
     {
       type: 'p',
-      text: 'As a court-appointed property expert (*perito judicial inmobiliario*), part of my work begins once a problem already exists. This article is about the opposite: what to check beforehand, while you can still negotiate, ask for a report or walk away. I have organised it in four steps, from what you can see for yourself to what only shows up in the paperwork.',
+      text: 'I hold the Spanish “Perito Judicial Inmobiliario” qualification (real estate expert), and part of my work begins once a problem already exists. This article is about the opposite: what to check beforehand, while you can still negotiate, ask for a report or walk away. I have organised it in four steps, from what you can see for yourself to what only shows up in the paperwork.',
     },
 
     { type: 'h2', text: 'Step 1. The first viewing: what you can see for yourself' },
